@@ -20,7 +20,7 @@
       "id": "i1",
       "kind": "site",
       "title": "Austensor",
-      "url": null,
+      "url": "https://www.austensor.com/",
       "source_material_ids": [
         "m1"
       ],
@@ -45,14 +45,16 @@
           "status": "unknown",
           "role": null,
           "reason": "React Three Fiber、WebGL、GLSLシェーダーとの記載があるとNotionに記録。個別の実装は未検証。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://www.austensor.com/"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://www.austensor.com/",
           "title": "Austensor",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
@@ -71,7 +73,7 @@
       "id": "i2",
       "kind": "site",
       "title": "Rui",
-      "url": null,
+      "url": "https://www.ruitat.info/",
       "source_material_ids": [
         "m1"
       ],
@@ -96,14 +98,16 @@
           "status": "unknown",
           "role": null,
           "reason": "Awwwards掲載情報でNext.js、Three.js、WebGLが挙げられているとNotionに記録。インク演出のアルゴリズムは未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://www.ruitat.info/"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://www.ruitat.info/",
           "title": "Rui",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
@@ -122,7 +126,7 @@
       "id": "i3",
       "kind": "site",
       "title": "Particle Plotter",
-      "url": null,
+      "url": "https://openprocessing.org/@u65884/751983",
       "source_material_ids": [
         "m1"
       ],
@@ -147,14 +151,16 @@
           "status": "unknown",
           "role": null,
           "reason": "Notionにはp5.jsの公開コードの説明がある。押下中に粒子を生成し、位置の更新と線の描画、半透明背景による残像、移動ルールの切り替えを行うと記録。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://openprocessing.org/@u65884/751983"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://openprocessing.org/@u65884/751983",
           "title": "Particle Plotter",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
@@ -173,7 +179,7 @@
       "id": "i4",
       "kind": "site",
       "title": "Three.js Anaglyph",
-      "url": null,
+      "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
       "source_material_ids": [
         "m1"
       ],
@@ -198,14 +204,16 @@
           "status": "unknown",
           "role": null,
           "reason": "Notionには公式dev版コードで500個の球、環境画像、三角関数による移動、マウスに追従するカメラ、AnaglyphEffectを確認したと記録。配信版との一致は未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://threejs.org/examples/webgl_effects_anaglyph.html"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
           "title": "Three.js Anaglyph",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
@@ -224,7 +232,7 @@
       "id": "i5",
       "kind": "site",
       "title": "Three.js Helpers",
-      "url": null,
+      "url": "https://threejs.org/examples/webgl_helpers.html",
       "source_material_ids": [
         "m1"
       ],
@@ -249,14 +257,16 @@
           "status": "unknown",
           "role": null,
           "reason": "Notionには公式dev版コードでGLTFLoader、WireframeGeometry、EdgesGeometry、法線・接線・囲み枠・格子の表示を確認したと記録。配信版との一致は未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://threejs.org/examples/webgl_helpers.html"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://threejs.org/examples/webgl_helpers.html",
           "title": "Three.js Helpers",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
@@ -275,7 +285,7 @@
       "id": "i6",
       "kind": "site",
       "title": "Temporal force-directed graph",
-      "url": null,
+      "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
       "source_material_ids": [
         "m1"
       ],
@@ -300,14 +310,16 @@
           "status": "unknown",
           "role": null,
           "reason": "NotionにはD3の反発、リンク、中心への力、時間による点と線の選択、位置と速度の継承、SVG描画、ドラッグ中の位置固定を公開コードで確認したと記録。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://observablehq.com/@d3/temporal-force-directed-graph"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
           "title": "Temporal force-directed graph",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
@@ -326,7 +338,7 @@
       "id": "i7",
       "kind": "site",
       "title": "WeaveSilk",
-      "url": null,
+      "url": "https://weavesilk.com/",
       "source_material_ids": [
         "m1"
       ],
@@ -351,14 +363,16 @@
           "status": "unknown",
           "role": null,
           "reason": "Notionには公式画面で設定を確認したと記録。内部の描画ライブラリや式は未確認。座標の回転・反転はAIが挙げた再現候補。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
-          "evidence_urls": [],
+          "evidence_urls": [
+            "https://weavesilk.com/"
+          ],
           "checked_at": null
         }
       ],
       "applications": [],
       "sources": [
         {
-          "url": null,
+          "url": "https://weavesilk.com/",
           "title": "WeaveSilk",
           "access": "not_accessed",
           "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
