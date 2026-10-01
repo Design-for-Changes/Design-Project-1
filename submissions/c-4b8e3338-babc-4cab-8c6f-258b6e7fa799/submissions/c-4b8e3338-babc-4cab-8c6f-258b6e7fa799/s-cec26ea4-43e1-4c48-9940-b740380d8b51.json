@@ -1,0 +1,100 @@
+          "url": "https://globe.gl/example/airline-routes/us-international-outbound.html",
+          "title": "Globe.GL US International Outbound Airline Routes",
+          "access": "not_accessed",
+          "supports": "点と曲線を使った3D可視化の参考"
+        }
+      ],
+      "ai_notes": [
+        "線の流れる速度などは実際の移動時間ではなく、見せるための演出として設定されている。"
+      ],
+      "tags": [
+        "Globe.GL",
+        "3D",
+        "arc",
+        "interaction",
+        "animation"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "今回のAIは作例ページを直接操作していない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "technology",
+      "title": "Three.js / OrbitControls",
+      "url": "https://threejs.org/manual/pages/installation.html",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "3Dオブジェクトをブラウザに描画し、ユーザーが視点を操作できるWeb表現の実装候補。",
+      "highlights": [
+        {
+          "detail": "Three.jsで3D空間に点、線、平面、曲線などを配置できる。",
+          "basis": "student_report",
+          "source_url": "https://threejs.org/manual/pages/installation.html",
+          "checked_at": null
+        },
+        {
+          "detail": "OrbitControlsを組み合わせることで、ドラッグ回転やズームなどの視点操作を加えられる。",
+          "basis": "student_report",
+          "source_url": "https://threejs.org/manual/pages/installation.html",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "固定された画面ではなく、自分でドラッグして角度を変えながらデータを見る表現を作るために参考にしたい。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Three.js",
+          "status": "reproduction_candidate",
+          "role": "3Dオブジェクトやアニメーションの描画。",
+          "reason": "自分の作品で同様の表現を再現するための候補。",
+          "evidence_urls": [
+            "https://threejs.org/manual/pages/installation.html"
+          ],
+          "checked_at": null
+        },
+        {
+          "name": "OrbitControls",
+          "status": "reproduction_candidate",
+          "role": "ドラッグやズームによる視点操作。",
+          "reason": "自分の作品で同様の操作を再現するための候補。",
+          "evidence_urls": [
+            "https://threejs.org/manual/pages/installation.html"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "3D空間をドラッグで回転させ、見る方向によって情報の重なりや分布を確認できる表現に使いたい。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://threejs.org/manual/pages/installation.html",
+          "title": "Three.js Installation Manual",
+          "access": "not_accessed",
+          "supports": "Three.js導入の公式情報"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Three.js",
+        "OrbitControls",
+        "3D",
+        "interaction"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "自分の作品での実装はまだ試作段階。"
+      ]
+    }
+  ]
+}
