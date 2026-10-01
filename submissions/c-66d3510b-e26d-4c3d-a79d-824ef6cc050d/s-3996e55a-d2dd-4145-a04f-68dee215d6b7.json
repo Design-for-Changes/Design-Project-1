@@ -1,0 +1,646 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+  "contributor": {
+    "id": "c-66d3510b-e26d-4c3d-a79d-824ef6cc050d",
+    "nickname": "yuta-design"
+  },
+  "created_at": "2026-10-01T17:07:44+09:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "Claudeとの対話で本人が書いたコメント",
+      "format": "dialogue",
+      "public_url": null
+    },
+    {
+      "id": "m2",
+      "label": "Claudeと行ったWeb作品の調査記録（Notionの議事録、非公開）",
+      "format": "notion",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Explore Saydnaya",
+      "url": "https://saydnaya.amnesty.org/?kind=explore",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "Amnesty InternationalとForensic Architectureが2016年に公開した、シリアのサイドナヤ刑務所を3Dで再現したインタラクティブ・ドキュメンタリー。内部の写真が存在しないため、生存者の記憶と音の証言をもとに建物を再構成している。",
+      "highlights": [
+        {
+          "detail": "ドラッグでカメラを動かして3D空間を見回せる。サイト上に「Click and Drag to move the camera」と表示される。",
+          "basis": "source_description",
+          "source_url": "https://saydnaya.amnesty.org/?kind=explore",
+          "checked_at": "2026-10-01"
+        },
+        {
+          "detail": "「場所から探す」と「証言者から探す」の2つの入口があり、空間の中の物から証言の動画に入れる。",
+          "basis": "source_description",
+          "source_url": "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/",
+          "checked_at": "2026-10-01"
+        },
+        {
+          "detail": "「ヘッドホン推奨」と表示され、音が体験の中心になっている。生存者が聞いた音（扉、鍵、足音など）を再現し、反響から部屋の大きさを確かめたと説明されている。",
+          "basis": "source_description",
+          "source_url": "https://www.fastcompany.com/3068329/how-forensic-architecture-revealed-details-of-a-secret-military-priso",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "3Dモデルをマウスで動かしているところが気になった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "inferred",
+          "role": "ブラウザでの3D表示",
+          "reason": "MIT DocubaseのプロジェクトページにWebGLと記載。制作者の公式な技術説明やサイトのコードは確認していない。",
+          "evidence_urls": [
+            "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "360度パノラマ画像",
+          "status": "inferred",
+          "role": "見回せる3D空間の表示",
+          "reason": "公式クレジットに「3D Panoramas」の担当者が記載されている。事前に作ったパノラマ画像を表示する方式と推測したが、読み込まれているファイルは確認していない。",
+          "evidence_urls": [
+            "https://saydnaya.amnesty.org/en/about.html"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "Revit / 3ds Max",
+          "status": "inferred",
+          "role": "建物の3Dモデル制作",
+          "reason": "MIT Docubaseの技術欄に記載。Web表示そのものではなく、モデルや映像を作る工程で使われたと考えられる。",
+          "evidence_urls": [
+            "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "three.js",
+          "status": "unknown",
+          "role": null,
+          "reason": "見た目からは判断できず、サイトのコードも確認していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "3D空間の中の物を押すと詳しい情報が出る仕組みを、選手の走行データに応用できる。ピッチ上の選手の柱を押すと、その選手の走行距離やスプリントの詳細が開く。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://saydnaya.amnesty.org/?kind=explore",
+          "title": "Explore Saydnaya",
+          "access": "read",
+          "supports": "ドラッグでカメラを動かす操作案内とページ構成"
+        },
+        {
+          "url": "https://saydnaya.amnesty.org/en/about.html",
+          "title": "About - Explore Saydnaya",
+          "access": "read",
+          "supports": "制作クレジット（Web開発、3Dパノラマ、音響調査の担当）"
+        },
+        {
+          "url": "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/",
+          "title": "Saydnaya: Inside a Syrian Torture Prison（MIT Docubase）",
+          "access": "read",
+          "supports": "使用技術（WebGL、3D Studio Max、Revitなど）と体験の構成"
+        },
+        {
+          "url": "https://www.fastcompany.com/3068329/how-forensic-architecture-revealed-details-of-a-secret-military-priso",
+          "title": "How Forensic Architecture Revealed Details Of A Secret Military Prison In Syria（Fast Company）",
+          "access": "read",
+          "supports": "音の証言と反響による部屋の大きさの推定"
+        }
+      ],
+      "ai_notes": [
+        "サイト上のアニメーションや操作を、AIが実際に動かして確かめてはいない。ページの文章と外部の解説記事から整理した。",
+        "Chrome DevToolsのNetworkタブで読み込まれるJSと画像を見れば、使っているライブラリとパノラマ方式かどうかを確認できる。"
+      ],
+      "tags": [
+        "3D",
+        "WebGL",
+        "インタラクティブ・ドキュメンタリー",
+        "音",
+        "パノラマ"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "WebGLの上で使われているライブラリは未確認。",
+        "パノラマ方式かどうかは推測。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "earth :: nullschool",
+      "url": "https://earth.nullschool.net/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "世界中の風、海流、気温などを、地球儀の上を流れる線のアニメーションで表示するサイト。Cameron Beccarioによる。",
+      "highlights": [
+        {
+          "detail": "風が地球儀の上を流れる無数の細い線（粒子の軌跡）として描かれ、数字をほとんど出さずに風の向きと強さが伝わる。",
+          "basis": "source_description",
+          "source_url": "https://github.com/cambecc/earth",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "風が何で表示されているのかが気になった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "HTML5 Canvas",
+          "status": "inferred",
+          "role": "風の粒子アニメーションと色の描画",
+          "reason": "作者が公開しているソースコード（GitHub: cambecc/earth）のREADMEに、粒子用と色用の2枚のCanvasで描くと書かれている。公開版のコードであり、現在のサイトが同じ構成かは確認していない。",
+          "evidence_urls": [
+            "https://github.com/cambecc/earth"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "D3.js",
+          "status": "inferred",
+          "role": "地図の投影と描画",
+          "reason": "同じREADMEに記載。現在のサイトのコードは確認していない。",
+          "evidence_urls": [
+            "https://github.com/cambecc/earth"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "SVG",
+          "status": "inferred",
+          "role": "地図（陸地の輪郭）の表示",
+          "reason": "同じREADMEに、地図はSVGで描くと記載。",
+          "evidence_urls": [
+            "https://github.com/cambecc/earth"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "GFS（米国の気象予報モデル）",
+          "status": "inferred",
+          "role": "風データの出どころ",
+          "reason": "同じREADMEに、GFSの予報データ（GRIB2形式）をgrib2jsonでJSONに変換して使うと記載。",
+          "evidence_urls": [
+            "https://github.com/cambecc/earth"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "選手の走行距離を、ピッチの上を流れる粒子の軌跡で表せる。走行距離を軌跡の長さ、スプリント回数を速く動く粒子の数に対応させる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/cambecc/earth",
+          "title": "cambecc/earth（GitHub）",
+          "access": "read",
+          "supports": "描画方法（SVG、Canvas 2枚、双線形補間）とデータ処理（GFS、grib2json、TopoJSON）"
+        }
+      ],
+      "ai_notes": [
+        "学生の疑問「風は何で表示されているか」への回答：作者の公開ソースコードでは、風はCanvasの上に描く粒子のアニメーションで表示されている。1度刻みの格子データの間を双線形補間で埋めて、なめらかな流れにしている。",
+        "Mapboxのwebgl-windのように、同じ表現をWebGLとGPUで100万粒子まで増やした技術デモもある（https://github.com/mapbox/webgl-wind）。"
+      ],
+      "tags": [
+        "粒子",
+        "Canvas",
+        "地球儀",
+        "気象データ",
+        "流れの表現"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "現在公開中のサイトの実装は確認していない。根拠は作者の公開ソースコードのREADME。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Perfume Global Site Project",
+      "url": "https://j-mediaarts.jp/en/award/single/perfume-global-site-project/index.html",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "Rhizomatiksが手がけた、Perfumeのダンスをモーションキャプチャし、その動きのデータと楽曲を公開したプロジェクト（2012年）。ファンが自由に作品を作れるようにした。",
+      "highlights": [
+        {
+          "detail": "ダンスのモーションキャプチャデータをBVH形式で公開し、楽曲と同期して再生するサンプルコードも公開されている。",
+          "basis": "source_description",
+          "source_url": "https://github.com/perfume-dev/example-openFrameworks",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "ただの興味。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "BVH（モーションキャプチャのデータ形式）",
+          "status": "confirmed",
+          "role": "ダンスの動きのデータ",
+          "reason": "公式の公開リポジトリ（perfume-dev）にBVHファイルと読み込み用のコードがある。",
+          "evidence_urls": [
+            "https://github.com/perfume-dev/example-openFrameworks"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "openFrameworks",
+          "status": "confirmed",
+          "role": "公開されたサンプルコード",
+          "reason": "公式リポジトリのサンプルはopenFrameworksで書かれ、BVHを読むofxBvhが含まれる。",
+          "evidence_urls": [
+            "https://github.com/perfume-dev/example-openFrameworks"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "Processing",
+          "status": "confirmed",
+          "role": "公開されたサンプルコード",
+          "reason": "公式リポジトリのREADMEにProcessing版のサンプルがあると記載。",
+          "evidence_urls": [
+            "https://github.com/perfume-dev/example-openFrameworks"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://github.com/perfume-dev/example-openFrameworks",
+          "title": "perfume-dev/example-openFrameworks（GitHub）",
+          "access": "read",
+          "supports": "BVH形式のデータ、openFrameworksとProcessingのサンプル"
+        },
+        {
+          "url": "https://j-mediaarts.jp/en/award/single/perfume-global-site-project/index.html",
+          "title": "Perfume \"Global Site Project\"（文化庁メディア芸術祭）",
+          "access": "not_accessed",
+          "supports": "プロジェクトの概要"
+        }
+      ],
+      "ai_notes": [
+        "当時の公式サイト自体の実装は確認していない。確認できたのは公開されたデータとサンプルコード。"
+      ],
+      "tags": [
+        "モーションキャプチャ",
+        "ダンス",
+        "オープンデータ",
+        "BVH"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "公式サイト自体の表示技術は未確認。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Body, Movement, Language: AI Sketches With Bill T. Jones",
+      "url": "https://experiments.withgoogle.com/billtjonesai",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "振付家Bill T. JonesとGoogle Creative Labによる、Webカメラで体の動きを読み取り、話す言葉と組み合わせて表現する実験作品。",
+      "highlights": [
+        {
+          "detail": "Webカメラの映像から体の関節の位置をブラウザの中で推定し、音声の書き起こしと組み合わせて画面に表す。",
+          "basis": "source_description",
+          "source_url": "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "Perfume Global Site Projectへの興味の延長で見た。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "PoseNet",
+          "status": "confirmed",
+          "role": "Webカメラ映像からの姿勢推定",
+          "reason": "制作者による制作記事に記載。",
+          "evidence_urls": [
+            "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "TensorFlow.js",
+          "status": "confirmed",
+          "role": "PoseNetをブラウザで動かす",
+          "reason": "同じ制作記事に記載。",
+          "evidence_urls": [
+            "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596",
+          "title": "Mixing movement and machine（制作記事）",
+          "access": "read",
+          "supports": "PoseNetとTensorFlow.jsの使用、関節の値の平滑化、鼻は安定して取れるが手首や肘はぶれやすいこと"
+        }
+      ],
+      "ai_notes": [
+        "制作記事によると、鼻の位置は安定して取れるが、肘や手首はぶれやすい。現在はPoseNetの後継としてMoveNetがある。"
+      ],
+      "tags": [
+        "姿勢推定",
+        "ダンス",
+        "Webカメラ",
+        "機械学習"
+      ],
+      "completeness": "ready",
+      "limitations": []
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "Google Creative Labによる、音や音楽の仕組みを見て触れて学べるブラウザの実験集。スペクトログラム、リズム、和音などがある。",
+      "highlights": [
+        {
+          "detail": "音の周波数を色の地形のように表示するスペクトログラムなど、音を目で見る表現が多い。",
+          "basis": "source_description",
+          "source_url": "https://github.com/googlecreativelab/chrome-music-lab",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "Bill T. Jones × Googleへの興味の延長で見た。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Web Audio API",
+          "status": "confirmed",
+          "role": "音の生成と解析",
+          "reason": "公式リポジトリのREADMEに記載。",
+          "evidence_urls": [
+            "https://github.com/googlecreativelab/chrome-music-lab"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "Tone.js",
+          "status": "confirmed",
+          "role": "音の生成",
+          "reason": "公式リポジトリのREADMEに記載。どの実験で使われているかは個別には確認していない。",
+          "evidence_urls": [
+            "https://github.com/googlecreativelab/chrome-music-lab"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "WebMIDI / WebRTC",
+          "status": "confirmed",
+          "role": "MIDI機器の入力、マイクなどの入力",
+          "reason": "公式リポジトリのREADMEに記載。",
+          "evidence_urls": [
+            "https://github.com/googlecreativelab/chrome-music-lab"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://github.com/googlecreativelab/chrome-music-lab",
+          "title": "googlecreativelab/chrome-music-lab（GitHub）",
+          "access": "read",
+          "supports": "Web Audio API、WebRTC、WebMIDI、Tone.jsの使用"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "音",
+        "Web Audio API",
+        "スペクトログラム",
+        "オープンソース"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "実験ごとの使用技術は個別に確認していない。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "The Pudding",
+      "url": "https://pudding.cool/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "データを使ったビジュアルエッセイを公開しているWebメディア。スクロールに合わせて図が変わる記事が多い。",
+      "highlights": [
+        {
+          "detail": "スクロールに合わせて図やグラフが切り替わり、文章と図が連動して進む。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "スクロールの動きが気になった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Scrollama",
+          "status": "inferred",
+          "role": "スクロール位置に応じて図を切り替える",
+          "reason": "The Puddingの公開リソースページに、スクロール演出用のライブラリとして挙げられている。個別の記事で使われているかは確認していない。",
+          "evidence_urls": [
+            "https://pudding.cool/resources/"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "Svelte / SvelteKit",
+          "status": "inferred",
+          "role": "ページの部品の組み立て",
+          "reason": "同じリソースページに記載。個別の記事は確認していない。",
+          "evidence_urls": [
+            "https://pudding.cool/resources/"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "D3.js",
+          "status": "inferred",
+          "role": "グラフの描画",
+          "reason": "同じリソースページに記載。個別の記事は確認していない。",
+          "evidence_urls": [
+            "https://pudding.cool/resources/"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "スクロールの区切りごとに表示する指標を切り替えられる。例えば、走行距離→スプリント→最高速度の順に、ピッチ上の柱の高さが変わっていく構成にする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pudding.cool/resources/",
+          "title": "Our Resources（The Pudding）",
+          "access": "read",
+          "supports": "The Puddingが使っているライブラリと道具（D3.js、Svelte、Scrollama、Figmaなど）"
+        }
+      ],
+      "ai_notes": [
+        "どの記事のスクロールが気になったかが分かれば、その記事の作りを個別に調べられる。"
+      ],
+      "tags": [
+        "スクロリーテリング",
+        "データ記事",
+        "Svelte",
+        "D3.js"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "特定の記事は指定されていない。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "Shopify Editions Spring 2026",
+      "url": "https://www.shopify.com/editions/spring2026",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "Shopifyの新機能紹介ページ。スクロールの区切りごとに場面が切り替わり、粒子のエフェクトで演出されている。",
+      "highlights": [
+        {
+          "detail": "スクロールの区切りごとに場面が切り替わり、粒子のエフェクトが使われていると紹介されている。",
+          "basis": "source_description",
+          "source_url": "https://www.utsubo.com/blog/best-threejs-websites-2026",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "粒子の動きを再現したかった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "inferred",
+          "role": "3Dと粒子の表示",
+          "reason": "Three.jsを使ったサイトの紹介記事（第三者）で取り上げられている。サイトのコードは確認していない。",
+          "evidence_urls": [
+            "https://www.utsubo.com/blog/best-threejs-websites-2026"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "GLSLシェーダー（GPUでの粒子計算）",
+          "status": "reproduction_candidate",
+          "role": "似た粒子の動きを作る方法",
+          "reason": "大量の粒子をなめらかに動かす一般的な方法。このサイトが使っているという主張ではない。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "GSAP（ScrollTrigger）",
+          "status": "reproduction_candidate",
+          "role": "スクロールに合わせた場面転換を作る方法",
+          "reason": "似た演出を作れる道具。このサイトが使っているという主張ではない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "粒子の動きを再現する練習として、選手の走行距離に応じた数の粒子がピッチ上を流れる表現を作れる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.utsubo.com/blog/best-threejs-websites-2026",
+          "title": "Best Three.js Websites 2026（utsubo）",
+          "access": "read",
+          "supports": "スクロールで場面を切り替える構成と粒子の演出、Three.jsの使用"
+        },
+        {
+          "url": "https://www.shopify.com/editions/spring2026",
+          "title": "Shopify Editions Spring 2026",
+          "access": "not_accessed",
+          "supports": "サイト本体"
+        }
+      ],
+      "ai_notes": [
+        "サイト本体はAIが開いておらず、粒子の動きも確かめていない。"
+      ],
+      "tags": [
+        "three.js",
+        "粒子",
+        "スクロール",
+        "場面転換"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "サイト本体は未確認。根拠は第三者の紹介記事のみ。"
+      ]
+    }
+  ]
+}
