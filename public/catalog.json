@@ -1,0 +1,2213 @@
+{
+  "generated_at": "2026-10-01T08:51:08.278Z",
+  "summary": {
+    "submissions": 6,
+    "archived": 6,
+    "observations": 23,
+    "entries": 23,
+    "contributors": 6,
+    "issues": 3,
+    "branches": 8
+  },
+  "issues": [
+    {
+      "id": "source-7244dcd96d71",
+      "reason": "空の投稿ファイル",
+      "location": "main"
+    },
+    {
+      "id": "source-ebba378078aa",
+      "reason": "JSONの途中欠落または形式エラー",
+      "location": "branch"
+    },
+    {
+      "id": "source-90e28e3c49bc",
+      "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
+      "location": "main"
+    }
+  ],
+  "contributors": [
+    {
+      "id": "p-3b94bba25d5a",
+      "nickname": "しゅうた"
+    },
+    {
+      "id": "p-723799a90a50",
+      "nickname": "mio"
+    },
+    {
+      "id": "p-29b96358289a",
+      "nickname": "りょ"
+    },
+    {
+      "id": "p-0946edf7500c",
+      "nickname": "ユウガ"
+    },
+    {
+      "id": "p-bf4792fa2d55",
+      "nickname": "yuta-design"
+    },
+    {
+      "id": "p-e7c98dc334e5",
+      "nickname": "投稿者-e7c9"
+    }
+  ],
+  "entries": [
+    {
+      "id": "item-b02014c5eaa2",
+      "title": "AI Tools Primer · The 3D Island",
+      "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "AI Tools Primer · The 3D Island",
+          "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "AIツールの情報カテゴリーを、建物や道路で構成された探索可能な3Dの島としてナビゲーションする作品。",
+          "highlights": [
+            {
+              "detail": "カテゴリーを建物、情報構造を街として表現し、ドラッグで視点を回転、スクロールでズームして探索できる。",
+              "basis": "source_description",
+              "source_url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+              "checked_at": "2026-10-01"
+            },
+            {
+              "detail": "道路を多数の3Dジオメトリとして作るのではなく、タイルごとに生成したCanvasテクスチャで島の表面に描いている。",
+              "basis": "source_description",
+              "source_url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "情報アーキテクチャそのものを空間化し、「メニューを選ぶ」から「世界を探索する」体験に変えているところが面白い。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "Three.js",
+              "status": "confirmed",
+              "role": "3Dの島、建物、カメラ操作を含む探索空間を構築する。",
+              "reason": "Three.js Resourcesの作品ページでTechnologiesとしてThree.jsが明記されている。",
+              "evidence_urls": [
+                "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "2D Canvas texture",
+              "status": "confirmed",
+              "role": "道路網を島の表面テクスチャとして生成する。",
+              "reason": "作品ページで道路はgeometryではなくcanvas textureとして生成されると説明されている。",
+              "evidence_urls": [
+                "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [
+            {
+              "author": "student",
+              "idea": "データや情報カテゴリーを地域・建物・階層などの空間構造に対応させ、ユーザーが世界を移動する感覚で探索できるようにする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+              "title": "AI Tools Primer — The 3D island | Three.js Showcase",
+              "access": "read",
+              "supports": "Three.jsの利用、Canvasテクスチャによる道路、ドラッグ・スクロール操作。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Three.js",
+            "3D",
+            "navigation",
+            "information-architecture",
+            "canvas"
+          ],
+          "completeness": "ready",
+          "limitations": [],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
+          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Three.js",
+        "3D",
+        "navigation",
+        "information-architecture",
+        "canvas"
+      ],
+      "technologies": [
+        "Three.js",
+        "2D Canvas texture"
+      ]
+    },
+    {
+      "id": "item-57a39181c1fa",
+      "title": "Austensor",
+      "url": "https://www.austensor.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "Austensor",
+          "url": "https://www.austensor.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "大量の粒子、立体や文字への変形、空間全体を使う表現。",
+          "highlights": [
+            {
+              "detail": "大量の粒子、立体や文字への変形、空間全体を使う表現。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "すごいと感じた参考作品として記録されている。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "React Three Fiber、WebGL、GLSLシェーダーとの記載があるとNotionに記録。個別の実装は未検証。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://www.austensor.com/"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://www.austensor.com/",
+              "title": "Austensor",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-908db30e50d0",
+      "title": "Bagan — Google Arts & Culture Experiment",
+      "url": "https://artsexperiments.withgoogle.com/bagan",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "Bagan — Google Arts & Culture Experiment",
+          "url": "https://artsexperiments.withgoogle.com/bagan",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "ミャンマーのバガンにある寺院や文化遺産を、Web上で探索しながら体験できるGoogle Arts & Cultureの実験的プロジェクト。",
+          "highlights": [
+            {
+              "detail": "寺院や文化遺産をVR的に見るだけではなく、Webならではのインタラクションを取り入れた体験になっている。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "ただ寺院や文化遺産をVR的に見られるだけでなく、Webの特性を生かした作りになっているのが面白い。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "具体的な実装技術は一次情報やソースコードで確認していないため断定しない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "位置・年代・種類などのデータを3D空間上の場所やオブジェクトに対応させ、探索によってデータ同士の関係を発見できる可視化に応用できる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://artsexperiments.withgoogle.com/bagan",
+              "title": "Bagan — Google Arts & Culture Experiment",
+              "access": "not_accessed",
+              "supports": "対象サイトの参照URL"
+            }
+          ],
+          "ai_notes": [
+            "具体的な実装技術は未確認。"
+          ],
+          "tags": [
+            "3D",
+            "文化遺産",
+            "探索",
+            "インタラクティブ"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "具体的な実装技術の確認は未実施。"
+          ],
+          "contributor": {
+            "id": "p-723799a90a50",
+            "nickname": "mio"
+          },
+          "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
+          "archive": "data/submissions/entry-096be17d532df9146b9f.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "3D",
+        "文化遺産",
+        "探索",
+        "インタラクティブ"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-9f38f10d8aa1",
+      "title": "Body, Movement, Language: AI Sketches With Bill T. Jones",
+      "url": "https://experiments.withgoogle.com/billtjonesai",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i4",
+          "kind": "site",
+          "title": "Body, Movement, Language: AI Sketches With Bill T. Jones",
+          "url": "https://experiments.withgoogle.com/billtjonesai",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "振付家Bill T. JonesとGoogle Creative Labによる、Webカメラで体の動きを読み取り、話す言葉と組み合わせて表現する実験作品。",
+          "highlights": [
+            {
+              "detail": "Webカメラの映像から体の関節の位置をブラウザの中で推定し、音声の書き起こしと組み合わせて画面に表す。",
+              "basis": "source_description",
+              "source_url": "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "Perfume Global Site Projectへの興味の延長で見た。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "PoseNet",
+              "status": "confirmed",
+              "role": "Webカメラ映像からの姿勢推定",
+              "reason": "制作者による制作記事に記載。",
+              "evidence_urls": [
+                "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "TensorFlow.js",
+              "status": "confirmed",
+              "role": "PoseNetをブラウザで動かす",
+              "reason": "同じ制作記事に記載。",
+              "evidence_urls": [
+                "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596",
+              "title": "Mixing movement and machine（制作記事）",
+              "access": "read",
+              "supports": "PoseNetとTensorFlow.jsの使用、関節の値の平滑化、鼻は安定して取れるが手首や肘はぶれやすいこと"
+            }
+          ],
+          "ai_notes": [
+            "制作記事によると、鼻の位置は安定して取れるが、肘や手首はぶれやすい。現在はPoseNetの後継としてMoveNetがある。"
+          ],
+          "tags": [
+            "姿勢推定",
+            "ダンス",
+            "Webカメラ",
+            "機械学習"
+          ],
+          "completeness": "ready",
+          "limitations": [],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "姿勢推定",
+        "ダンス",
+        "Webカメラ",
+        "機械学習"
+      ],
+      "technologies": [
+        "PoseNet",
+        "TensorFlow.js"
+      ]
+    },
+    {
+      "id": "item-8cddf89ecf7f",
+      "title": "Bruno Simonのポートフォリオ",
+      "url": "https://bruno-simon.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "Bruno Simonのポートフォリオ",
+          "url": "https://bruno-simon.com/?utm_source=chatgpt.com",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "ゲーム感覚で情報を探索する表現に関心を持ったポートフォリオサイト。",
+          "highlights": [
+            {
+              "detail": "自分で選択し、ゲーム感覚で探索できると本人が報告した。",
+              "basis": "student_report",
+              "source_url": "https://bruno-simon.com/?utm_source=chatgpt.com",
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "自分で選択出来てゲーム感覚でできるし、いろいろな情報をつぎ込めるのがいいし、時系列でも表せそう",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回の投稿準備ではサイトの実装や操作を直接確認していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "student",
+              "idea": "さまざまな情報を組み込み、時系列の情報も表現できそうだと考えた。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://bruno-simon.com/?utm_source=chatgpt.com",
+              "title": "Bruno Simon",
+              "access": "not_accessed",
+              "supports": "本人が関心を持ったサイト。今回の準備では直接検証していない。"
+            }
+          ],
+          "ai_notes": [
+            "時系列表示は本人の応用案であり、サイトの既存機能として確認したものではない。"
+          ],
+          "tags": [
+            "ポートフォリオ",
+            "探索",
+            "ゲーム感覚",
+            "時系列"
+          ],
+          "completeness": "needs_review",
+          "limitations": [
+            "初回投稿か未確認。投稿者IDは初回を想定した仮の新規IDで、公開前に確認が必要。",
+            "実装技術・具体的な操作挙動は未検証。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-58bedad9-0b5a-423f-9cfd-ec572004af4b",
+          "archive": "data/submissions/entry-0715b53388d9127c6859.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "ポートフォリオ",
+        "探索",
+        "ゲーム感覚",
+        "時系列"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-a86e052a4205",
+      "title": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i5",
+          "kind": "site",
+          "title": "Chrome Music Lab",
+          "url": "https://musiclab.chromeexperiments.com/",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "Google Creative Labによる、音や音楽の仕組みを見て触れて学べるブラウザの実験集。スペクトログラム、リズム、和音などがある。",
+          "highlights": [
+            {
+              "detail": "音の周波数を色の地形のように表示するスペクトログラムなど、音を目で見る表現が多い。",
+              "basis": "source_description",
+              "source_url": "https://github.com/googlecreativelab/chrome-music-lab",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "Bill T. Jones × Googleへの興味の延長で見た。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "Web Audio API",
+              "status": "confirmed",
+              "role": "音の生成と解析",
+              "reason": "公式リポジトリのREADMEに記載。",
+              "evidence_urls": [
+                "https://github.com/googlecreativelab/chrome-music-lab"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "Tone.js",
+              "status": "confirmed",
+              "role": "音の生成",
+              "reason": "公式リポジトリのREADMEに記載。どの実験で使われているかは個別には確認していない。",
+              "evidence_urls": [
+                "https://github.com/googlecreativelab/chrome-music-lab"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "WebMIDI / WebRTC",
+              "status": "confirmed",
+              "role": "MIDI機器の入力、マイクなどの入力",
+              "reason": "公式リポジトリのREADMEに記載。",
+              "evidence_urls": [
+                "https://github.com/googlecreativelab/chrome-music-lab"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://github.com/googlecreativelab/chrome-music-lab",
+              "title": "googlecreativelab/chrome-music-lab（GitHub）",
+              "access": "read",
+              "supports": "Web Audio API、WebRTC、WebMIDI、Tone.jsの使用"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "音",
+            "Web Audio API",
+            "スペクトログラム",
+            "オープンソース"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "実験ごとの使用技術は個別に確認していない。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "音",
+        "Web Audio API",
+        "スペクトログラム",
+        "オープンソース"
+      ],
+      "technologies": [
+        "Web Audio API",
+        "Tone.js",
+        "WebMIDI / WebRTC"
+      ]
+    },
+    {
+      "id": "item-2f1f9071ce47",
+      "title": "earth :: nullschool",
+      "url": "https://earth.nullschool.net/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "earth :: nullschool",
+          "url": "https://earth.nullschool.net/",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "世界中の風、海流、気温などを、地球儀の上を流れる線のアニメーションで表示するサイト。Cameron Beccarioによる。",
+          "highlights": [
+            {
+              "detail": "風が地球儀の上を流れる無数の細い線（粒子の軌跡）として描かれ、数字をほとんど出さずに風の向きと強さが伝わる。",
+              "basis": "source_description",
+              "source_url": "https://github.com/cambecc/earth",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "風が何で表示されているのかが気になった。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "HTML5 Canvas",
+              "status": "inferred",
+              "role": "風の粒子アニメーションと色の描画",
+              "reason": "作者が公開しているソースコード（GitHub: cambecc/earth）のREADMEに、粒子用と色用の2枚のCanvasで描くと書かれている。公開版のコードであり、現在のサイトが同じ構成かは確認していない。",
+              "evidence_urls": [
+                "https://github.com/cambecc/earth"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "D3.js",
+              "status": "inferred",
+              "role": "地図の投影と描画",
+              "reason": "同じREADMEに記載。現在のサイトのコードは確認していない。",
+              "evidence_urls": [
+                "https://github.com/cambecc/earth"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "SVG",
+              "status": "inferred",
+              "role": "地図（陸地の輪郭）の表示",
+              "reason": "同じREADMEに、地図はSVGで描くと記載。",
+              "evidence_urls": [
+                "https://github.com/cambecc/earth"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "GFS（米国の気象予報モデル）",
+              "status": "inferred",
+              "role": "風データの出どころ",
+              "reason": "同じREADMEに、GFSの予報データ（GRIB2形式）をgrib2jsonでJSONに変換して使うと記載。",
+              "evidence_urls": [
+                "https://github.com/cambecc/earth"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "選手の走行距離を、ピッチの上を流れる粒子の軌跡で表せる。走行距離を軌跡の長さ、スプリント回数を速く動く粒子の数に対応させる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://github.com/cambecc/earth",
+              "title": "cambecc/earth（GitHub）",
+              "access": "read",
+              "supports": "描画方法（SVG、Canvas 2枚、双線形補間）とデータ処理（GFS、grib2json、TopoJSON）"
+            }
+          ],
+          "ai_notes": [
+            "学生の疑問「風は何で表示されているか」への回答：作者の公開ソースコードでは、風はCanvasの上に描く粒子のアニメーションで表示されている。1度刻みの格子データの間を双線形補間で埋めて、なめらかな流れにしている。",
+            "Mapboxのwebgl-windのように、同じ表現をWebGLとGPUで100万粒子まで増やした技術デモもある（https://github.com/mapbox/webgl-wind）。"
+          ],
+          "tags": [
+            "粒子",
+            "Canvas",
+            "地球儀",
+            "気象データ",
+            "流れの表現"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "現在公開中のサイトの実装は確認していない。根拠は作者の公開ソースコードのREADME。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "粒子",
+        "Canvas",
+        "地球儀",
+        "気象データ",
+        "流れの表現"
+      ],
+      "technologies": [
+        "HTML5 Canvas",
+        "D3.js",
+        "SVG",
+        "GFS（米国の気象予報モデル）"
+      ]
+    },
+    {
+      "id": "item-e8bc94664b00",
+      "title": "Explore Saydnaya",
+      "url": "https://saydnaya.amnesty.org/?kind=explore",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "Explore Saydnaya",
+          "url": "https://saydnaya.amnesty.org/?kind=explore",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "Amnesty InternationalとForensic Architectureが2016年に公開した、シリアのサイドナヤ刑務所を3Dで再現したインタラクティブ・ドキュメンタリー。内部の写真が存在しないため、生存者の記憶と音の証言をもとに建物を再構成している。",
+          "highlights": [
+            {
+              "detail": "ドラッグでカメラを動かして3D空間を見回せる。サイト上に「Click and Drag to move the camera」と表示される。",
+              "basis": "source_description",
+              "source_url": "https://saydnaya.amnesty.org/?kind=explore",
+              "checked_at": "2026-10-01"
+            },
+            {
+              "detail": "「場所から探す」と「証言者から探す」の2つの入口があり、空間の中の物から証言の動画に入れる。",
+              "basis": "source_description",
+              "source_url": "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/",
+              "checked_at": "2026-10-01"
+            },
+            {
+              "detail": "「ヘッドホン推奨」と表示され、音が体験の中心になっている。生存者が聞いた音（扉、鍵、足音など）を再現し、反響から部屋の大きさを確かめたと説明されている。",
+              "basis": "source_description",
+              "source_url": "https://www.fastcompany.com/3068329/how-forensic-architecture-revealed-details-of-a-secret-military-priso",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "3Dモデルをマウスで動かしているところが気になった。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "WebGL",
+              "status": "inferred",
+              "role": "ブラウザでの3D表示",
+              "reason": "MIT DocubaseのプロジェクトページにWebGLと記載。制作者の公式な技術説明やサイトのコードは確認していない。",
+              "evidence_urls": [
+                "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "360度パノラマ画像",
+              "status": "inferred",
+              "role": "見回せる3D空間の表示",
+              "reason": "公式クレジットに「3D Panoramas」の担当者が記載されている。事前に作ったパノラマ画像を表示する方式と推測したが、読み込まれているファイルは確認していない。",
+              "evidence_urls": [
+                "https://saydnaya.amnesty.org/en/about.html"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "Revit / 3ds Max",
+              "status": "inferred",
+              "role": "建物の3Dモデル制作",
+              "reason": "MIT Docubaseの技術欄に記載。Web表示そのものではなく、モデルや映像を作る工程で使われたと考えられる。",
+              "evidence_urls": [
+                "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "three.js",
+              "status": "unknown",
+              "role": null,
+              "reason": "見た目からは判断できず、サイトのコードも確認していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "3D空間の中の物を押すと詳しい情報が出る仕組みを、選手の走行データに応用できる。ピッチ上の選手の柱を押すと、その選手の走行距離やスプリントの詳細が開く。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://saydnaya.amnesty.org/?kind=explore",
+              "title": "Explore Saydnaya",
+              "access": "read",
+              "supports": "ドラッグでカメラを動かす操作案内とページ構成"
+            },
+            {
+              "url": "https://saydnaya.amnesty.org/en/about.html",
+              "title": "About - Explore Saydnaya",
+              "access": "read",
+              "supports": "制作クレジット（Web開発、3Dパノラマ、音響調査の担当）"
+            },
+            {
+              "url": "https://docubase.mit.edu/project/saydnaya-inside-a-syrian-torture-prison/",
+              "title": "Saydnaya: Inside a Syrian Torture Prison（MIT Docubase）",
+              "access": "read",
+              "supports": "使用技術（WebGL、3D Studio Max、Revitなど）と体験の構成"
+            },
+            {
+              "url": "https://www.fastcompany.com/3068329/how-forensic-architecture-revealed-details-of-a-secret-military-priso",
+              "title": "How Forensic Architecture Revealed Details Of A Secret Military Prison In Syria（Fast Company）",
+              "access": "read",
+              "supports": "音の証言と反響による部屋の大きさの推定"
+            }
+          ],
+          "ai_notes": [
+            "サイト上のアニメーションや操作を、AIが実際に動かして確かめてはいない。ページの文章と外部の解説記事から整理した。",
+            "Chrome DevToolsのNetworkタブで読み込まれるJSと画像を見れば、使っているライブラリとパノラマ方式かどうかを確認できる。"
+          ],
+          "tags": [
+            "3D",
+            "WebGL",
+            "インタラクティブ・ドキュメンタリー",
+            "音",
+            "パノラマ"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "WebGLの上で使われているライブラリは未確認。",
+            "パノラマ方式かどうかは推測。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "3D",
+        "WebGL",
+        "インタラクティブ・ドキュメンタリー",
+        "音",
+        "パノラマ"
+      ],
+      "technologies": [
+        "WebGL",
+        "360度パノラマ画像",
+        "Revit / 3ds Max",
+        "three.js"
+      ]
+    },
+    {
+      "id": "item-cbcf4d15ea23",
+      "title": "Junni — NEXT",
+      "url": "https://next.junni.co.jp/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "Junni — NEXT",
+          "url": "https://next.junni.co.jp/",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "キャラクターや背景への多様な操作を通して、企業の世界観を遊びながら体験できるインタラクティブなWebサイト。",
+          "highlights": [
+            {
+              "detail": "メインキャラクターだけでなく背景にも触れて反応を起こすことができ、ペンで背景に線を描ける。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "グラフィックがかわいい。メインにいるキャラクターに影響を与えることができるだけでなく、その後ろにも触ることができて面白い。特にペンで後ろに線を書けるところが面白い。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "具体的な実装技術は一次情報やソースコードで確認していないため断定しない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "背景への描画やキャラクターへの操作を、データに印を付けたりデータ要素へ直接触れて比較・探索したりするインターフェースに応用できる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://next.junni.co.jp/",
+              "title": "Junni — NEXT",
+              "access": "not_accessed",
+              "supports": "対象サイトの参照URL"
+            }
+          ],
+          "ai_notes": [
+            "具体的な実装技術は未確認。"
+          ],
+          "tags": [
+            "インタラクティブ",
+            "キャラクター",
+            "描画",
+            "Web表現"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "具体的な実装技術の確認は未実施。"
+          ],
+          "contributor": {
+            "id": "p-723799a90a50",
+            "nickname": "mio"
+          },
+          "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
+          "archive": "data/submissions/entry-096be17d532df9146b9f.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "インタラクティブ",
+        "キャラクター",
+        "描画",
+        "Web表現"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-06af6819b14e",
+      "title": "Particle Plotter",
+      "url": "https://openprocessing.org/@u65884/751983",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "Particle Plotter",
+          "url": "https://openprocessing.org/@u65884/751983",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "操作に応じて粒子を発生させ、軌跡を描く体験。",
+          "highlights": [
+            {
+              "detail": "操作に応じて粒子を発生させ、軌跡を描く体験。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "マウスの動きに連動して点が滑らかに動くところ",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "Notionにはp5.jsの公開コードの説明がある。押下中に粒子を生成し、位置の更新と線の描画、半透明背景による残像、移動ルールの切り替えを行うと記録。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://openprocessing.org/@u65884/751983"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://openprocessing.org/@u65884/751983",
+              "title": "Particle Plotter",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "ready",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-3ce891cd4fa4",
+      "title": "Perfume Global Site Project",
+      "url": "https://j-mediaarts.jp/en/award/single/perfume-global-site-project/index.html",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "Perfume Global Site Project",
+          "url": "https://j-mediaarts.jp/en/award/single/perfume-global-site-project/index.html",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "Rhizomatiksが手がけた、Perfumeのダンスをモーションキャプチャし、その動きのデータと楽曲を公開したプロジェクト（2012年）。ファンが自由に作品を作れるようにした。",
+          "highlights": [
+            {
+              "detail": "ダンスのモーションキャプチャデータをBVH形式で公開し、楽曲と同期して再生するサンプルコードも公開されている。",
+              "basis": "source_description",
+              "source_url": "https://github.com/perfume-dev/example-openFrameworks",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "ただの興味。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "BVH（モーションキャプチャのデータ形式）",
+              "status": "confirmed",
+              "role": "ダンスの動きのデータ",
+              "reason": "公式の公開リポジトリ（perfume-dev）にBVHファイルと読み込み用のコードがある。",
+              "evidence_urls": [
+                "https://github.com/perfume-dev/example-openFrameworks"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "openFrameworks",
+              "status": "confirmed",
+              "role": "公開されたサンプルコード",
+              "reason": "公式リポジトリのサンプルはopenFrameworksで書かれ、BVHを読むofxBvhが含まれる。",
+              "evidence_urls": [
+                "https://github.com/perfume-dev/example-openFrameworks"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "Processing",
+              "status": "confirmed",
+              "role": "公開されたサンプルコード",
+              "reason": "公式リポジトリのREADMEにProcessing版のサンプルがあると記載。",
+              "evidence_urls": [
+                "https://github.com/perfume-dev/example-openFrameworks"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://github.com/perfume-dev/example-openFrameworks",
+              "title": "perfume-dev/example-openFrameworks（GitHub）",
+              "access": "read",
+              "supports": "BVH形式のデータ、openFrameworksとProcessingのサンプル"
+            },
+            {
+              "url": "https://j-mediaarts.jp/en/award/single/perfume-global-site-project/index.html",
+              "title": "Perfume \"Global Site Project\"（文化庁メディア芸術祭）",
+              "access": "not_accessed",
+              "supports": "プロジェクトの概要"
+            }
+          ],
+          "ai_notes": [
+            "当時の公式サイト自体の実装は確認していない。確認できたのは公開されたデータとサンプルコード。"
+          ],
+          "tags": [
+            "モーションキャプチャ",
+            "ダンス",
+            "オープンデータ",
+            "BVH"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "公式サイト自体の表示技術は未確認。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "モーションキャプチャ",
+        "ダンス",
+        "オープンデータ",
+        "BVH"
+      ],
+      "technologies": [
+        "BVH（モーションキャプチャのデータ形式）",
+        "openFrameworks",
+        "Processing"
+      ]
+    },
+    {
+      "id": "item-ef0bd5593c75",
+      "title": "Rui",
+      "url": "https://www.ruitat.info/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "Rui",
+          "url": "https://www.ruitat.info/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "大きな文字、余白、限られた色、3D人物の存在感。",
+          "highlights": [
+            {
+              "detail": "大きな文字、余白、限られた色、3D人物の存在感。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "かわいい",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "Awwwards掲載情報でNext.js、Three.js、WebGLが挙げられているとNotionに記録。インク演出のアルゴリズムは未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://www.ruitat.info/"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://www.ruitat.info/",
+              "title": "Rui",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "ready",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-b3abb35c476b",
+      "title": "Santioni Spirits — The Notturno Experience",
+      "url": "https://santionispirits.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "Santioni Spirits — The Notturno Experience",
+          "url": "https://santionispirits.com/",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "映像・音・3D表現とユーザー操作を組み合わせ、物語を進めながらブランドの世界観を体験する没入型Webサイト。",
+          "highlights": [
+            {
+              "detail": "スクロールで物語を進めるだけでなく、クリックなどの操作によって物語に影響を与えられる。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "スクロールで物語を進められるだけでなく、クリックなどで物語に影響を及ぼすことができる点が、普通のWebサイトに収まっていなくて面白いと思った。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "具体的な実装技術は一次情報やソースコードで確認していないため断定しない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "データ値に応じて物語の分岐、3D空間の状態、オブジェクトの反応を変化させ、操作しながらデータの違いを体験できる可視化に応用できる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://santionispirits.com/",
+              "title": "Santioni Spirits — The Notturno Experience",
+              "access": "not_accessed",
+              "supports": "対象サイトの参照URL"
+            }
+          ],
+          "ai_notes": [
+            "具体的な実装技術は未確認。"
+          ],
+          "tags": [
+            "3D",
+            "没入型",
+            "ストーリーテリング",
+            "インタラクション"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "具体的な実装技術の確認は未実施。"
+          ],
+          "contributor": {
+            "id": "p-723799a90a50",
+            "nickname": "mio"
+          },
+          "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
+          "archive": "data/submissions/entry-096be17d532df9146b9f.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "3D",
+        "没入型",
+        "ストーリーテリング",
+        "インタラクション"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-474f79b0febe",
+      "title": "Shopify Editions Spring 2026",
+      "url": "https://www.shopify.com/editions/spring2026",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i7",
+          "kind": "site",
+          "title": "Shopify Editions Spring 2026",
+          "url": "https://www.shopify.com/editions/spring2026",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "Shopifyの新機能紹介ページ。スクロールの区切りごとに場面が切り替わり、粒子のエフェクトで演出されている。",
+          "highlights": [
+            {
+              "detail": "スクロールの区切りごとに場面が切り替わり、粒子のエフェクトが使われていると紹介されている。",
+              "basis": "source_description",
+              "source_url": "https://www.utsubo.com/blog/best-threejs-websites-2026",
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "粒子の動きを再現したかった。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "three.js",
+              "status": "inferred",
+              "role": "3Dと粒子の表示",
+              "reason": "Three.jsを使ったサイトの紹介記事（第三者）で取り上げられている。サイトのコードは確認していない。",
+              "evidence_urls": [
+                "https://www.utsubo.com/blog/best-threejs-websites-2026"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "GLSLシェーダー（GPUでの粒子計算）",
+              "status": "reproduction_candidate",
+              "role": "似た粒子の動きを作る方法",
+              "reason": "大量の粒子をなめらかに動かす一般的な方法。このサイトが使っているという主張ではない。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "GSAP（ScrollTrigger）",
+              "status": "reproduction_candidate",
+              "role": "スクロールに合わせた場面転換を作る方法",
+              "reason": "似た演出を作れる道具。このサイトが使っているという主張ではない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "粒子の動きを再現する練習として、選手の走行距離に応じた数の粒子がピッチ上を流れる表現を作れる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.utsubo.com/blog/best-threejs-websites-2026",
+              "title": "Best Three.js Websites 2026（utsubo）",
+              "access": "read",
+              "supports": "スクロールで場面を切り替える構成と粒子の演出、Three.jsの使用"
+            },
+            {
+              "url": "https://www.shopify.com/editions/spring2026",
+              "title": "Shopify Editions Spring 2026",
+              "access": "not_accessed",
+              "supports": "サイト本体"
+            }
+          ],
+          "ai_notes": [
+            "サイト本体はAIが開いておらず、粒子の動きも確かめていない。"
+          ],
+          "tags": [
+            "three.js",
+            "粒子",
+            "スクロール",
+            "場面転換"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "サイト本体は未確認。根拠は第三者の紹介記事のみ。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "three.js",
+        "粒子",
+        "スクロール",
+        "場面転換"
+      ],
+      "technologies": [
+        "three.js",
+        "GLSLシェーダー（GPUでの粒子計算）",
+        "GSAP（ScrollTrigger）"
+      ]
+    },
+    {
+      "id": "item-2b2b7b9217e7",
+      "title": "Temporal force-directed graph",
+      "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i6",
+          "kind": "site",
+          "title": "Temporal force-directed graph",
+          "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "時間で変化する点と接続、引力・反発の計算による配置の動き。",
+          "highlights": [
+            {
+              "detail": "時間で変化する点と接続、引力・反発の計算による配置の動き。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "すごいと感じた参考作品として記録されている。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "NotionにはD3の反発、リンク、中心への力、時間による点と線の選択、位置と速度の継承、SVG描画、ドラッグ中の位置固定を公開コードで確認したと記録。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://observablehq.com/@d3/temporal-force-directed-graph"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
+              "title": "Temporal force-directed graph",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-ad9f4b847876",
+      "title": "The Fallen of World War II",
+      "url": "http://www.fallen.io/ww2/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "The Fallen of World War II",
+          "url": "http://www.fallen.io/ww2/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "第二次世界大戦の死者数を、映像作品のような流れで見せるデータ可視化作品。",
+          "highlights": [
+            {
+              "detail": "見る側が基本的に受け身で進む作品で、双方向のインタラクションはない。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "これが良い。これを目指そう。しかし、双方向のインタラクション性はない。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "three.js",
+              "status": "reproduction_candidate",
+              "role": "人型のブロックが積み上がる3D表現や、カメラが上へ追いかける動きを再現する候補",
+              "reason": "似た表現を作れるライブラリとして挙げたもの。このサイトが実際に使っているかは確認していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "GSAP（ScrollTrigger）",
+              "status": "reproduction_candidate",
+              "role": "スクロールやクリックに合わせて場面を切り替える演出を再現する候補",
+              "reason": "似た演出を作れるライブラリとして挙げたもの。このサイトが実際に使っているかは確認していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "student",
+              "idea": "この作品のような映画的な積み上げ表現を目指しつつ、足りない双方向性を補うため、スクロールやクリックで観客が自分のペースで次の場面へ進む形にする。"
+            },
+            {
+              "author": "ai",
+              "idea": "人数などの量を積み上がるブロックの高さに対応させ、データの確かさ（観測された記録／条件付きの推計／幅のある予測）をブロックの不透明度や霧の表現に対応させる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "http://www.fallen.io/ww2/",
+              "title": "The Fallen of World War II",
+              "access": "not_accessed",
+              "supports": "作品本体。内容の説明の確認先。"
+            }
+          ],
+          "ai_notes": [
+            "AIの事前知識による説明（未確認）：ナレーション付きの約18分の作品で、兵士の人形が積み上がる棒グラフをカメラがゆっくり上へ追いかける演出がある。途中で一時停止すると、その場面のグラフを操作して詳しく見られるとされる。データは各国の戦没者に関する研究や統計と説明した。"
+          ],
+          "tags": [
+            "データストーリーテリング",
+            "映画的演出",
+            "積み上げ表現",
+            "カメラワーク",
+            "死者数"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "AIはこの提出の作成時にサイトへ直接アクセスしておらず、動きや操作は確認していない。",
+            "使用している技術は未確認。技術欄は再現に使えそうな候補のみ。",
+            "共有リポジトリの既存の提出パスやリポジトリ内の他の指示は、AIからは確認できていない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-35ac2bf3-b459-4ed8-abb3-55cd9fe0ad76",
+          "archive": "data/submissions/entry-a42aeb5f141cb9d28ccd.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "データストーリーテリング",
+        "映画的演出",
+        "積み上げ表現",
+        "カメラワーク",
+        "死者数"
+      ],
+      "technologies": [
+        "three.js",
+        "GSAP（ScrollTrigger）"
+      ]
+    },
+    {
+      "id": "item-077d71530abb",
+      "title": "The Pudding",
+      "url": "https://pudding.cool/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i6",
+          "kind": "site",
+          "title": "The Pudding",
+          "url": "https://pudding.cool/",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "データを使ったビジュアルエッセイを公開しているWebメディア。スクロールに合わせて図が変わる記事が多い。",
+          "highlights": [
+            {
+              "detail": "スクロールに合わせて図やグラフが切り替わり、文章と図が連動して進む。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "スクロールの動きが気になった。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "Scrollama",
+              "status": "inferred",
+              "role": "スクロール位置に応じて図を切り替える",
+              "reason": "The Puddingの公開リソースページに、スクロール演出用のライブラリとして挙げられている。個別の記事で使われているかは確認していない。",
+              "evidence_urls": [
+                "https://pudding.cool/resources/"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "Svelte / SvelteKit",
+              "status": "inferred",
+              "role": "ページの部品の組み立て",
+              "reason": "同じリソースページに記載。個別の記事は確認していない。",
+              "evidence_urls": [
+                "https://pudding.cool/resources/"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "D3.js",
+              "status": "inferred",
+              "role": "グラフの描画",
+              "reason": "同じリソースページに記載。個別の記事は確認していない。",
+              "evidence_urls": [
+                "https://pudding.cool/resources/"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "スクロールの区切りごとに表示する指標を切り替えられる。例えば、走行距離→スプリント→最高速度の順に、ピッチ上の柱の高さが変わっていく構成にする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://pudding.cool/resources/",
+              "title": "Our Resources（The Pudding）",
+              "access": "read",
+              "supports": "The Puddingが使っているライブラリと道具（D3.js、Svelte、Scrollama、Figmaなど）"
+            }
+          ],
+          "ai_notes": [
+            "どの記事のスクロールが気になったかが分かれば、その記事の作りを個別に調べられる。"
+          ],
+          "tags": [
+            "スクロリーテリング",
+            "データ記事",
+            "Svelte",
+            "D3.js"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "特定の記事は指定されていない。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
+          "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "スクロリーテリング",
+        "データ記事",
+        "Svelte",
+        "D3.js"
+      ],
+      "technologies": [
+        "Scrollama",
+        "Svelte / SvelteKit",
+        "D3.js"
+      ]
+    },
+    {
+      "id": "item-3559a8c568ef",
+      "title": "Three.js Anaglyph",
+      "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i4",
+          "kind": "site",
+          "title": "Three.js Anaglyph",
+          "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "反射する球体と赤・シアンのずれによる立体視の表現。",
+          "highlights": [
+            {
+              "detail": "反射する球体と赤・シアンのずれによる立体視の表現。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "すごいと感じた参考作品として記録されている。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "Notionには公式dev版コードで500個の球、環境画像、三角関数による移動、マウスに追従するカメラ、AnaglyphEffectを確認したと記録。配信版との一致は未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://threejs.org/examples/webgl_effects_anaglyph.html"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
+              "title": "Three.js Anaglyph",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-98df4b6ec91d",
+      "title": "Three.js Helpers",
+      "url": "https://threejs.org/examples/webgl_helpers.html",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i5",
+          "kind": "site",
+          "title": "Three.js Helpers",
+          "url": "https://threejs.org/examples/webgl_helpers.html",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "人物の網目、補助線、内部構造や解析装置を思わせる見た目。",
+          "highlights": [
+            {
+              "detail": "人物の網目、補助線、内部構造や解析装置を思わせる見た目。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "すごいと感じた参考作品として記録されている。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "Notionには公式dev版コードでGLTFLoader、WireframeGeometry、EdgesGeometry、法線・接線・囲み枠・格子の表示を確認したと記録。配信版との一致は未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://threejs.org/examples/webgl_helpers.html"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://threejs.org/examples/webgl_helpers.html",
+              "title": "Three.js Helpers",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-93f9d68b6fcd",
+      "title": "Toronto 2021 Dot Density Map",
+      "url": "https://schoolofcities.github.io/dot-density/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "Toronto 2021 Dot Density Map",
+          "url": "https://schoolofcities.github.io/dot-density/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "トロントの国勢調査データを都市上の点として可視化し、人口や属性の空間分布を直感的に理解するための可視化。",
+          "highlights": [
+            {
+              "detail": "「1点 = 10人」という表現で数値を都市の模様へ変換し、3D表示では人口密度を高さとして捉えることでデータを風景のように見せている。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "数値を単にグラフ化せず、物理的な形・密度・高さに変換するところが面白い。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "deck.gl",
+              "status": "confirmed",
+              "role": "人口密度を3Dの点群レイヤーとして描画する。",
+              "reason": "deck.gl公式ShowcaseにToronto Dot Density Mapが掲載され、3Dのpoint cloud layerで人口密度を可視化すると説明されている。",
+              "evidence_urls": [
+                "https://deck.gl/showcase"
+              ],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [
+            {
+              "author": "student",
+              "idea": "数値を点・密度・高さ・色などの視覚属性に変換し、大量データを風景として探索できる表現に応用する。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://deck.gl/showcase",
+              "title": "deck.gl Showcase",
+              "access": "read",
+              "supports": "Toronto Dot Density Mapがdeck.glを利用し、人口密度を3D点群として表現していること。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "dot-density",
+            "map",
+            "3D",
+            "population",
+            "data-landscape"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "提出資料に記載された全実装技術までは確認していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
+          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "dot-density",
+        "map",
+        "3D",
+        "population",
+        "data-landscape"
+      ],
+      "technologies": [
+        "deck.gl"
+      ]
+    },
+    {
+      "id": "item-a8ae2b362ad2",
+      "title": "United Carriers",
+      "url": "https://unitedcarriers.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "United Carriers",
+          "url": "https://unitedcarriers.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "物流企業のサービスや世界規模の輸送を、3D表現とスクロールを組み合わせたWeb体験として伝えるサイト。",
+          "highlights": [
+            {
+              "detail": "3Dの地球や輸送表現とスクロールアニメーションを組み合わせ、ページを進める操作自体を貨物の旅に近づけている。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "操作をコンテンツの意味と一致させており、3Dが飾りではなく「世界を結ぶ物流」を伝える装置になっているところが面白い。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "3D/WebGL",
+              "status": "confirmed",
+              "role": "物流の旅を立体的・没入的に表現する。",
+              "reason": "United Carriers自身の記事がサイトの特徴を「3D/WebGL freight journey」と説明している。",
+              "evidence_urls": [
+                "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "Three.js / GSAP / Webflow / Barba.js",
+              "status": "inferred",
+              "role": "3D描画、スクロールアニメーション、サイト構築や画面遷移に関係する可能性がある。",
+              "reason": "提出資料には使用技術として記載されているが、今回確認した公式記事だけでは各ライブラリの実装利用を個別に確定できない。",
+              "evidence_urls": [],
+              "checked_at": "2026-10-01"
+            }
+          ],
+          "applications": [
+            {
+              "author": "student",
+              "idea": "スクロールやカメラ移動そのものに意味を持たせ、データ探索の進行をストーリーとして体験させる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral",
+              "title": "How an Australian Freight Forwarder’s Website Unexpectedly Went Viral",
+              "access": "read",
+              "supports": "サイトが3D/WebGLによる物流体験を特徴としていること。"
+            }
+          ],
+          "ai_notes": [
+            "提出資料にある個別ライブラリ名は、追加の実装証拠が得られるまで推定として扱った。"
+          ],
+          "tags": [
+            "3D",
+            "WebGL",
+            "scroll",
+            "storytelling",
+            "logistics"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "Three.js、GSAP、Webflow、Barba.jsの個別利用は今回の確認範囲では確定していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
+          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "3D",
+        "WebGL",
+        "scroll",
+        "storytelling",
+        "logistics"
+      ],
+      "technologies": [
+        "3D/WebGL",
+        "Three.js / GSAP / Webflow / Barba.js"
+      ]
+    },
+    {
+      "id": "item-064b58267e28",
+      "title": "WeaveSilk",
+      "url": "https://weavesilk.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i7",
+          "kind": "site",
+          "title": "WeaveSilk",
+          "url": "https://weavesilk.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "色の混合、対称性、中心を挟んだ反転、中心へ向かう螺旋。",
+          "highlights": [
+            {
+              "detail": "色の混合、対称性、中心を挟んだ反転、中心へ向かう螺旋。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "これも好みだった",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "Notionには公式画面で設定を確認したと記録。内部の描画ライブラリや式は未確認。座標の回転・反転はAIが挙げた再現候補。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+              "evidence_urls": [
+                "https://weavesilk.com/"
+              ],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://weavesilk.com/",
+              "title": "WeaveSilk",
+              "access": "not_accessed",
+              "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+            }
+          ],
+          "ai_notes": [
+            "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+          ],
+          "tags": [],
+          "completeness": "ready",
+          "limitations": [
+            "元サイトの動作と実装は今回未検証。"
+          ],
+          "contributor": {
+            "id": "p-e7c98dc334e5",
+            "nickname": "投稿者-e7c9"
+          },
+          "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+          "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-29b9bcd2f0df",
+      "title": "インタラクティブ可視化ライブラリ候補",
+      "url": null,
+      "kind": "technology",
+      "contributions": [
+        {
+          "id": "i4",
+          "kind": "technology",
+          "title": "インタラクティブ可視化ライブラリ候補",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "大量データを探索可能なWeb表現にするために比較したライブラリ群。",
+          "highlights": [
+            {
+              "detail": "D3.js、Three.js、deck.gl、Plotly.js、Cytoscape.js、Observable Plotを候補として比較した。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "普通の棒グラフやダッシュボードだけでなく、大量のデータそのものを「世界」として感じられ、ズーム・ドラッグ・クリック・スクロールで探索できるWeb表現を目指したい。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "D3.js",
+              "status": "reproduction_candidate",
+              "role": "データ変換や2Dの独自可視化を担当する候補。",
+              "reason": "提出資料で候補として比較されている。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "Three.js",
+              "status": "reproduction_candidate",
+              "role": "3D空間や没入的な探索体験を担当する候補。",
+              "reason": "提出資料で候補として比較されている。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "deck.gl",
+              "status": "reproduction_candidate",
+              "role": "GPUを利用した大量データ描画を担当する候補。",
+              "reason": "提出資料で候補として比較されている。",
+              "evidence_urls": [
+                "https://deck.gl/"
+              ],
+              "checked_at": "2026-10-01"
+            },
+            {
+              "name": "Plotly.js",
+              "status": "reproduction_candidate",
+              "role": "分析向けインタラクティブグラフの候補。",
+              "reason": "提出資料で候補として比較されている。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "Cytoscape.js",
+              "status": "reproduction_candidate",
+              "role": "関係性・ネットワーク可視化の候補。",
+              "reason": "提出資料で候補として比較されている。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "Observable Plot",
+              "status": "reproduction_candidate",
+              "role": "比較的少ないコードで統計可視化を作る候補。",
+              "reason": "提出資料で候補として比較されている。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "student",
+              "idea": "deck.gl + D3.js + Three.jsを役割分担させ、大量描画・データ変換・3D体験を組み合わせる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://deck.gl/",
+              "title": "deck.gl",
+              "access": "read",
+              "supports": "deck.glがGPUを利用した大規模データの視覚的探索を目的とするフレームワークであること。"
+            }
+          ],
+          "ai_notes": [
+            "各ライブラリは、参考サイトが実際に利用しているという主張ではなく、同様の表現を実現する候補として整理した。"
+          ],
+          "tags": [
+            "D3.js",
+            "Three.js",
+            "deck.gl",
+            "Plotly.js",
+            "Cytoscape.js",
+            "Observable Plot"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "全候補ライブラリの性能上限や適用条件の詳細比較は今後の調査課題。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
+          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "D3.js",
+        "Three.js",
+        "deck.gl",
+        "Plotly.js",
+        "Cytoscape.js",
+        "Observable Plot"
+      ],
+      "technologies": [
+        "D3.js",
+        "Three.js",
+        "deck.gl",
+        "Plotly.js",
+        "Cytoscape.js",
+        "Observable Plot"
+      ]
+    }
+  ]
+}

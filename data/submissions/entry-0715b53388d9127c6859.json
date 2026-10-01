@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-58bedad9-0b5a-423f-9cfd-ec572004af4b",
+  "contributor": {
+    "id": "p-3b94bba25d5a",
+    "nickname": "しゅうた"
+  },
+  "created_at": "2026-10-01T07:56:57.765972+00:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "dialogue",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Bruno Simonのポートフォリオ",
+      "url": "https://bruno-simon.com/?utm_source=chatgpt.com",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "ゲーム感覚で情報を探索する表現に関心を持ったポートフォリオサイト。",
+      "highlights": [
+        {
+          "detail": "自分で選択し、ゲーム感覚で探索できると本人が報告した。",
+          "basis": "student_report",
+          "source_url": "https://bruno-simon.com/?utm_source=chatgpt.com",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "自分で選択出来てゲーム感覚でできるし、いろいろな情報をつぎ込めるのがいいし、時系列でも表せそう",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回の投稿準備ではサイトの実装や操作を直接確認していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "さまざまな情報を組み込み、時系列の情報も表現できそうだと考えた。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://bruno-simon.com/?utm_source=chatgpt.com",
+          "title": "Bruno Simon",
+          "access": "not_accessed",
+          "supports": "本人が関心を持ったサイト。今回の準備では直接検証していない。"
+        }
+      ],
+      "ai_notes": [
+        "時系列表示は本人の応用案であり、サイトの既存機能として確認したものではない。"
+      ],
+      "tags": [
+        "ポートフォリオ",
+        "探索",
+        "ゲーム感覚",
+        "時系列"
+      ],
+      "completeness": "needs_review",
+      "limitations": [
+        "初回投稿か未確認。投稿者IDは初回を想定した仮の新規IDで、公開前に確認が必要。",
+        "実装技術・具体的な操作挙動は未検証。"
+      ]
+    }
+  ]
+}

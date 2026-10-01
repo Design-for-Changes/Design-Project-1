@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
+  "contributor": {
+    "id": "p-29b96358289a",
+    "nickname": "りょ"
+  },
+  "created_at": "2026-10-01T17:14:23+09:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "html",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Toronto 2021 Dot Density Map",
+      "url": "https://schoolofcities.github.io/dot-density/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "トロントの国勢調査データを都市上の点として可視化し、人口や属性の空間分布を直感的に理解するための可視化。",
+      "highlights": [
+        {
+          "detail": "「1点 = 10人」という表現で数値を都市の模様へ変換し、3D表示では人口密度を高さとして捉えることでデータを風景のように見せている。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "数値を単にグラフ化せず、物理的な形・密度・高さに変換するところが面白い。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "deck.gl",
+          "status": "confirmed",
+          "role": "人口密度を3Dの点群レイヤーとして描画する。",
+          "reason": "deck.gl公式ShowcaseにToronto Dot Density Mapが掲載され、3Dのpoint cloud layerで人口密度を可視化すると説明されている。",
+          "evidence_urls": [
+            "https://deck.gl/showcase"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "数値を点・密度・高さ・色などの視覚属性に変換し、大量データを風景として探索できる表現に応用する。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://deck.gl/showcase",
+          "title": "deck.gl Showcase",
+          "access": "read",
+          "supports": "Toronto Dot Density Mapがdeck.glを利用し、人口密度を3D点群として表現していること。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "dot-density",
+        "map",
+        "3D",
+        "population",
+        "data-landscape"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "提出資料に記載された全実装技術までは確認していない。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "United Carriers",
+      "url": "https://unitedcarriers.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "物流企業のサービスや世界規模の輸送を、3D表現とスクロールを組み合わせたWeb体験として伝えるサイト。",
+      "highlights": [
+        {
+          "detail": "3Dの地球や輸送表現とスクロールアニメーションを組み合わせ、ページを進める操作自体を貨物の旅に近づけている。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "操作をコンテンツの意味と一致させており、3Dが飾りではなく「世界を結ぶ物流」を伝える装置になっているところが面白い。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "3D/WebGL",
+          "status": "confirmed",
+          "role": "物流の旅を立体的・没入的に表現する。",
+          "reason": "United Carriers自身の記事がサイトの特徴を「3D/WebGL freight journey」と説明している。",
+          "evidence_urls": [
+            "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "Three.js / GSAP / Webflow / Barba.js",
+          "status": "inferred",
+          "role": "3D描画、スクロールアニメーション、サイト構築や画面遷移に関係する可能性がある。",
+          "reason": "提出資料には使用技術として記載されているが、今回確認した公式記事だけでは各ライブラリの実装利用を個別に確定できない。",
+          "evidence_urls": [],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "スクロールやカメラ移動そのものに意味を持たせ、データ探索の進行をストーリーとして体験させる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral",
+          "title": "How an Australian Freight Forwarder’s Website Unexpectedly Went Viral",
+          "access": "read",
+          "supports": "サイトが3D/WebGLによる物流体験を特徴としていること。"
+        }
+      ],
+      "ai_notes": [
+        "提出資料にある個別ライブラリ名は、追加の実装証拠が得られるまで推定として扱った。"
+      ],
+      "tags": [
+        "3D",
+        "WebGL",
+        "scroll",
+        "storytelling",
+        "logistics"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "Three.js、GSAP、Webflow、Barba.jsの個別利用は今回の確認範囲では確定していない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "AI Tools Primer · The 3D Island",
+      "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "AIツールの情報カテゴリーを、建物や道路で構成された探索可能な3Dの島としてナビゲーションする作品。",
+      "highlights": [
+        {
+          "detail": "カテゴリーを建物、情報構造を街として表現し、ドラッグで視点を回転、スクロールでズームして探索できる。",
+          "basis": "source_description",
+          "source_url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+          "checked_at": "2026-10-01"
+        },
+        {
+          "detail": "道路を多数の3Dジオメトリとして作るのではなく、タイルごとに生成したCanvasテクスチャで島の表面に描いている。",
+          "basis": "source_description",
+          "source_url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "情報アーキテクチャそのものを空間化し、「メニューを選ぶ」から「世界を探索する」体験に変えているところが面白い。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Three.js",
+          "status": "confirmed",
+          "role": "3Dの島、建物、カメラ操作を含む探索空間を構築する。",
+          "reason": "Three.js Resourcesの作品ページでTechnologiesとしてThree.jsが明記されている。",
+          "evidence_urls": [
+            "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "2D Canvas texture",
+          "status": "confirmed",
+          "role": "道路網を島の表面テクスチャとして生成する。",
+          "reason": "作品ページで道路はgeometryではなくcanvas textureとして生成されると説明されている。",
+          "evidence_urls": [
+            "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
+          ],
+          "checked_at": "2026-10-01"
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "データや情報カテゴリーを地域・建物・階層などの空間構造に対応させ、ユーザーが世界を移動する感覚で探索できるようにする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+          "title": "AI Tools Primer — The 3D island | Three.js Showcase",
+          "access": "read",
+          "supports": "Three.jsの利用、Canvasテクスチャによる道路、ドラッグ・スクロール操作。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Three.js",
+        "3D",
+        "navigation",
+        "information-architecture",
+        "canvas"
+      ],
+      "completeness": "ready",
+      "limitations": []
+    },
+    {
+      "id": "i4",
+      "kind": "technology",
+      "title": "インタラクティブ可視化ライブラリ候補",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "大量データを探索可能なWeb表現にするために比較したライブラリ群。",
+      "highlights": [
+        {
+          "detail": "D3.js、Three.js、deck.gl、Plotly.js、Cytoscape.js、Observable Plotを候補として比較した。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "普通の棒グラフやダッシュボードだけでなく、大量のデータそのものを「世界」として感じられ、ズーム・ドラッグ・クリック・スクロールで探索できるWeb表現を目指したい。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "D3.js",
+          "status": "reproduction_candidate",
+          "role": "データ変換や2Dの独自可視化を担当する候補。",
+          "reason": "提出資料で候補として比較されている。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "Three.js",
+          "status": "reproduction_candidate",
+          "role": "3D空間や没入的な探索体験を担当する候補。",
+          "reason": "提出資料で候補として比較されている。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "deck.gl",
+          "status": "reproduction_candidate",
+          "role": "GPUを利用した大量データ描画を担当する候補。",
+          "reason": "提出資料で候補として比較されている。",
+          "evidence_urls": [
+            "https://deck.gl/"
+          ],
+          "checked_at": "2026-10-01"
+        },
+        {
+          "name": "Plotly.js",
+          "status": "reproduction_candidate",
+          "role": "分析向けインタラクティブグラフの候補。",
+          "reason": "提出資料で候補として比較されている。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "Cytoscape.js",
+          "status": "reproduction_candidate",
+          "role": "関係性・ネットワーク可視化の候補。",
+          "reason": "提出資料で候補として比較されている。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "Observable Plot",
+          "status": "reproduction_candidate",
+          "role": "比較的少ないコードで統計可視化を作る候補。",
+          "reason": "提出資料で候補として比較されている。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "deck.gl + D3.js + Three.jsを役割分担させ、大量描画・データ変換・3D体験を組み合わせる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://deck.gl/",
+          "title": "deck.gl",
+          "access": "read",
+          "supports": "deck.glがGPUを利用した大規模データの視覚的探索を目的とするフレームワークであること。"
+        }
+      ],
+      "ai_notes": [
+        "各ライブラリは、参考サイトが実際に利用しているという主張ではなく、同様の表現を実現する候補として整理した。"
+      ],
+      "tags": [
+        "D3.js",
+        "Three.js",
+        "deck.gl",
+        "Plotly.js",
+        "Cytoscape.js",
+        "Observable Plot"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "全候補ライブラリの性能上限や適用条件の詳細比較は今後の調査課題。"
+      ]
+    }
+  ]
+}

@@ -29,7 +29,7 @@ If the student has not supplied material, ask in Japanese for the file, folder, 
 
 Ask for a nickname that may be published in the public repository. Explain briefly that the nickname, comments, and research will be publicly visible. A nickname does not conceal the GitHub account used to submit a pull request, and Git commits may expose author information according to account settings. Do not promise anonymity.
 
-Registration means saving `contributor.id` and `contributor.nickname` inside the submission JSON. There is no separate account registration or central nickname list to edit.
+Registration means saving `contributor.id` and `contributor.nickname` inside the submission JSON. There is no separate account registration or central nickname list to edit. Ask for a non-identifying nickname, not the student's real name or student number. If a supplied nickname appears to identify a person, ask for an alternative before publishing.
 
 - First submission: generate a random UUID and use `c-<uuid>` as the contributor ID. Ask the student to confirm their chosen nickname.
 - Later submissions: reuse the contributor ID and nickname from the student's previous submission or an ID they provide. Do not identify someone solely by nickname, since nicknames may collide.
@@ -82,6 +82,23 @@ submissions/<contributor-id>/<submission-id>.json
 ```
 
 Use `s-<random-uuid>` for the submission ID. Generate UUIDs with an available tool, not a made-up existing identifier. If generation is unavailable, use a sufficiently distinctive lowercase letters-and-digits ID and check for an existing path before upload. Never overwrite a colliding path.
+
+Paths must use these random IDs, not student numbers, real names, email addresses, or personal computer usernames. Use a neutral branch name such as `submission/<submission-id>` and a pull request title containing only the approved non-identifying nickname. Check filenames, directory names, branch names, commit messages, and pull request text as well as JSON contents. Do not use the generated site's public `p-...` contributor IDs as student intake IDs; reuse your original random `c-...` ID.
+
+## Directory ownership and later updates
+
+- `submissions/`: student intake only. Add new submission JSON here, including later updates. Do not put submissions at the repository root or create nested duplicate `submissions/` directories.
+- `data/submissions/`: instructor-owned, privacy-cleaned archive. Students and their AI must not write here.
+- `data/manifest.json`: instructor-owned collection metadata, with no personal source paths or branch names.
+- `public/catalog.json`: generated site data. Never edit it by hand or submit research into it.
+- `src/`, `scripts/`, `.github/`: website and maintenance code. Not student submission targets.
+- `.local/`: ignored private working information. Never commit or upload it.
+
+For additional sites or technologies, add a new submission file with the same original contributor ID and approved nickname. For a correction to an earlier submission, add a new file whose `supersedes` array contains the old submission ID. A correction must include the complete updated contents of the earlier submission, including unchanged items; it replaces the earlier submission for display. Do not overwrite or delete the earlier file. Do not supersede another student's submission.
+
+Posting is not immediate site publication. The instructor collects current main and remote branch data, checks privacy, and publishes the archive snapshot. Do not promise that creating a pull request immediately updates the website.
+
+## Submission JSON structure
 
 The following is a structure example, not real research or ready-to-upload content. Replace placeholders. Use empty arrays or null for unavailable information, and document important gaps in `limitations`.
 

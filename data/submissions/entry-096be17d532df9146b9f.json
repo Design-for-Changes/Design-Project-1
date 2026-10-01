@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
+  "contributor": {
+    "id": "p-723799a90a50",
+    "nickname": "mio"
+  },
+  "created_at": "2026-10-01T17:14:17+09:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "html",
+      "public_url": null
+    },
+    {
+      "id": "m2",
+      "label": "提供資料 2",
+      "format": "dialogue",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Santioni Spirits — The Notturno Experience",
+      "url": "https://santionispirits.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "映像・音・3D表現とユーザー操作を組み合わせ、物語を進めながらブランドの世界観を体験する没入型Webサイト。",
+      "highlights": [
+        {
+          "detail": "スクロールで物語を進めるだけでなく、クリックなどの操作によって物語に影響を与えられる。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "スクロールで物語を進められるだけでなく、クリックなどで物語に影響を及ぼすことができる点が、普通のWebサイトに収まっていなくて面白いと思った。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "具体的な実装技術は一次情報やソースコードで確認していないため断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "データ値に応じて物語の分岐、3D空間の状態、オブジェクトの反応を変化させ、操作しながらデータの違いを体験できる可視化に応用できる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://santionispirits.com/",
+          "title": "Santioni Spirits — The Notturno Experience",
+          "access": "not_accessed",
+          "supports": "対象サイトの参照URL"
+        }
+      ],
+      "ai_notes": [
+        "具体的な実装技術は未確認。"
+      ],
+      "tags": [
+        "3D",
+        "没入型",
+        "ストーリーテリング",
+        "インタラクション"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "具体的な実装技術の確認は未実施。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Junni — NEXT",
+      "url": "https://next.junni.co.jp/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "キャラクターや背景への多様な操作を通して、企業の世界観を遊びながら体験できるインタラクティブなWebサイト。",
+      "highlights": [
+        {
+          "detail": "メインキャラクターだけでなく背景にも触れて反応を起こすことができ、ペンで背景に線を描ける。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "グラフィックがかわいい。メインにいるキャラクターに影響を与えることができるだけでなく、その後ろにも触ることができて面白い。特にペンで後ろに線を書けるところが面白い。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "具体的な実装技術は一次情報やソースコードで確認していないため断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "背景への描画やキャラクターへの操作を、データに印を付けたりデータ要素へ直接触れて比較・探索したりするインターフェースに応用できる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://next.junni.co.jp/",
+          "title": "Junni — NEXT",
+          "access": "not_accessed",
+          "supports": "対象サイトの参照URL"
+        }
+      ],
+      "ai_notes": [
+        "具体的な実装技術は未確認。"
+      ],
+      "tags": [
+        "インタラクティブ",
+        "キャラクター",
+        "描画",
+        "Web表現"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "具体的な実装技術の確認は未実施。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Bagan — Google Arts & Culture Experiment",
+      "url": "https://artsexperiments.withgoogle.com/bagan",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "ミャンマーのバガンにある寺院や文化遺産を、Web上で探索しながら体験できるGoogle Arts & Cultureの実験的プロジェクト。",
+      "highlights": [
+        {
+          "detail": "寺院や文化遺産をVR的に見るだけではなく、Webならではのインタラクションを取り入れた体験になっている。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "ただ寺院や文化遺産をVR的に見られるだけでなく、Webの特性を生かした作りになっているのが面白い。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "具体的な実装技術は一次情報やソースコードで確認していないため断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "位置・年代・種類などのデータを3D空間上の場所やオブジェクトに対応させ、探索によってデータ同士の関係を発見できる可視化に応用できる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artsexperiments.withgoogle.com/bagan",
+          "title": "Bagan — Google Arts & Culture Experiment",
+          "access": "not_accessed",
+          "supports": "対象サイトの参照URL"
+        }
+      ],
+      "ai_notes": [
+        "具体的な実装技術は未確認。"
+      ],
+      "tags": [
+        "3D",
+        "文化遺産",
+        "探索",
+        "インタラクティブ"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "具体的な実装技術の確認は未実施。"
+      ]
+    }
+  ]
+}

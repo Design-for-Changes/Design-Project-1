@@ -1,0 +1,17 @@
+{
+  "name": "design-project-1-archive",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "collect": "node scripts/collect.mjs",
+    "sync": "git fetch origin && node scripts/collect.mjs",
+    "catalog": "node scripts/catalog.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/catalog.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {"react": "^19.3.0", "react-dom": "^19.3.0"},
+  "devDependencies": {"vite": "^8.3.1", "@vitejs/plugin-react": "^6.1.1"}
+}
