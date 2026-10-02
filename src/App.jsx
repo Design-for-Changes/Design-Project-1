@@ -1,4 +1,5 @@
 import { useDeferredValue, useEffect, useMemo, useState } from 'react';
+import { technologyGenres, technologyGenre } from './technology-genres.js';
 import TechnologyDialog from './TechnologyDialog.jsx';
 import Preview from './Preview.jsx';
 import DetailDialog from './DetailDialog.jsx';
@@ -24,6 +25,7 @@ export default function App() {
   const [query,setQuery]=useState('');
   const [kind,setKind]=useState('all');
   const [technology,setTechnology]=useState('');
+  const [genre,setGenre]=useState('');
   const [contributor,setContributor]=useState('');
   const [selected,setSelected]=useState(null);
   const [selectedTechnology,setSelectedTechnology]=useState(()=>new URLSearchParams(window.location.search).get('technology'));
@@ -40,10 +42,10 @@ export default function App() {
   const entries=catalog?.entries || [];
   const technologies=useMemo(()=>[...new Set(entries.flatMap(technologyTags))].sort((a,b)=>a.localeCompare(b,'ja')),[entries]);
   const indexed=useMemo(()=>entries.map(entry=>({entry,text:searchText(entry)})),[entries]);
-  const visible=useMemo(()=>indexed.filter(({entry,text})=>(kind==='all'||entry.kind===kind)&&(!technology||technologyTags(entry).includes(technology))&&(!contributor||entry.contributions.some(c=>c.contributor.id===contributor))&&(!deferredQuery||deferredQuery.split(/\s+/).every(word=>text.includes(word)))).map(x=>x.entry),[indexed,kind,technology,contributor,deferredQuery]);
-  const wikiNames=technologies.filter(t=>(!technology||technology===t)&&(!deferredQuery||t.toLowerCase().includes(deferredQuery)));
-  const reset=()=>{setQuery('');setKind('all');setTechnology('');setContributor('');};
-  const filtered=!!query||kind!=='all'||!!technology||!!contributor;
+  const visible=useMemo(()=>indexed.filter(({entry,text})=>(kind==='all'||entry.kind===kind)&&(!genre||technologyTags(entry).some(t=>technologyGenre(t).id===genre))&&(!technology||technologyTags(entry).includes(technology))&&(!contributor||entry.contributions.some(c=>c.contributor.id===contributor))&&(!deferredQuery||deferredQuery.split(/\s+/).every(word=>text.includes(word)))).map(x=>x.entry),[indexed,kind,genre,technology,contributor,deferredQuery]);
+  const wikiNames=technologies.filter(t=>(!genre||technologyGenre(t).id===genre)&&(!technology||technology===t)&&(!deferredQuery||t.toLowerCase().includes(deferredQuery)));
+  const reset=()=>{setQuery('');setKind('all');setTechnology('');setGenre('');setContributor('');};
+  const filtered=!!query||kind!=='all'||!!technology||!!genre||!!contributor;
   const updated=catalog?.generated_at ? new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(catalog.generated_at)):null;
   return <>
     <a href="#archive" className="skip-link">事例一覧へ移動</a>
@@ -53,13 +55,15 @@ export default function App() {
       <section id="archive" className="archive-section" aria-label="リサーチを探す">
         <div className="filter-bar"><div className="tabs" role="group" aria-label="表示する種類">{[['all','すべて'],['site','Webサイト'],['technology','技術Wiki']].map(([value,label])=><button key={value} aria-pressed={kind===value} onClick={()=>setKind(value)}>{label}</button>)}</div><label className="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="表現・技術・コメントを検索" aria-label="表現・技術・コメントを検索" value={query} onChange={e=>setQuery(e.target.value)} /></label></div>
         <div className="filter-options"><label><span>投稿者</span><select aria-label="投稿者" value={contributor} onChange={e=>setContributor(e.target.value)}><option value="">すべてのニックネーム</option>{catalog?.contributors.map(c=><option key={c.id} value={c.id}>{c.nickname}</option>)}</select></label>{filtered ? <button className="reset" onClick={reset}>絞り込みを解除</button>:null}<p className="result-count" role="status" aria-live="polite">{catalog ? <><strong>{kind==='technology'?wikiNames.length:visible.length}</strong> 件</>:'読み込み中'}</p></div>
-        <div className="technology-filter" role="group" aria-label="技術タグで探す"><span className="technology-filter-label">技術タグで絞り込む</span><button className="technology-tag" aria-pressed={!technology} onClick={()=>setTechnology('')}>すべて</button>{technologies.map(t=><button className="technology-tag" key={t} aria-pressed={technology===t} onClick={()=>setTechnology(technology===t?'':t)}>#{t}<span>{entries.filter(e=>technologyTags(e).includes(t)).length}</span></button>)}</div>
-        {error ? <div className="empty-state" role="alert"><h2>データを読み込めませんでした</h2><p>{error}</p><button onClick={()=>window.location.reload()}>再読み込み</button></div> : !catalog ? <div className="loading-state">リサーチを読み込んでいます…</div> : kind==='technology' ? <div className="wiki-grid">{wikiNames.map(t=><button key={t} className="wiki-card" onClick={()=>openTechnology(t)}><span>TECHNOLOGY WIKI</span><h2>{t}</h2><p>{entries.filter(e=>technologyTags(e).includes(t)).length} 件の表現から読み解く</p><b aria-hidden="true">↗</b></button>)}</div> : visible.length ? <div className="card-grid">{visible.map((entry,index)=><ResearchCard entry={entry} index={index} key={entry.id} onOpen={setSelected} technology={technology} onTechnology={openTechnology}/>)}</div> : <div className="empty-state"><span className="empty-symbol" aria-hidden="true">∅</span><h2>{entries.length?'一致するリサーチはありません':'リサーチはまだありません'}</h2><p>{entries.length?'別のキーワードや条件で探してみてください。':'投稿を収集すると、ここに表示されます。'}</p>{filtered?<button onClick={reset}>すべて表示する</button>:null}</div>}
+        <div className="genre-filter" role="group" aria-label="技術のジャンル"><button aria-pressed={!genre} onClick={()=>{setGenre('');setTechnology('');}}>すべてのジャンル</button>{technologyGenres.filter(g=>technologies.some(t=>technologyGenre(t).id===g.id)).map(g=><button key={g.id} aria-pressed={genre===g.id} onClick={()=>{setGenre(genre===g.id?'':g.id);setTechnology('');}}>{g.label}</button>)}</div>
+        {kind!=='technology'?<div className="technology-filter" aria-label="技術タグで探す">{technologyGenres.map(g=>{const names=technologies.filter(t=>technologyGenre(t).id===g.id&&(!genre||genre===g.id));return names.length?<div className="technology-tag-group" key={g.id}><span className="technology-filter-label">{g.label}</span><div>{names.map(t=><button className="technology-tag" key={t} aria-pressed={technology===t} onClick={()=>setTechnology(technology===t?'':t)}>#{t}<span>{entries.filter(e=>technologyTags(e).includes(t)).length}</span></button>)}</div></div>:null;})}</div>:null}
+
+        {error ? <div className="empty-state" role="alert"><h2>データを読み込めませんでした</h2><p>{error}</p><button onClick={()=>window.location.reload()}>再読み込み</button></div> : !catalog ? <div className="loading-state">リサーチを読み込んでいます…</div> : kind==='technology' ? <div className="wiki-genres">{technologyGenres.map(g=>{const names=wikiNames.filter(t=>technologyGenre(t).id===g.id);return names.length?<section className="wiki-genre" key={g.id}><header><h2>{g.label}<span>{names.length}</span></h2><p>{g.description}</p></header><div className="wiki-grid">{names.map(t=><button key={t} className="wiki-card" onClick={()=>openTechnology(t)}><span>TECHNOLOGY WIKI</span><h3>{t}</h3><p>{entries.filter(e=>technologyTags(e).includes(t)).length} 件の表現から読み解く</p><b aria-hidden="true">↗</b></button>)}</div></section>:null;})}{!wikiNames.length?<div className="empty-state">一致する技術はありません。<button onClick={reset}>すべて表示する</button></div>:null}</div> : visible.length ? <div className="card-grid">{visible.map((entry,index)=><ResearchCard entry={entry} index={index} key={entry.id} onOpen={setSelected} technology={technology} onTechnology={openTechnology}/>)}</div> : <div className="empty-state"><span className="empty-symbol" aria-hidden="true">∅</span><h2>{entries.length?'一致するリサーチはありません':'リサーチはまだありません'}</h2><p>{entries.length?'別のキーワードや条件で探してみてください。':'投稿を収集すると、ここに表示されます。'}</p>{filtered?<button onClick={reset}>すべて表示する</button>:null}</div>}
       </section>
       {catalog ? <section className="collection-note"><div><span className="eyebrow">COLLECTION NOTE</span><p>mainを含む {catalog.summary.branches} ブランチから収集。{catalog.summary.submissions} 件の投稿データを掲載しています。</p><p className="subtle">同じURLの事例はまとめ、投稿者ごとのコメントと技術の確度は残しています。表示は収集時点のスナップショットです。</p></div><div className="updated">最終収集<span>{updated} JST</span>{catalog.summary.issues ? <details><summary>取り込み保留 {catalog.summary.issues} 件</summary><ul>{catalog.issues.map(i=><li key={i.id}>{i.reason}</li>)}</ul><p>元の投稿を修正後、再収集してください。</p></details>:null}</div></section>:null}
     </main>
     <footer className="site-footer"><span>DESIGN FOR CHANGES</span><span>PROJECT 01 / RESEARCH ARCHIVE</span></footer>
-    <TechnologyDialog name={selectedTechnology} entries={entries} onClose={()=>openTechnology(null)} onFilter={name=>{setKind('all');setTechnology(name);}} onOpen={setSelected}/>
+    <TechnologyDialog name={selectedTechnology} entries={entries} onClose={()=>openTechnology(null)} onFilter={name=>{setKind('all');setGenre('');setTechnology(name);}} onOpen={setSelected}/>
     <DetailDialog entry={selected} onClose={()=>setSelected(null)}/>
   </>;
 }
