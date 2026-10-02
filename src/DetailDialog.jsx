@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import Preview from './Preview.jsx';
 import { technologyLabels, observationLabels, safeUrl, host } from './utils.js';
 
 function External({ url, children, className }) {
@@ -16,7 +17,7 @@ export default function DetailDialog({ entry, onClose }) {
   return <dialog ref={ref} className="detail-dialog" onCancel={onClose} onClose={onClose} aria-labelledby="detail-title" onClick={event=>{if(event.target===event.currentTarget)onClose();}}>
     {entry ? <div className="detail-content">
       <div className="detail-top"><span className="eyebrow">{entry.kind==='site'?'WEBSITE':'TECHNOLOGY'} / RESEARCH NOTE</span><button className="close-button" onClick={onClose} aria-label="詳細を閉じる">×</button></div>
-      <h2 id="detail-title">{entry.title}</h2>
+      <div className="detail-preview"><Preview entry={entry} eager/></div><h2 id="detail-title">{entry.title}</h2>
       <div className="detail-link"><External url={entry.url} className="primary-link">{entry.kind==='site'?'サイトを開く':'参考ページを開く'} <span aria-hidden="true">↗</span></External><span>{host(entry.url)}</span></div>
       <div className="detail-tags">{entry.tags.map(t=><span className="tag" key={t}>{t}</span>)}</div>
       <p className="editor-note">以下は学生の投稿内容です。技術の「確認済み」は投稿内の区分であり、運営側が再検証したことを意味しません。</p>
