@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:51:08.278Z",
+  "generated_at": "2026-10-02T08:05:35.588Z",
   "summary": {
     "submissions": 6,
     "archived": 6,
@@ -11,7 +11,7 @@
   },
   "issues": [
     {
-      "id": "source-7244dcd96d71",
+      "id": "source-f98332f03e98",
       "reason": "空の投稿ファイル",
       "location": "main"
     },
@@ -21,7 +21,7 @@
       "location": "branch"
     },
     {
-      "id": "source-90e28e3c49bc",
+      "id": "source-aa96fb5bd7ab",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
       "location": "main"
     }

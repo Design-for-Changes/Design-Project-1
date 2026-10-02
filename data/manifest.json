@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "collected_at": "2026-10-01T08:51:08.278Z",
+  "collected_at": "2026-10-02T08:05:35.588Z",
   "scanned_branches": 8,
   "scanned_files": 10,
   "records": [
@@ -10,7 +10,8 @@
       "contributor_id": "p-3b94bba25d5a",
       "first_seen": "2026-10-01T08:49:00.729Z",
       "source_revisions": [
-        "4a49dd38a9893704215dcb6cb81c29bb3cd6bfe2"
+        "4a49dd38a9893704215dcb6cb81c29bb3cd6bfe2",
+        "518b68a470bf0986ee03351a38276ae1f6773747"
       ],
       "locations": [
         "main"
@@ -49,7 +50,8 @@
       "contributor_id": "p-0946edf7500c",
       "first_seen": "2026-10-01T08:51:08.278Z",
       "source_revisions": [
-        "4a49dd38a9893704215dcb6cb81c29bb3cd6bfe2"
+        "4a49dd38a9893704215dcb6cb81c29bb3cd6bfe2",
+        "518b68a470bf0986ee03351a38276ae1f6773747"
       ],
       "locations": [
         "main"
@@ -85,7 +87,7 @@
   ],
   "issues": [
     {
-      "id": "source-7244dcd96d71",
+      "id": "source-f98332f03e98",
       "reason": "空の投稿ファイル",
       "location": "main"
     },
@@ -95,7 +97,7 @@
       "location": "branch"
     },
     {
-      "id": "source-90e28e3c49bc",
+      "id": "source-aa96fb5bd7ab",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
       "location": "main"
     }
