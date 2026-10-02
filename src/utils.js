@@ -8,3 +8,7 @@ export function uniqueContributors(entry) { return [...new Map(entry.contributio
 export function searchText(entry) {
   return [entry.title,entry.url,...entry.tags,...entry.technologies,...entry.contributions.flatMap(c=>[c.description,c.contributor.nickname,...(c.student_comments || []).map(x=>x.text),...(c.highlights || []).map(x=>x.detail)])].filter(Boolean).join(' ').toLowerCase();
 }
+export function technologyTags(entry) {
+  const names=entry.technologies.flatMap(name=>name.split(/\s+\/\s+/)).map(name=>name.trim()).filter(Boolean);
+  return [...new Set(names.map(name=>/^three\.js$/i.test(name)?'three.js':name))];
+}
