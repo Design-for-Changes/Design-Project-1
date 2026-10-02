@@ -58,6 +58,41 @@ For technology research, retain what the technology does, suitable expressions, 
 
 You may research and explain missing technical context. Keep this assistance separate from what the student originally supplied. Do not turn intake into a requirement to produce a new report, demo, or finished visualization.
 
+## Prepare research for the visual archive and technology wiki
+
+The goal is to expand students' repertoire of expressions for future data-driven work. The instructor's site has two connected views: a visual gallery of websites and a technology wiki grouped by technology type. Prepare inputs for those views; do not edit the website or shared wiki during student intake.
+
+### Website entries: show the expression, preserve the perspective
+
+- Use one `kind: "site"` item per distinct website or project. Keep the precise URL for the relevant experience, not only a corporate homepage.
+- In `description`, explain what the visitor sees and does. Put concrete scenes and interactions in `highlights`: for example, which action changes position, density, shape, color, sound, or time. Attribute the observation using `basis` and record access limitations.
+- Preserve the student's own comments and reasons. Do not replace them with an AI-written promotional caption. Keep AI application suggestions in `applications` with `author: "ai"`.
+- Use a small set of meaningful Japanese expression tags, such as `粒子`, `地図`, `スクロール`, `音`, or `空間探索`, only when supported by the supplied material. Put technology names in `technologies`, not solely in `tags`.
+- When available, identify a publicly shared preview image such as an official `og:image` or `twitter:image`. An image suggestion may be recorded as a `sources` entry whose `supports` says `サムネイル候補（公式共有画像）`, together with its actual access state. A suggested image is not automatically ingested by the current collector; the instructor reviews and registers it separately.
+- Never invent a screenshot or use a generated illustration as if it showed the actual site. Do not upload screenshots or third-party image files without checking reuse permission. Do not expose private screenshots or private materials. An unavailable image does not block otherwise useful research.
+
+### Technology entries: separate tools, APIs, models, and materials
+
+Write a separate `kind: "technology"` item when the student researched a technology itself. Prefer one item per technology over a single list of unrelated tools. Use its official documentation URL where available; explain its purpose, possible expressions, prerequisites or constraints actually established by sources, and the student's interest. Link to supplied examples in `sources`. General technology research does not establish that a particular website uses it.
+
+For each `technologies` array entry, use ONE technology name and its own `role`, `status`, `reason`, and `evidence_urls`. Do not write `Three.js / GSAP / Webflow / Barba.js` as a single technology: split them and state what is known about each. If evidence only names the bundle of tools, retain that limitation for every relevant entry instead of upgrading them all to `confirmed`. Use canonical spelling such as `three.js`, `D3.js`, `deck.gl`, or `3ds Max`; do not merge different tools simply because they have similar names or purposes.
+
+Classify by what the technology IS before discussing what it can DO:
+
+| Type | Examples |
+| --- | --- |
+| JavaScript libraries / plugins | three.js, D3.js, GSAP, Tone.js, TensorFlow.js |
+| Web APIs / standards | WebGL, Canvas, SVG, Web Audio API, WebRTC |
+| 3D / design applications | 3ds Max, Revit |
+| Frameworks / authoring environments | Svelte, SvelteKit, Webflow, Processing, openFrameworks |
+| AI models | PoseNet |
+| Expression / implementation techniques | Canvas textures, shader-based particle computation |
+| Data formats / materials / prediction models | BVH, panoramic images, GFS |
+
+A JavaScript library and a desktop 3D application must not be presented as interchangeable tools. PoseNet is a model, TensorFlow.js is a library, and BVH is a data format. Describe the distinction in a technology item's `description`; use its type as a Japanese `tags` value when useful. The instructor maintains the actual navigation classification. If the type is unclear, document it in `limitations` rather than guessing.
+
+Do not add new schema keys or change `schema_version` merely to support classification or thumbnails. The current submission schema remains `1.0`; use the existing fields above. Wiki introductions added by the instructor must remain distinguishable from student comments and site-specific implementation evidence.
+
 ## Evidence and technology status
 
 Every technology attached to a site must have one of these statuses:
@@ -193,7 +228,7 @@ Keep distinct sites, projects, and observations. You may consolidate repeated no
 ## Review and upload
 
 1. Check repository access, the current default branch, applicable instructions, and existing submission paths. Do not assume read access includes write access.
-2. Prepare the JSON and validate that it parses. Check IDs, nickname, source-material references, enums, URLs, missing fields, and UTF-8 encoding. Do not upload example placeholders.
+2. Check that website observations, technology research, technology types, individual technology names, and any preview-image suggestions follow the mashup rules above. Prepare the JSON and validate that it parses. Check IDs, nickname, source-material references, enums, URLs, missing fields, and UTF-8 encoding. Do not upload example placeholders.
 3. Check that opinions are attributable, technical uncertainty is labeled, and supplied details have not disappeared. Do not claim an inaccessible URL is broken or verified.
 4. Show a concise Japanese preview with the nickname, every submitted item, student comments, technical statuses, and AI additions. Make the full JSON available. Ask for permission to publish.
 5. After confirmation, use a dedicated branch to add only the new submission file. Do not reset or discard existing local changes. Do not force push. Check the latest remote paths before uploading to avoid collisions.
