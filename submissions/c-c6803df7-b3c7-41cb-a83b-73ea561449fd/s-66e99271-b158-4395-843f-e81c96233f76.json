@@ -1,0 +1,391 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
+  "contributor": {
+    "id": "c-c6803df7-b3c7-41cb-a83b-73ea561449fd",
+    "nickname": "投稿者-e7c9"
+  },
+  "created_at": "2026-10-01T17:01:59.1449388+09:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "notion",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Austensor",
+      "url": "https://www.austensor.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "大量の粒子、立体や文字への変形、空間全体を使う表現。",
+      "highlights": [
+        {
+          "detail": "大量の粒子、立体や文字への変形、空間全体を使う表現。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "すごいと感じた参考作品として記録されている。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "React Three Fiber、WebGL、GLSLシェーダーとの記載があるとNotionに記録。個別の実装は未検証。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://www.austensor.com/"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.austensor.com/",
+          "title": "Austensor",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Rui",
+      "url": "https://www.ruitat.info/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "大きな文字、余白、限られた色、3D人物の存在感。",
+      "highlights": [
+        {
+          "detail": "大きな文字、余白、限られた色、3D人物の存在感。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "かわいい",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "Awwwards掲載情報でNext.js、Three.js、WebGLが挙げられているとNotionに記録。インク演出のアルゴリズムは未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://www.ruitat.info/"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.ruitat.info/",
+          "title": "Rui",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Particle Plotter",
+      "url": "https://openprocessing.org/@u65884/751983",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "操作に応じて粒子を発生させ、軌跡を描く体験。",
+      "highlights": [
+        {
+          "detail": "操作に応じて粒子を発生させ、軌跡を描く体験。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "マウスの動きに連動して点が滑らかに動くところ",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "Notionにはp5.jsの公開コードの説明がある。押下中に粒子を生成し、位置の更新と線の描画、半透明背景による残像、移動ルールの切り替えを行うと記録。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://openprocessing.org/@u65884/751983"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://openprocessing.org/@u65884/751983",
+          "title": "Particle Plotter",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Three.js Anaglyph",
+      "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "反射する球体と赤・シアンのずれによる立体視の表現。",
+      "highlights": [
+        {
+          "detail": "反射する球体と赤・シアンのずれによる立体視の表現。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "すごいと感じた参考作品として記録されている。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "Notionには公式dev版コードで500個の球、環境画像、三角関数による移動、マウスに追従するカメラ、AnaglyphEffectを確認したと記録。配信版との一致は未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://threejs.org/examples/webgl_effects_anaglyph.html"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://threejs.org/examples/webgl_effects_anaglyph.html",
+          "title": "Three.js Anaglyph",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "Three.js Helpers",
+      "url": "https://threejs.org/examples/webgl_helpers.html",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "人物の網目、補助線、内部構造や解析装置を思わせる見た目。",
+      "highlights": [
+        {
+          "detail": "人物の網目、補助線、内部構造や解析装置を思わせる見た目。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "すごいと感じた参考作品として記録されている。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "Notionには公式dev版コードでGLTFLoader、WireframeGeometry、EdgesGeometry、法線・接線・囲み枠・格子の表示を確認したと記録。配信版との一致は未確認。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://threejs.org/examples/webgl_helpers.html"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://threejs.org/examples/webgl_helpers.html",
+          "title": "Three.js Helpers",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "Temporal force-directed graph",
+      "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "時間で変化する点と接続、引力・反発の計算による配置の動き。",
+      "highlights": [
+        {
+          "detail": "時間で変化する点と接続、引力・反発の計算による配置の動き。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "すごいと感じた参考作品として記録されている。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "NotionにはD3の反発、リンク、中心への力、時間による点と線の選択、位置と速度の継承、SVG描画、ドラッグ中の位置固定を公開コードで確認したと記録。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://observablehq.com/@d3/temporal-force-directed-graph"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://observablehq.com/@d3/temporal-force-directed-graph",
+          "title": "Temporal force-directed graph",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "WeaveSilk",
+      "url": "https://weavesilk.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "色の混合、対称性、中心を挟んだ反転、中心へ向かう螺旋。",
+      "highlights": [
+        {
+          "detail": "色の混合、対称性、中心を挟んだ反転、中心へ向かう螺旋。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "これも好みだった",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "Notionには公式画面で設定を確認したと記録。内部の描画ライブラリや式は未確認。座標の回転・反転はAIが挙げた再現候補。 この投稿を整理したAIは元サイトやコードを再検証していないため、確認済み技術として断定しない。",
+          "evidence_urls": [
+            "https://weavesilk.com/"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://weavesilk.com/",
+          "title": "WeaveSilk",
+          "access": "not_accessed",
+          "supports": "Notion記録にある参考作品。今回のAIはリンク先を未閲覧。"
+        }
+      ],
+      "ai_notes": [
+        "Notionの会話要約を整理した。以前のAIによる技術調査の記録と、今回の直接検証を区別している。"
+      ],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元サイトの動作と実装は今回未検証。"
+      ]
+    }
+  ]
+}
