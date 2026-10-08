@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-03276ca3-8bd4-4f91-95d7-ef5804c290ec",
+  "contributor": {
+    "id": "c-66d3510b-e26d-4c3d-a79d-824ef6cc050d",
+    "nickname": "yuta-design"
+  },
+  "created_at": "2026-10-08T04:49:54Z",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "AIとの対話での調査（粒子表現のサイト）",
+      "format": "dialogue",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Shopify Editions | Spring '26",
+      "url": "https://www.shopify.com/editions/spring2026",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "Shopifyの新機能発表サイト。画面全体に固定された1枚のWebGLキャンバスに、点群でできた森、円周上を回る文字「Everywhere」、セクションごとに切り替わる3Dの背景を描いている。",
+      "highlights": [
+        {
+          "detail": "森は3Dモデルではなく点群データ（.bin）を点として描いている。各粒子は頂点シェーダー内でsin波のゆらぎ、curl noiseの流れ、SDF（距離関数）による押しのけを受けて動く。",
+          "basis": "direct_observation",
+          "source_url": "https://www.shopify.com/editions/spring2026",
+          "checked_at": "2026-10-08"
+        },
+        {
+          "detail": "マウスを動かすと粒子が流される。裏で2D流体シミュレーションが動いていて、マウスの軌跡を速度として注入し、各粒子は自分の画面位置の流速を読んでずれる。遠くの粒ほど動きが小さい。スクロール速度でも流体に力が加わる。",
+          "basis": "direct_observation",
+          "source_url": "https://www.shopify.com/editions/spring2026",
+          "checked_at": "2026-10-08"
+        },
+        {
+          "detail": "文字「Everywhere」は1文字ずつ円周（半径45vmin）に並べ、リングを18°傾けてY軸で回す。登場時は4.5秒で大きく回り、その後は150秒で1周。スクロール1pxで0.12°追加回転、マウスの横位置で最大18°傾く。文字のリングの形をした見えない障害物が粒子を押しのける。",
+          "basis": "direct_observation",
+          "source_url": "https://www.shopify.com/editions/spring2026",
+          "checked_at": "2026-10-08"
+        },
+        {
+          "detail": "スクロールすると背景のシーンが切り替わる。セクションごとのシーンを別々に描き、スクロール量に合わせて境界線を動かして合成する。スクロールが速いほど境界線が弓なりにしなる。",
+          "basis": "direct_observation",
+          "source_url": "https://www.shopify.com/editions/spring2026",
+          "checked_at": "2026-10-08"
+        },
+        {
+          "detail": "前のフレームを薄めて重ねる残像で光の尾を作り、流体が動いている所ほど色収差（RGBのずれ）を強めている。",
+          "basis": "direct_observation",
+          "source_url": "https://www.shopify.com/editions/spring2026",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "特に見たいのは粒子の動き、回る文字、スクロールすると徐々に変化する背景。",
+          "origin": "dialogue"
+        },
+        {
+          "text": "（投稿にあたって）粒子の動き。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "3D描画の基盤",
+          "reason": "読み込まれているJSにthree.coreのバンドルがあり、点群・文字・合成の各シェーダーがthree.jsのマテリアルとして書かれていることをコードで確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "React Three Fiber",
+          "status": "confirmed",
+          "role": "three.jsをReactで扱うためのライブラリ",
+          "reason": "react-three-fiberのバンドルが読み込まれ、背景コンポーネントがそのCanvasを使っていることをコードで確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "React",
+          "status": "confirmed",
+          "role": "サイト全体のUIフレームワーク",
+          "reason": "react / react-domのバンドルを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "Theatre.js",
+          "status": "confirmed",
+          "role": "セクションごとのカメラ・色・エフェクトの値をタイムラインで管理し、スクロール位置で再生位置を動かす",
+          "reason": "useTheatreObjectなどのモジュールと、セクションごとのTheatre.js形式の状態ファイル（hero-prod.jsonなど、sheetsByIdを持つ）を確認した。シーケンスの再生位置を書き換えるコードも確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "Lenis",
+          "status": "confirmed",
+          "role": "慣性付きのスムーズスクロール。スクロール量が流体シミュレーションにも渡される",
+          "reason": "lenisManagerモジュールと、Lenisのscrollイベントからスクロール速度を計算するコードを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "WebGL",
+          "status": "confirmed",
+          "role": "描画API",
+          "reason": "ページ上のcanvasがWebGL2コンテキストで動いていることを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "2D流体シミュレーション（WebGL-Fluid-Simulationベース）",
+          "status": "confirmed",
+          "role": "マウスとスクロールの動きを速度場にして粒子と文字を流す",
+          "reason": "シェーダーのコメントにPavel DobryakovのWebGL-Fluid-Simulation（MIT）由来と明記されており、curl・divergence・pressure・advectionの各パスを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026",
+            "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "SDF（符号付き距離関数）による粒子の押しのけ",
+          "status": "confirmed",
+          "role": "トーラスなどの見えない形状の周りから粒子を押し出す",
+          "reason": "頂点シェーダー内のapplySdfShapeCollision関数と、ヒーローのリングにtorus形状のSDFを設定するコードを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "curl noise",
+          "status": "confirmed",
+          "role": "粒子を渦のように漂わせる流れ",
+          "reason": "頂点シェーダーのapplyFlow関数でcurlNoiseを使っていることを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "Slug（GPUでのフォント曲線描画）",
+          "status": "inferred",
+          "role": "回る文字の描画。フォントのベジェ曲線をテクスチャに入れ、シェーダーで塗りを計算する",
+          "reason": "シェーダー内の変数名（slugAlpha、SLUG_MODELSPACE_UV）と、曲線・バンドのテクスチャから被覆率を計算する処理がSlug方式と一致する。名前と処理からの判断で、作者の説明は確認していない。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "KTX2",
+          "status": "confirmed",
+          "role": "連番テクスチャの圧縮形式",
+          "reason": ".ktx2ファイルとktx2-loaderの読み込みを確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "detect-gpu",
+          "status": "confirmed",
+          "role": "GPU性能を判定して画質を切り替える",
+          "reason": "@pmndrs/detect-gpuのベンチマークデータを読み込む通信を確認した。",
+          "evidence_urls": [
+            "https://www.shopify.com/editions/spring2026"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "データの1件を1粒子にし、値を粒の位置・色・大きさに割り当てる。マウス操作で粒子を流体のように動かすと、データに触れる感覚が出せる。"
+        },
+        {
+          "author": "ai",
+          "idea": "項目名や数値を円周に並べ、時間とスクロール量で回す。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.shopify.com/editions/spring2026",
+          "title": "Shopify Editions | Spring '26",
+          "access": "read",
+          "supports": "ブラウザで開き、読み込まれたJSとシェーダーのコードを読んで見どころと技術を確認した"
+        }
+      ],
+      "ai_notes": [
+        "技術の確認は、公開されているJSバンドルを読んだ結果による。ソースマップは公開されておらず、元のソースコードは見ていない。"
+      ],
+      "tags": [
+        "粒子",
+        "スクロール",
+        "文字",
+        "3D",
+        "流体"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "2026-10-08時点のサイトを確認した。モバイル版の挙動は確認していない。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "The Spirit（Edan Kwan）",
+      "url": "https://experiments.withgoogle.com/the-spirit",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "煙のような質感の粒子が流れ続けるWebGL作品（2016年）。",
+      "highlights": [
+        {
+          "detail": "noise derivatives（ノイズの微分）とcurl noiseで、煙のような流れを作っている。",
+          "basis": "source_description",
+          "source_url": "https://experiments.withgoogle.com/the-spirit",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "マウスと粒子の関係性が分かってよかった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "confirmed",
+          "role": "描画",
+          "reason": "Experiments with Googleの作品ページに Built with: WebGL とある。",
+          "evidence_urls": [
+            "https://experiments.withgoogle.com/the-spirit"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "curl noise",
+          "status": "confirmed",
+          "role": "粒子を煙のように流す",
+          "reason": "作品ページの説明に明記されている。",
+          "evidence_urls": [
+            "https://experiments.withgoogle.com/the-spirit"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://experiments.withgoogle.com/the-spirit",
+          "title": "The Spirit - Experiments with Google",
+          "access": "read",
+          "supports": "作品の説明と使用技術"
+        },
+        {
+          "url": "https://github.com/edankwan/The-Spirit",
+          "title": "edankwan/The-Spirit（GitHub）",
+          "access": "not_accessed",
+          "supports": "公開されているソースコード"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "粒子",
+        "マウス操作"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIは作品本体を動かしておらず、紹介ページの説明のみ確認した。マウス操作についてはコメントによる。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Particle Love（Edan Kwan）",
+      "url": "https://experiments.withgoogle.com/particle-love",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "Edan KwanがシェーダーでできることをWebGLで学ぶ過程で作った、粒子デモのシリーズ。",
+      "highlights": [
+        {
+          "detail": "SDFを使った粒子の物理（Leap Motionで操作）や、リアルタイムの3Dメタボール描画など、複数のデモがある。",
+          "basis": "source_description",
+          "source_url": "https://experiments.withgoogle.com/particle-love",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "マウスと粒子の関係性が分かってよかった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "confirmed",
+          "role": "描画",
+          "reason": "Experiments with Googleの作品ページの説明による。",
+          "evidence_urls": [
+            "https://experiments.withgoogle.com/particle-love"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "SDF（符号付き距離関数）",
+          "status": "confirmed",
+          "role": "粒子の衝突などの物理",
+          "reason": "作品ページの説明にSDF particle physicsとある。",
+          "evidence_urls": [
+            "https://experiments.withgoogle.com/particle-love"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "Leap Motion",
+          "status": "confirmed",
+          "role": "手の動きで粒子を操作する入力装置",
+          "reason": "作品ページの説明にある。",
+          "evidence_urls": [
+            "https://experiments.withgoogle.com/particle-love"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://experiments.withgoogle.com/particle-love",
+          "title": "Particle Love - Experiments with Google",
+          "access": "read",
+          "supports": "作品の説明"
+        },
+        {
+          "url": "http://edankwan.com/experiments/particle-love/",
+          "title": "Particle Love（作者サイト）",
+          "access": "not_accessed",
+          "supports": "デモ本体"
+        }
+      ],
+      "ai_notes": [
+        "最初の紹介で「マウスに引き寄せられる粒子」と説明したが、正しくは複数デモのシリーズ。"
+      ],
+      "tags": [
+        "粒子",
+        "マウス操作"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモ本体を動かしておらず、紹介ページの説明のみ確認した。"
+      ]
+    }
+  ]
+}
