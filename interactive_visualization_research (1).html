@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interactive Data Visualization Research</title>
+<style>
+:root{
+  --bg:#f6f8fb;--panel:#ffffff;--panel2:#f1f5f9;--text:#172033;--muted:#627086;
+  --line:#dbe3ec;--accent:#2563eb;--accent2:#0f766e;--orange:#c96a18;--pink:#b83280;
+  --shadow:0 10px 30px rgba(34,54,88,.08)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#f9fbff 0,#f6f8fb 55%,#f3f6fa 100%);color:var(--text);font-family:Inter,"Noto Sans JP",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.75}
+a{color:#1d4ed8;text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:auto;padding:28px 22px 80px}
+.hero{padding:54px 0 32px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent2);font-weight:800}
+.hero h1{font-size:clamp(2.2rem,6vw,5rem);line-height:1.03;margin:.35em 0 .25em;letter-spacing:-.045em}
+.hero p{max-width:850px;color:var(--muted);font-size:1.08rem}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 11px;color:#46566f;font-size:.83rem}
+.layout{display:grid;grid-template-columns:250px 1fr;gap:34px;margin-top:32px}
+.toc{position:sticky;top:20px;align-self:start;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow)}
+.toc b{display:block;margin-bottom:8px}.toc a{display:block;padding:6px 8px;color:var(--muted);border-radius:8px;font-size:.9rem}.toc a:hover{background:var(--panel2);color:var(--text);text-decoration:none}
+main{min-width:0}section{padding:30px 0;border-bottom:1px solid var(--line)}h2{font-size:1.72rem;margin:0 0 14px}h3{font-size:1.14rem;margin:22px 0 8px}.lead{color:#35445c}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 6px 18px rgba(47,67,102,.05)}.card h3{margin:0 0 5px}.card p{margin:.3em 0;color:var(--muted)}
+.tag{display:inline-block;margin:4px 4px 0 0;border-radius:6px;padding:2px 7px;font-size:.76rem;background:#edf3fb;color:#43546c;border:1px solid #d8e2ee}
+.idea{border-left:4px solid var(--accent);padding:12px 16px;background:#eef4ff;border-radius:0 12px 12px 0;margin:14px 0}.quote{font-size:1.18rem;line-height:1.55;color:#23324b}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff}.table-wrap table{width:100%;border-collapse:collapse;min-width:760px}.table-wrap th,.table-wrap td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.table-wrap th{color:#41526b;background:#f3f6fa;font-size:.85rem}.table-wrap td{font-size:.92rem}
+.site{padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:18px;margin:15px 0;box-shadow:var(--shadow)}.site-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.site h3{font-size:1.35rem;margin:0}.num{font-size:2.4rem;color:#d7e0ec;font-weight:900;line-height:1}.flow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0}.flow span{padding:7px 10px;background:#f4f7fb;border:1px solid var(--line);border-radius:9px;font-size:.86rem}.arrow{color:#8a98ac}.accent{color:var(--accent2)}.warn{color:var(--orange)}
+.favorite{border:2px solid #bed4ff;background:linear-gradient(180deg,#fff 0,#f7faff 100%)}.favorite .num{color:#aec7f8}.recommended{border-left:5px solid #7aa2ef}
+.smallnote{font-size:.9rem;color:var(--muted)}.todo li{margin:7px 0;color:#495970}.stamp{margin-top:30px;color:#8290a4;font-size:.82rem}
+@media(max-width:820px){.layout{grid-template-columns:1fr}.toc{position:relative;top:0}.grid{grid-template-columns:1fr}.hero{padding-top:30px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<div class="eyebrow">Research Log · v3.0</div>
+<h1>Interactive Data<br>Visualization Research</h1>
+<p>大量データや複雑な情報を、ただグラフにするのではなく、<strong>見た瞬間に特徴が伝わり、触ることで理解が深まるWeb表現</strong>へ変えるための調査ノート。データ可視化の本命事例と、世界観・スクロール・カーソル反応などの体験表現を分けて整理する。</p>
+<div class="chips"><span class="chip">Large Data</span><span class="chip">Interactive</span><span class="chip">Data → Visual Meaning</span><span class="chip">Scrollytelling</span><span class="chip">Open Data</span><span class="chip">2D / 3D / Motion</span></div>
+</header>
+<div class="layout">
+<nav class="toc"><b>INDEX</b><a href="#goal">01 目標</a><a href="#favorites">02 今の本命参考資料</a><a href="#all-sites">03 面白いと思ったサイト一覧</a><a href="#patterns">04 可視化アイデア辞典</a><a href="#libs">05 技術候補</a><a href="#direction">06 現時点の方向性</a><a href="#todo">07 次に調べること</a></nav>
+<main>
+<section id="goal"><h2>01. 目標 🎯</h2><p class="lead">大量データや複雑な情報を、<strong>分かりやすいだけでなく、面白くて触りたくなる形</strong>にしたい。現在は「3Dにすること」自体より、<strong>データの意味に合う視覚表現とインタラクションを考えること</strong>を重視している。</p><div class="idea"><div class="quote">データを見る → 特徴を感じる → 触って比較する → 関係や変化を理解する</div></div></section>
+
+<section id="favorites"><h2>02. 今の本命参考資料 ⭐</h2>
+<p class="lead">今いちばん参考にしたいのは、<strong>「日本のお野菜収穫量」</strong>と<strong>「まちの計量舎」</strong>。どちらも、実データを「見れば分かる」形へ翻訳していて、派手さよりも<strong>情報と表現の対応がうまい</strong>。</p>
+<article class="site favorite"><div class="site-head"><div><h3>日本のお野菜収穫量</h3><a href="https://infographic.jp/nippon-yasai/" target="_blank" rel="noopener">infographic.jp/nippon-yasai/ ↗</a></div><div class="num">01</div></div><p><strong>面白いところ：</strong>都道府県ごとの収穫量を、表ではなく<strong>円の大きさ・色・位置</strong>で表現。野菜や年代を切り替えると地域差が一瞬で分かる。</p><div class="flow"><span>収穫量</span><b class="arrow">→</b><span>円の大きさ</span><b class="arrow">→</b><span>地域差を直感的に理解</span></div><p><strong>学び：</strong><span class="accent">数量を「大きさ」に翻訳し、地理と組み合わせるだけでも理解速度が大きく変わる。</span></p></article>
+<article class="site favorite"><div class="site-head"><div><h3>まちの計量舎</h3><a href="https://keiryosha.com/" target="_blank" rel="noopener">keiryosha.com ↗</a></div><div class="num">02</div></div><p><strong>面白いところ：</strong>都市・交通・人口・行動などの実データを、地図、時系列、類似度、ミニチャートなど多様な方法で可視化。データごとに最適な見せ方を考えている。</p><div class="flow"><span>都市データ</span><b class="arrow">→</b><span>場所 / 時間 / 類似度</span><b class="arrow">→</b><span>街の特徴が見える</span></div><p><strong>学び：</strong><span class="accent">「何を比較したいか」に応じて、表現方法そのものを変える。</span></p></article>
+
+
+</section>
+
+<section id="all-sites"><h2>03. 今まで「面白い」と思ったサイト一覧 🗂️</h2>
+<p class="lead">ここには、これまでの会話で特に面白いと感じたサイトをまとめる。<strong>データ可視化の参考</strong>と<strong>体験・インタラクションの参考</strong>を両方残しておく。</p>
+<div class="grid">
+<div class="card"><h3>日本のお野菜収穫量</h3><p><a href="https://infographic.jp/nippon-yasai/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>都道府県ごとの収穫量を円の大きさ・色・位置で表現。</p><span class="tag">Data Viz</span><span class="tag">Size</span><span class="tag">Japan</span></div>
+<div class="card"><h3>まちの計量舎</h3><p><a href="https://keiryosha.com/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>都市データを多様な可視化方法で読み解く、日本語のアイデア宝庫。</p><span class="tag">Urban Data</span><span class="tag">Interactive</span></div>
+<div class="card"><h3>人口動態マップ</h3><p><a href="https://osakenpiro.github.io/japan-wallet-map/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>人口の移り変わりを時系列で追い、東京への人口集中の背景を視覚的に見る。</p><span class="tag">Population</span><span class="tag">Time</span></div>
+<div class="card"><h3>Toronto 2021 Dot Density Map</h3><p><a href="https://schoolofcities.github.io/dot-density/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>人口データを大量の点・色・高さに変換し、都市そのものをデータ風景にする。</p><span class="tag">Large Data</span><span class="tag">Landscape</span></div>
+<div class="card"><h3>United Carriers</h3><p><a href="https://unitedcarriers.com/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>スクロールと物流の進行を一致させ、企業の事業を「旅」として体験させる。</p><span class="tag">Scroll</span><span class="tag">3D</span><span class="tag">Journey</span></div>
+<div class="card"><h3>AI Tools Primer: The 3D Island</h3><p><a href="https://threejsresources.com/showcase/ai-tools-primer-the-3d-island" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>カテゴリや情報を建物・島として空間化。<strong>情報アーキテクチャをそのまま世界にする</strong>発想。</p><span class="tag">Information Space</span><span class="tag">3D</span></div>
+<div class="card"><h3>RINGO ICE BAR</h3><p><a href="https://ringo-applepie.com/lp/icebar/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>氷の透明感・冷たさ・質感を画面表現に翻訳。カーソル反応が触りたくなる感覚を生む。</p><span class="tag">Cursor</span><span class="tag">Material</span><span class="tag">WebGL</span></div>
+<div class="card"><h3>POLA MENOMAE</h3><p><a href="https://www.pola.co.jp/special/o/wecaremore/menomae/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>世界観とインタラクションを組み合わせ、読むだけではなく体験として内容を伝える。</p><span class="tag">Story</span><span class="tag">Interaction</span></div>
+<div class="card"><h3>PIERRE HERMÉ NOËL 2025</h3><p><a href="https://www.s2factory.co.jp/blog/noel2025/" target="_blank" rel="noopener">制作解説を開く ↗</a></p><p>スクロールが「深海へ潜る」という意味を持つ。スクロール＝時間・深度・階層という応用のヒント。</p><span class="tag">Scrollytelling</span><span class="tag">Immersive</span></div>
+<div class="card"><h3>カーソル・インタラクション集</h3><p><a href="https://higashiyuki.com/interaction/cursor/" target="_blank" rel="noopener">サイトを開く ↗</a></p><p>カーソル追従、軌跡、吸着、クリック反応など、インタラクションを「部品」として考える参考になった。</p><span class="tag">Cursor</span><span class="tag">Micro Interaction</span></div>
+</div>
+<p class="smallnote">※ 上の一覧は「完成形をそのまま真似するため」ではなく、<strong>何の情報を、どんな見た目や操作へ変換しているか</strong>を分解して参考にするためのリスト。</p>
+</section>
+
+<section id="patterns"><h2>04. 可視化アイデア辞典 🧠</h2><div class="table-wrap"><table><thead><tr><th>元データ / 情報</th><th>変換先</th><th>何が分かりやすくなる？</th><th>参考例</th></tr></thead><tbody>
+<tr><td>数量</td><td>大きさ</td><td>多い / 少ない</td><td>日本のお野菜収穫量</td></tr>
+<tr><td>地域差</td><td>位置・色</td><td>どこに特徴があるか</td><td>日本のお野菜収穫量、まちの計量舎</td></tr>
+<tr><td>人口の歴史</td><td>時間変化</td><td>集中・移動・都市成長</td><td>人口動態マップ</td></tr>
+<tr><td>人口密度</td><td>点・高さ・地形</td><td>集中している場所</td><td>Toronto Dot Density</td></tr>
+<tr><td>情報カテゴリ</td><td>建物・島・空間</td><td>カテゴリ構造</td><td>3D Island</td></tr>
+<tr><td>事業プロセス</td><td>スクロールの進行</td><td>時間・順序・旅</td><td>United Carriers</td></tr>
+<tr><td>商品の質感</td><td>マテリアル・反応</td><td>冷たさ・透明感・触感</td><td>RINGO ICE BAR</td></tr>
+<tr><td>階層・深度</td><td>スクロール</td><td>奥へ進む感覚</td><td>NOËL 2025</td></tr>
+<tr><td>説明・ストーリー</td><td>操作</td><td>体験を通じた理解</td><td>POLA MENOMAE</td></tr>
+<tr><td>細かな操作感</td><td>カーソル反応</td><td>「触りたい」をつくる</td><td>カーソル・インタラクション集</td></tr>
+</tbody></table></div><div class="idea"><strong>今の重要な考え方</strong><br>「どのライブラリを使うか」より先に、<strong>このデータの特徴を、位置・大きさ・色・高さ・動き・時間・距離・スクロールのどれに翻訳すると理解しやすいか</strong>を考える。</div></section>
+
+<section id="libs"><h2>05. 技術候補 🧰</h2><div class="grid">
+<div class="card"><h3>D3.js</h3><p>独自の2D可視化、SVG、Canvas、ズーム、ネットワークなど。「データ → 見た目」の変換ルールを細かく作れる。</p><span class="tag">2D</span><span class="tag">Custom</span><span class="tag">Interaction</span></div>
+<div class="card"><h3>Three.js</h3><p>3D空間、粒子、カメラ、光、シェーダー。データを地形・物体・世界へ変えるときに強い。</p><span class="tag">3D</span><span class="tag">WebGL</span></div>
+<div class="card"><h3>deck.gl</h3><p>大量の点・線・地理データをGPUで高速描画。大規模データを扱う場合の有力候補。</p><span class="tag">GPU</span><span class="tag">Massive Data</span></div>
+<div class="card"><h3>GSAP / ScrollTrigger</h3><p>スクロールとアニメーションを結びつける。NOËLやUnited Carriersのように「操作 = 進行」にしたいときに有効。</p><span class="tag">Scroll</span><span class="tag">Motion</span></div>
+<div class="card"><h3>SVG / Canvas</h3><p>WebGLを使わなくても、豊かなインタラクティブ可視化が可能。軽量で説明的な表現に向く。</p><span class="tag">2D</span><span class="tag">Lightweight</span></div>
+<div class="card"><h3>Plotly / Observable Plot</h3><p>分析系の比較や検証用プロトタイプを素早く作る。アイデア検証の初期段階にも便利。</p><span class="tag">Prototype</span><span class="tag">Analytics</span></div>
+</div></section>
+
+<section id="direction"><h2>06. 現時点の方向性 🚀</h2><p>今の興味は、単なる「3Dサイト」よりも、<strong>データの意味を保ったまま、理解しやすく面白い体験へ変換すること</strong>にある。</p><div class="grid">
+<div class="card"><h3>① 全体像をまず見せる</h3><p>大量データを最初から細かく読ませず、模様・色・密度・形として全体を見せる。</p></div>
+<div class="card"><h3>② 気になる場所を触る</h3><p>ホバー、クリック、ドラッグ、スクロールで詳細が現れる。操作を「探索」にする。</p></div>
+<div class="card"><h3>③ データに合う比喩を使う</h3><p>量→大きさ、流れ→粒子、密度→高さ、時間→動き、関係→線、階層→深度など。</p></div>
+<div class="card"><h3>④ 見たくなる世界観も大事</h3><p>NOËL、RINGO、POLAのように、理解だけでなく「触りたい」「見続けたい」をつくる。</p></div>
+</div><h3>理想の探索体験</h3><div class="flow"><span>全体を眺める</span><b class="arrow">→</b><span>気になる部分を発見</span><b class="arrow">→</b><span>触る / ズーム / スクロール</span><b class="arrow">→</b><span>比較・関係を見る</span><b class="arrow">→</b><span>個別データを理解</span></div></section>
+
+<section id="todo"><h2>07. 次に調べること 🔎</h2><ul class="todo"><li>日本語で公開されている「実データ × 面白い可視化」の事例をさらに集める</li><li>参考サイトを「量・時間・流れ・関係・類似度・階層・操作」など表現タイプ別に整理する</li><li>自分が扱いたい大規模データ候補を決め、そのデータに合う視覚変換を考える</li><li>日本のお野菜収穫量とまちの計量舎を、本命参考としてより細かく分析する</li><li>人口動態マップのような「時系列で意味が見える」表現を増やして探す</li><li>NOËL・RINGO・POLAのインタラクションを、データ可視化にどう組み合わせられるか考える</li></ul><p class="warn">※ 技術名ありきではなく、「何を分かりやすくしたいか → どんな視覚変換が有効か → そのためにどの技術を使うか」の順で考える。</p></section>
+<p class="stamp">Updated 2026-10-06 · v3.0 · このHTMLは今後のチャット内容に合わせて更新する調査ノート。</p>
+</main></div></div>
+</body></html>
