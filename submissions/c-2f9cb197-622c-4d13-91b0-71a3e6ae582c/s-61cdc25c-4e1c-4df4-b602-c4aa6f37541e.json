@@ -1,0 +1,570 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+  "contributor": {
+    "id": "c-2f9cb197-622c-4d13-91b0-71a3e6ae582c",
+    "nickname": "りょ"
+  },
+  "created_at": "2026-10-08T14:01:07+09:00",
+  "supersedes": [
+    "s-92e2866a-0519-409e-a83e-259b7733d01b"
+  ],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "インタラクティブデータ可視化調査ノート v3.0",
+      "format": "html",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "日本のお野菜収穫量",
+      "url": "https://infographic.jp/nippon-yasai/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "都道府県ごとの収穫量を円の大きさ・色・位置で表現。",
+      "highlights": [
+        {
+          "detail": " 都道府県ごとの収穫量を、表ではなく 円の大きさ・色・位置 で表現。野菜や年代を切り替えると地域差が一瞬で分かる。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": " 数量を「大きさ」に翻訳し、地理と組み合わせるだけでも理解速度が大きく変わる。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://infographic.jp/nippon-yasai/",
+          "title": "日本のお野菜収穫量",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Data Viz",
+        "Size",
+        "Japan"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "まちの計量舎",
+      "url": "https://keiryosha.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "都市データを多様な可視化方法で読み解く、日本語のアイデア宝庫。",
+      "highlights": [
+        {
+          "detail": " 都市・交通・人口・行動などの実データを、地図、時系列、類似度、ミニチャートなど多様な方法で可視化。データごとに最適な見せ方を考えている。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": " 「何を比較したいか」に応じて、表現方法そのものを変える。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://keiryosha.com/",
+          "title": "まちの計量舎",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Urban Data",
+        "Interactive"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "人口動態マップ",
+      "url": "https://osakenpiro.github.io/japan-wallet-map/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "人口の移り変わりを時系列で追い、東京への人口集中の背景を視覚的に見る。",
+      "highlights": [
+        {
+          "detail": "人口の移り変わりを時系列で追い、東京への人口集中の背景を視覚的に見る。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://osakenpiro.github.io/japan-wallet-map/",
+          "title": "人口動態マップ",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Population",
+        "Time"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Toronto 2021 Dot Density Map",
+      "url": "https://schoolofcities.github.io/dot-density/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "人口データを大量の点・色・高さに変換し、都市そのものをデータ風景にする。",
+      "highlights": [
+        {
+          "detail": "人口データを大量の点・色・高さに変換し、都市そのものをデータ風景にする。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "数値を単にグラフ化せず、物理的な形・密度・高さに変換するところが面白い。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "deck.gl",
+          "status": "confirmed",
+          "role": "3D点群による人口密度の可視化",
+          "reason": "前回の提出資料でdeck.gl公式Showcaseを根拠として確認した情報。今回の再検証は未実施。",
+          "evidence_urls": [
+            "https://deck.gl/showcase"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://schoolofcities.github.io/dot-density/",
+          "title": "Toronto 2021 Dot Density Map",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Large Data",
+        "Landscape"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "United Carriers",
+      "url": "https://unitedcarriers.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "スクロールと物流の進行を一致させ、企業の事業を「旅」として体験させる。",
+      "highlights": [
+        {
+          "detail": "スクロールと物流の進行を一致させ、企業の事業を「旅」として体験させる。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "操作をコンテンツの意味と一致させ、3Dを物流の意味を伝える装置として使う点が面白い。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "3D / WebGL",
+          "status": "confirmed",
+          "role": "立体的な物流体験",
+          "reason": "前回提出で公式解説を根拠として確認した情報。今回の再検証は未実施。",
+          "evidence_urls": [
+            "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://unitedcarriers.com/",
+          "title": "United Carriers",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Scroll",
+        "3D",
+        "Journey"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "AI Tools Primer: The 3D Island",
+      "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "カテゴリや情報を建物・島として空間化。 情報アーキテクチャをそのまま世界にする 発想。",
+      "highlights": [
+        {
+          "detail": "カテゴリや情報を建物・島として空間化。 情報アーキテクチャをそのまま世界にする 発想。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "情報アーキテクチャそのものを空間化し、メニュー選択を世界探索に変えている点が面白い。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Three.js",
+          "status": "confirmed",
+          "role": "3D空間の表現",
+          "reason": "前回提出で作品紹介ページを根拠として確認した情報。今回の再検証は未実施。",
+          "evidence_urls": [
+            "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+          "title": "AI Tools Primer: The 3D Island",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Information Space",
+        "3D"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "RINGO ICE BAR",
+      "url": "https://ringo-applepie.com/lp/icebar/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "氷の透明感・冷たさ・質感を画面表現に翻訳。カーソル反応が触りたくなる感覚を生む。",
+      "highlights": [
+        {
+          "detail": "氷の透明感・冷たさ・質感を画面表現に翻訳。カーソル反応が触りたくなる感覚を生む。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "資料のタグにWebGLの記載があるが実装の裏付けは未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://ringo-applepie.com/lp/icebar/",
+          "title": "RINGO ICE BAR",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Cursor",
+        "Material",
+        "WebGL"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i8",
+      "kind": "site",
+      "title": "POLA MENOMAE",
+      "url": "https://www.pola.co.jp/special/o/wecaremore/menomae/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "世界観とインタラクションを組み合わせ、読むだけではなく体験として内容を伝える。",
+      "highlights": [
+        {
+          "detail": "世界観とインタラクションを組み合わせ、読むだけではなく体験として内容を伝える。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.pola.co.jp/special/o/wecaremore/menomae/",
+          "title": "POLA MENOMAE",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Story",
+        "Interaction"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i9",
+      "kind": "site",
+      "title": "PIERRE HERMÉ NOËL 2025",
+      "url": "https://www.s2factory.co.jp/blog/noel2025/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "スクロールが「深海へ潜る」という意味を持つ。スクロール＝時間・深度・階層という応用のヒント。",
+      "highlights": [
+        {
+          "detail": "スクロールが「深海へ潜る」という意味を持つ。スクロール＝時間・深度・階層という応用のヒント。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.s2factory.co.jp/blog/noel2025/",
+          "title": "PIERRE HERMÉ NOËL 2025",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Scrollytelling",
+        "Immersive"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i10",
+      "kind": "site",
+      "title": "カーソル・インタラクション集",
+      "url": "https://higashiyuki.com/interaction/cursor/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "カーソル追従、軌跡、吸着、クリック反応など、インタラクションを「部品」として考える参考になった。",
+      "highlights": [
+        {
+          "detail": "カーソル追従、軌跡、吸着、クリック反応など、インタラクションを「部品」として考える参考になった。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://higashiyuki.com/interaction/cursor/",
+          "title": "カーソル・インタラクション集",
+          "access": "not_accessed",
+          "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [
+        "Cursor",
+        "Micro Interaction"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+        "この更新作業では参考サイトの実際の動作を再検証していない。"
+      ]
+    },
+    {
+      "id": "i11",
+      "kind": "technology",
+      "title": "可視化・インタラクション技術候補",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "データの特徴に合わせた視覚変換と操作体験を実現するための技術候補。",
+      "highlights": [
+        {
+          "detail": "3Dありきではなく、数量・地域差・時間・関係・階層などを適切な視覚表現に変換する方針。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "「どのライブラリを使うか」より先に、このデータの特徴を位置・大きさ・色・高さ・動き・時間・距離・スクロールのどれに翻訳すると理解しやすいかを考える。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "D3.js",
+          "status": "reproduction_candidate",
+          "role": "提出資料で挙げられた表現実装の候補。",
+          "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "Three.js",
+          "status": "reproduction_candidate",
+          "role": "提出資料で挙げられた表現実装の候補。",
+          "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "deck.gl",
+          "status": "reproduction_candidate",
+          "role": "提出資料で挙げられた表現実装の候補。",
+          "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "GSAP / ScrollTrigger",
+          "status": "reproduction_candidate",
+          "role": "提出資料で挙げられた表現実装の候補。",
+          "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "SVG / Canvas",
+          "status": "reproduction_candidate",
+          "role": "提出資料で挙げられた表現実装の候補。",
+          "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "Plotly / Observable Plot",
+          "status": "reproduction_candidate",
+          "role": "提出資料で挙げられた表現実装の候補。",
+          "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "全体像を見せ、ホバー・クリック・ズーム・スクロールで詳細を探索し、比較や関係の理解につなげる。"
+        }
+      ],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [
+        "visualization",
+        "interaction",
+        "2D",
+        "3D",
+        "scrollytelling"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "ライブラリごとの性能や実装適合性は今後の調査課題。"
+      ]
+    }
+  ]
+}
