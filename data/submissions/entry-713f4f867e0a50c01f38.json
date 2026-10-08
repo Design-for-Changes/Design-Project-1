@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+  "contributor": {
+    "id": "p-3b94bba25d5a",
+    "nickname": "しゅうた"
+  },
+  "created_at": null,
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "markdown",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "3D Pottery",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "形を変えたり削ったりするときの気持ちよさを、画面越しでも感じられる",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Interactive 3D Cluster",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "クリックだけでなく、ドラッグや触れる操作で飛び出すような反応が気持ちよい",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "The Cartier Roadster",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "細かな形をあらゆる角度から観察できる。下へスクロールすると迫力のある動きが見られる",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Igloo Inc.",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "ゲームのようなグラフィックがよい。会話の中で、自分で世界を移動できることにも関心を示した",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "EverSwap",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "Human: Fall Flatを思わせる見た目が好き。ただし暗号資産との結び付きが分かりにくく、サイトとしてはあまりよくないと感じた",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "SkeletonFluidReveal",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "ドラッグで靄を払うような表現がよい",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "Radio Garden",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "画面を通して世界各地を巡れる体験がよい",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i8",
+      "kind": "site",
+      "title": "Cinematic3DScroll",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "ホイールを回すと横方向に回転する動きがよい。フィルムのような見せ方もよい",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i9",
+      "kind": "site",
+      "title": "lego-pixellation",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "元の写真の上に別の表現へ置き換えたような画像を重ね、それをドラッグで振り払う表現がよい",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i10",
+      "kind": "site",
+      "title": "demo-emotional-experiences-part-one",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "ホイール操作で道筋に沿って進み、自分で世界を移動する表現がよい",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i11",
+      "kind": "site",
+      "title": "Blob Opera",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "キャラクターの表情や伸び縮みがよい。変化が見た目だけでなく音でも伝わる",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    },
+    {
+      "id": "i12",
+      "kind": "site",
+      "title": "SEED — A Life Cycle",
+      "url": null,
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "",
+      "highlights": [],
+      "student_comments": [
+        {
+          "text": "この作品の体験リンクに関心を持った。音が入るとなおよい。",
+          "origin": "provided_material"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "提供資料では実装技術は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [
+        "提供された感想を保持。具体的な作品案は追加していない。"
+      ],
+      "tags": [],
+      "completeness": "needs_review",
+      "limitations": [
+        "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+      ]
+    }
+  ]
+}

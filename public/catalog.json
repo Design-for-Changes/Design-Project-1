@@ -1,29 +1,44 @@
 {
-  "generated_at": "2026-10-02T08:05:35.588Z",
+  "generated_at": "2026-10-08T04:48:49.997Z",
   "summary": {
-    "submissions": 6,
-    "archived": 6,
-    "observations": 23,
-    "entries": 23,
+    "submissions": 7,
+    "archived": 7,
+    "observations": 35,
+    "entries": 35,
     "contributors": 6,
-    "issues": 3,
-    "branches": 8
+    "issues": 6,
+    "branches": 9
   },
   "issues": [
     {
-      "id": "source-f98332f03e98",
+      "id": "source-b5922a023a39",
       "reason": "空の投稿ファイル",
-      "location": "main"
-    },
-    {
-      "id": "source-ebba378078aa",
-      "reason": "JSONの途中欠落または形式エラー",
       "location": "branch"
     },
     {
-      "id": "source-aa96fb5bd7ab",
+      "id": "source-8fdcaf481902",
+      "reason": "JSONの途中欠落または形式エラー",
+      "location": "main"
+    },
+    {
+      "id": "source-eaf1212943e0",
+      "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
+      "location": "branch"
+    },
+    {
+      "id": "source-8f326bf999c2",
+      "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
+      "location": "branch"
+    },
+    {
+      "id": "source-0f43e48bb5d3",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
       "location": "main"
+    },
+    {
+      "id": "source-6175ded54f81",
+      "reason": "JSONの途中欠落または形式エラー",
+      "location": "branch"
     }
   ],
   "contributors": [
@@ -53,6 +68,60 @@
     }
   ],
   "entries": [
+    {
+      "id": "item-5cf325d07f72",
+      "title": "3D Pottery",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "3D Pottery",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "形を変えたり削ったりするときの気持ちよさを、画面越しでも感じられる",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
     {
       "id": "item-b02014c5eaa2",
       "title": "AI Tools Primer · The 3D Island",
@@ -140,7 +209,7 @@
           },
           "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
           "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -219,7 +288,7 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -298,7 +367,7 @@
           },
           "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
           "archive": "data/submissions/entry-096be17d532df9146b9f.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -307,6 +376,60 @@
         "探索",
         "インタラクティブ"
       ],
+      "technologies": []
+    },
+    {
+      "id": "item-b74a5706c529",
+      "title": "Blob Opera",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i11",
+          "kind": "site",
+          "title": "Blob Opera",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "キャラクターの表情や伸び縮みがよい。変化が見た目だけでなく音でも伝わる",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
       "technologies": []
     },
     {
@@ -387,7 +510,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -573,7 +696,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -587,6 +710,114 @@
         "Tone.js",
         "WebMIDI / WebRTC"
       ]
+    },
+    {
+      "id": "item-72eef3817e39",
+      "title": "Cinematic3DScroll",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i8",
+          "kind": "site",
+          "title": "Cinematic3DScroll",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "ホイールを回すと横方向に回転する動きがよい。フィルムのような見せ方もよい",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-d4900071205f",
+      "title": "demo-emotional-experiences-part-one",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i10",
+          "kind": "site",
+          "title": "demo-emotional-experiences-part-one",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "ホイール操作で道筋に沿って進み、自分で世界を移動する表現がよい",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
     },
     {
       "id": "item-2f1f9071ce47",
@@ -695,7 +926,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -711,6 +942,60 @@
         "SVG",
         "GFS（米国の気象予報モデル）"
       ]
+    },
+    {
+      "id": "item-67ec778c2ac7",
+      "title": "EverSwap",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i5",
+          "kind": "site",
+          "title": "EverSwap",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "Human: Fall Flatを思わせる見た目が好き。ただし暗号資産との結び付きが分かりにくく、サイトとしてはあまりよくないと感じた",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
     },
     {
       "id": "item-e8bc94664b00",
@@ -848,7 +1133,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -864,6 +1149,114 @@
         "Revit / 3ds Max",
         "three.js"
       ]
+    },
+    {
+      "id": "item-a887e0cb5dfd",
+      "title": "Igloo Inc.",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i4",
+          "kind": "site",
+          "title": "Igloo Inc.",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "ゲームのようなグラフィックがよい。会話の中で、自分で世界を移動できることにも関心を示した",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-da8de827d561",
+      "title": "Interactive 3D Cluster",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "Interactive 3D Cluster",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "クリックだけでなく、ドラッグや触れる操作で飛び出すような反応が気持ちよい",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
     },
     {
       "id": "item-cbcf4d15ea23",
@@ -938,7 +1331,7 @@
           },
           "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
           "archive": "data/submissions/entry-096be17d532df9146b9f.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -947,6 +1340,60 @@
         "描画",
         "Web表現"
       ],
+      "technologies": []
+    },
+    {
+      "id": "item-c23b06b51b7e",
+      "title": "lego-pixellation",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i9",
+          "kind": "site",
+          "title": "lego-pixellation",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "元の写真の上に別の表現へ置き換えたような画像を重ね、それをドラッグで振り払う表現がよい",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
       "technologies": []
     },
     {
@@ -1013,7 +1460,7 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -1115,7 +1562,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -1129,6 +1576,60 @@
         "openFrameworks",
         "Processing"
       ]
+    },
+    {
+      "id": "item-bd19e61e417c",
+      "title": "Radio Garden",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i7",
+          "kind": "site",
+          "title": "Radio Garden",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "画面を通して世界各地を巡れる体験がよい",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
     },
     {
       "id": "item-ef0bd5593c75",
@@ -1194,7 +1695,7 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -1273,7 +1774,7 @@
           },
           "submission_id": "s-029235c8-dca8-4885-8c9e-2689a32a3c4b",
           "archive": "data/submissions/entry-096be17d532df9146b9f.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -1282,6 +1783,60 @@
         "ストーリーテリング",
         "インタラクション"
       ],
+      "technologies": []
+    },
+    {
+      "id": "item-d454cd8ac9b2",
+      "title": "SEED — A Life Cycle",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i12",
+          "kind": "site",
+          "title": "SEED — A Life Cycle",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "この作品の体験リンクに関心を持った。音が入るとなおよい。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
       "technologies": []
     },
     {
@@ -1381,7 +1936,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -1395,6 +1950,60 @@
         "GLSLシェーダー（GPUでの粒子計算）",
         "GSAP（ScrollTrigger）"
       ]
+    },
+    {
+      "id": "item-39d76b2ed7b1",
+      "title": "SkeletonFluidReveal",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i6",
+          "kind": "site",
+          "title": "SkeletonFluidReveal",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "ドラッグで靄を払うような表現がよい",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
     },
     {
       "id": "item-2b2b7b9217e7",
@@ -1460,7 +2069,61 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-db81a1022bd5",
+      "title": "The Cartier Roadster",
+      "url": null,
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "The Cartier Roadster",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "",
+          "highlights": [],
+          "student_comments": [
+            {
+              "text": "細かな形をあらゆる角度から観察できる。下へスクロールすると迫力のある動きが見られる",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "提供資料では実装技術は未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [
+            "提供された感想を保持。具体的な作品案は追加していない。"
+          ],
+          "tags": [],
+          "completeness": "needs_review",
+          "limitations": [
+            "正確な体験URLは未照合。名称だけで既存事例と統合していない。"
+          ],
+          "contributor": {
+            "id": "p-3b94bba25d5a",
+            "nickname": "しゅうた"
+          },
+          "submission_id": "s-87f50049-f78a-46aa-b438-35a642c4f6a3",
+          "archive": "data/submissions/entry-713f4f867e0a50c01f38.json",
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -1663,7 +2326,7 @@
           },
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -1742,7 +2405,7 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -1812,7 +2475,7 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -1891,7 +2554,7 @@
           },
           "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
           "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -1988,7 +2651,7 @@
           },
           "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
           "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
@@ -2067,7 +2730,7 @@
           },
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [],
@@ -2189,7 +2852,7 @@
           },
           "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
           "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "branch"
+          "source_state": "main"
         }
       ],
       "tags": [
