@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "collected_at": "2026-10-08T04:49:39.355Z",
-  "scanned_branches": 9,
-  "scanned_files": 26,
+  "collected_at": "2026-10-08T05:09:34.565Z",
+  "scanned_branches": 12,
+  "scanned_files": 76,
   "records": [
     {
       "archive": "data/submissions/entry-0715b53388d9127c6859.json",
@@ -11,11 +11,15 @@
       "first_seen": "2026-10-01T08:49:00.729Z",
       "source_revisions": [
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
         "4a49dd38a9893704215dcb6cb81c29bb3cd6bfe2",
         "518b68a470bf0986ee03351a38276ae1f6773747",
         "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
         "5ef39f7cb1d3fd0d6f3340894c25854e11b70b5e",
-        "9448e4d06ac8243b44f5411548c6a72a3f69ec16"
+        "9448e4d06ac8243b44f5411548c6a72a3f69ec16",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
         "branch",
@@ -30,9 +34,13 @@
       "first_seen": "2026-10-01T08:49:00.729Z",
       "source_revisions": [
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
         "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
         "6e0959d66ea8f2305b5a0bafbb1f26fa51114311",
-        "9448e4d06ac8243b44f5411548c6a72a3f69ec16"
+        "9448e4d06ac8243b44f5411548c6a72a3f69ec16",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
         "branch",
@@ -46,12 +54,34 @@
       "contributor_id": "p-a96899ca81e5",
       "first_seen": "2026-10-08T04:49:39.355Z",
       "source_revisions": [
-        "3aef19b9e609b9e9f9d24e59d8f95767c2070657"
+        "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
+        "branch",
         "main"
       ],
       "source_updated_at": 1791434976
+    },
+    {
+      "archive": "data/submissions/entry-66b45925987df2279716.json",
+      "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+      "contributor_id": "p-0946edf7500c",
+      "first_seen": "2026-10-08T05:09:34.565Z",
+      "source_revisions": [
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
+      ],
+      "locations": [
+        "branch",
+        "main"
+      ],
+      "source_updated_at": 1791435101
     },
     {
       "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
@@ -60,10 +90,15 @@
       "first_seen": "2026-10-01T08:49:00.729Z",
       "source_revisions": [
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
         "42c76f38653b3566a6e20016e2850b8a9b7f6c78",
         "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
         "82e6b72f733d8a2a62586e4ee21db05e7a429bd6",
-        "9448e4d06ac8243b44f5411548c6a72a3f69ec16"
+        "9448e4d06ac8243b44f5411548c6a72a3f69ec16",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "ae83f73ad7d8448f7517e4e563a7a53919f386a1",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
         "branch",
@@ -78,9 +113,14 @@
       "first_seen": "2026-10-08T04:48:49.997Z",
       "source_revisions": [
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
-        "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4"
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
+        "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
+        "branch",
         "main"
       ],
       "source_updated_at": 1791434927
@@ -92,11 +132,15 @@
       "first_seen": "2026-10-01T08:51:08.278Z",
       "source_revisions": [
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
         "4a49dd38a9893704215dcb6cb81c29bb3cd6bfe2",
         "518b68a470bf0986ee03351a38276ae1f6773747",
         "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
         "5ef39f7cb1d3fd0d6f3340894c25854e11b70b5e",
-        "9448e4d06ac8243b44f5411548c6a72a3f69ec16"
+        "9448e4d06ac8243b44f5411548c6a72a3f69ec16",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
         "branch",
@@ -111,15 +155,58 @@
       "first_seen": "2026-10-01T08:49:00.729Z",
       "source_revisions": [
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
         "47a74aaa2d49b1929aa41f92722a48785c1d2121",
         "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
-        "9448e4d06ac8243b44f5411548c6a72a3f69ec16"
+        "9448e4d06ac8243b44f5411548c6a72a3f69ec16",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
         "branch",
         "main"
       ],
       "source_updated_at": 1790842443
+    },
+    {
+      "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+      "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+      "contributor_id": "p-29b96358289a",
+      "first_seen": "2026-10-08T05:09:34.565Z",
+      "source_revisions": [
+        "b80db8f1b7c179a7252be6d959144f59a2efce51"
+      ],
+      "locations": [
+        "branch"
+      ],
+      "source_updated_at": 1791436008
+    },
+    {
+      "archive": "data/submissions/entry-bd340626e357a5243552.json",
+      "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+      "contributor_id": "p-448490763a08",
+      "first_seen": "2026-10-08T05:09:34.565Z",
+      "source_revisions": [
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
+      ],
+      "locations": [
+        "branch"
+      ],
+      "source_updated_at": 1791435850
+    },
+    {
+      "archive": "data/submissions/entry-d3fc311aea7790f9b8a0.json",
+      "submission_id": "s-03276ca3-8bd4-4f91-95d7-ef5804c290ec",
+      "contributor_id": "p-bf4792fa2d55",
+      "first_seen": "2026-10-08T05:09:34.565Z",
+      "source_revisions": [
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9"
+      ],
+      "locations": [
+        "branch"
+      ],
+      "source_updated_at": 1791435683
     },
     {
       "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
@@ -129,8 +216,12 @@
       "source_revisions": [
         "2193f4c140d9ab95d0b280f59be4135a4c747ae0",
         "3aef19b9e609b9e9f9d24e59d8f95767c2070657",
+        "3d333cd194ba12f5f25cd7533d301dc730410bc9",
         "54c3d3af6c1d1292a0598c104fa1e83557bf3fa4",
-        "9448e4d06ac8243b44f5411548c6a72a3f69ec16"
+        "9448e4d06ac8243b44f5411548c6a72a3f69ec16",
+        "a0b0eec44bfd2fe6751a6a75441d54f51fac9c01",
+        "b80db8f1b7c179a7252be6d959144f59a2efce51",
+        "ef24a84d6766dce010ac9745af252c85afacbbb2"
       ],
       "locations": [
         "branch",
@@ -146,9 +237,9 @@
       "location": "branch"
     },
     {
-      "id": "source-0baee131e141",
+      "id": "source-7a8a286237c7",
       "reason": "JSONの途中欠落または形式エラー",
-      "location": "main"
+      "location": "branch"
     },
     {
       "id": "source-eaf1212943e0",
@@ -156,18 +247,23 @@
       "location": "branch"
     },
     {
-      "id": "source-8f326bf999c2",
+      "id": "source-b3e735a19e96",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
       "location": "branch"
     },
     {
-      "id": "source-edc122fa85dc",
+      "id": "source-61834616d4eb",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
-      "location": "main"
+      "location": "branch"
     },
     {
       "id": "source-6175ded54f81",
       "reason": "JSONの途中欠落または形式エラー",
+      "location": "branch"
+    },
+    {
+      "id": "source-a9c9214e041b",
+      "reason": "投稿形式ではないJSON",
       "location": "branch"
     }
   ]

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-08T04:49:39.355Z",
+  "generated_at": "2026-10-08T05:09:34.565Z",
   "summary": {
-    "submissions": 8,
-    "archived": 8,
-    "observations": 58,
-    "entries": 57,
-    "contributors": 7,
-    "issues": 6,
-    "branches": 9
+    "submissions": 11,
+    "archived": 12,
+    "observations": 98,
+    "entries": 96,
+    "contributors": 8,
+    "issues": 7,
+    "branches": 12
   },
   "issues": [
     {
@@ -16,9 +16,9 @@
       "location": "branch"
     },
     {
-      "id": "source-0baee131e141",
+      "id": "source-7a8a286237c7",
       "reason": "JSONの途中欠落または形式エラー",
-      "location": "main"
+      "location": "branch"
     },
     {
       "id": "source-eaf1212943e0",
@@ -26,18 +26,23 @@
       "location": "branch"
     },
     {
-      "id": "source-8f326bf999c2",
+      "id": "source-b3e735a19e96",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
       "location": "branch"
     },
     {
-      "id": "source-edc122fa85dc",
+      "id": "source-61834616d4eb",
       "reason": "投稿JSONへの整理待ち（Markdown / HTML）",
-      "location": "main"
+      "location": "branch"
     },
     {
       "id": "source-6175ded54f81",
       "reason": "JSONの途中欠落または形式エラー",
+      "location": "branch"
+    },
+    {
+      "id": "source-a9c9214e041b",
+      "reason": "投稿形式ではないJSON",
       "location": "branch"
     }
   ],
@@ -55,16 +60,20 @@
       "nickname": "kotori"
     },
     {
-      "id": "p-29b96358289a",
-      "nickname": "りょ"
-    },
-    {
       "id": "p-0946edf7500c",
       "nickname": "ユウガ"
     },
     {
       "id": "p-bf4792fa2d55",
       "nickname": "yuta-design"
+    },
+    {
+      "id": "p-29b96358289a",
+      "nickname": "りょ"
+    },
+    {
+      "id": "p-448490763a08",
+      "nickname": "Ikkei.0812"
     },
     {
       "id": "p-e7c98dc334e5",
@@ -138,6 +147,69 @@
       "technologies": [
         "WebGL"
       ]
+    },
+    {
+      "id": "item-ed0dcccfb1c7",
+      "title": "100%トーキョー（リミニ・プロトコル）",
+      "url": "https://www.festival-tokyo.jp/13/en/program/13/100percent_tokyo",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i19",
+          "kind": "site",
+          "title": "100%トーキョー（リミニ・プロトコル）",
+          "url": "https://www.festival-tokyo.jp/13/en/program/13/100percent_tokyo",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・演劇】都市の人口統計どおりに選んだ市民100人を舞台に上げ、一人＝1%として質問に答えて動いてもらう。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：県民を100人の人影に置き換え、該当する人が前に出る形で割合を見せる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.festival-tokyo.jp/13/en/program/13/100percent_tokyo",
+              "title": "100%トーキョー（リミニ・プロトコル）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "演劇",
+            "統計",
+            "人"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（演劇）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "演劇",
+        "統計",
+        "人"
+      ],
+      "technologies": []
     },
     {
       "id": "item-76469c0598be",
@@ -316,36 +388,30 @@
     },
     {
       "id": "item-b02014c5eaa2",
-      "title": "AI Tools Primer · The 3D Island",
+      "title": "AI Tools Primer: The 3D Island",
       "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
       "kind": "site",
       "contributions": [
         {
-          "id": "i3",
+          "id": "i6",
           "kind": "site",
-          "title": "AI Tools Primer · The 3D Island",
+          "title": "AI Tools Primer: The 3D Island",
           "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
           "source_material_ids": [
             "m1"
           ],
-          "description": "AIツールの情報カテゴリーを、建物や道路で構成された探索可能な3Dの島としてナビゲーションする作品。",
+          "description": "カテゴリや情報を建物・島として空間化。 情報アーキテクチャをそのまま世界にする 発想。",
           "highlights": [
             {
-              "detail": "カテゴリーを建物、情報構造を街として表現し、ドラッグで視点を回転、スクロールでズームして探索できる。",
-              "basis": "source_description",
-              "source_url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
-              "checked_at": "2026-10-01"
-            },
-            {
-              "detail": "道路を多数の3Dジオメトリとして作るのではなく、タイルごとに生成したCanvasテクスチャで島の表面に描いている。",
-              "basis": "source_description",
-              "source_url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
-              "checked_at": "2026-10-01"
+              "detail": "カテゴリや情報を建物・島として空間化。 情報アーキテクチャをそのまま世界にする 発想。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
             }
           ],
           "student_comments": [
             {
-              "text": "情報アーキテクチャそのものを空間化し、「メニューを選ぶ」から「世界を探索する」体験に変えているところが面白い。",
+              "text": "情報アーキテクチャそのものを空間化し、メニュー選択を世界探索に変えている点が面白い。",
               "origin": "provided_material"
             }
           ],
@@ -353,68 +419,142 @@
             {
               "name": "Three.js",
               "status": "confirmed",
-              "role": "3Dの島、建物、カメラ操作を含む探索空間を構築する。",
-              "reason": "Three.js Resourcesの作品ページでTechnologiesとしてThree.jsが明記されている。",
+              "role": "3D空間の表現",
+              "reason": "前回提出で作品紹介ページを根拠として確認した情報。今回の再検証は未実施。",
               "evidence_urls": [
                 "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
               ],
-              "checked_at": "2026-10-01"
-            },
-            {
-              "name": "2D Canvas texture",
-              "status": "confirmed",
-              "role": "道路網を島の表面テクスチャとして生成する。",
-              "reason": "作品ページで道路はgeometryではなくcanvas textureとして生成されると説明されている。",
-              "evidence_urls": [
-                "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island"
-              ],
-              "checked_at": "2026-10-01"
+              "checked_at": null
             }
           ],
-          "applications": [
-            {
-              "author": "student",
-              "idea": "データや情報カテゴリーを地域・建物・階層などの空間構造に対応させ、ユーザーが世界を移動する感覚で探索できるようにする。"
-            }
-          ],
+          "applications": [],
           "sources": [
             {
               "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
-              "title": "AI Tools Primer — The 3D island | Three.js Showcase",
-              "access": "read",
-              "supports": "Three.jsの利用、Canvasテクスチャによる道路、ドラッグ・スクロール操作。"
+              "title": "AI Tools Primer: The 3D Island",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
             }
           ],
           "ai_notes": [],
           "tags": [
-            "Three.js",
-            "3D",
-            "navigation",
-            "information-architecture",
-            "canvas"
+            "Information Space",
+            "3D"
           ],
           "completeness": "ready",
-          "limitations": [],
+          "limitations": [
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
           "contributor": {
             "id": "p-29b96358289a",
             "nickname": "りょ"
           },
-          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
-          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "main"
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
         }
       ],
       "tags": [
-        "Three.js",
-        "3D",
-        "navigation",
-        "information-architecture",
-        "canvas"
+        "Information Space",
+        "3D"
       ],
       "technologies": [
-        "Three.js",
-        "2D Canvas texture"
+        "Three.js"
       ]
+    },
+    {
+      "id": "item-234da2d7eaad",
+      "title": "Anyma × Sphere",
+      "url": "https://alessiodevecchi.com/seeds/sphere",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i7",
+          "kind": "site",
+          "title": "Anyma × Sphere",
+          "url": "https://alessiodevecchi.com/seeds/sphere",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-86eb52a42575",
+      "title": "audioMotion",
+      "url": "https://audiomotion.dev/demo/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i6",
+          "kind": "site",
+          "title": "audioMotion",
+          "url": "https://audiomotion.dev/demo/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
     },
     {
       "id": "item-57a39181c1fa",
@@ -692,6 +832,69 @@
       "technologies": []
     },
     {
+      "id": "item-77aee28258da",
+      "title": "Before Your Eyes",
+      "url": "https://store.steampowered.com/app/1082430/Before_Your_Eyes/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i5",
+          "kind": "site",
+          "title": "Before Your Eyes",
+          "url": "https://store.steampowered.com/app/1082430/Before_Your_Eyes/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・ゲーム】Webカメラでまばたきを検出し、まばたきするたびに物語の時間が先へ飛ぶ。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：日数カウンターを観客が止められない時間として進める。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://store.steampowered.com/app/1082430/Before_Your_Eyes/",
+              "title": "Before Your Eyes",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "ゲーム",
+            "まばたき",
+            "時間"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（ゲーム）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "まばたき",
+        "時間"
+      ],
+      "technologies": []
+    },
+    {
       "id": "item-6a60598b93fe",
       "title": "BioDigital Human",
       "url": "https://www.biodigital.com/",
@@ -743,6 +946,67 @@
         }
       ],
       "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-cdccfcde051e",
+      "title": "BLAME!（弐瓶勉）",
+      "url": "https://ja.wikipedia.org/wiki/BLAME!",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i9",
+          "kind": "site",
+          "title": "BLAME!（弐瓶勉）",
+          "url": "https://ja.wikipedia.org/wiki/BLAME!",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・漫画】巨大な構造物の中に豆粒ほどの人物を一人だけ置いて規模を伝える。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：大きな死者数の山の足元に人影を一体だけ置き、大きさを体感させる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://ja.wikipedia.org/wiki/BLAME!",
+              "title": "BLAME!（弐瓶勉）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "漫画",
+            "スケール"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（漫画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "スケール"
+      ],
       "technologies": []
     },
     {
@@ -1085,6 +1349,163 @@
         "ゲーム感覚",
         "時系列"
       ],
+      "technologies": []
+    },
+    {
+      "id": "item-eda0b42a7c9d",
+      "title": "Building Stories（Chris Ware）",
+      "url": "https://en.wikipedia.org/wiki/Building_Stories",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i7",
+          "kind": "site",
+          "title": "Building Stories（Chris Ware）",
+          "url": "https://en.wikipedia.org/wiki/Building_Stories",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・漫画】箱に入った14種類の印刷物からなる漫画。建物の断面図と時間の流れを図解のように描く。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：家を断面図で見せ、部屋ごとに時間の経過を並べる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Building_Stories",
+              "title": "Building Stories（Chris Ware）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "漫画",
+            "断面図",
+            "図解"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（漫画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "断面図",
+        "図解"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-cdede1f80e70",
+      "title": "BUNKER//TECHNO",
+      "url": "https://bunkertechno.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "BUNKER//TECHNO",
+          "url": "https://bunkertechno.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-3175f1088cce",
+      "title": "Butterchurn",
+      "url": "https://butterchurnviz.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "Butterchurn",
+          "url": "https://butterchurnviz.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
       "technologies": []
     },
     {
@@ -1741,6 +2162,65 @@
       ]
     },
     {
+      "id": "item-a0ca6e44200b",
+      "title": "gemina3d",
+      "url": "https://gemina3d.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "gemina3d",
+          "url": "https://gemina3d.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [
+            {
+              "detail": "音符が立体で流れるところ",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "音符が立体で流れるところ",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "ready",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
       "id": "item-c99dc1119390",
       "title": "Google WebXR Experiments",
       "url": "https://experiments.withgoogle.com/collection/webxr",
@@ -1812,6 +2292,69 @@
       "technologies": [
         "WebXR"
       ]
+    },
+    {
+      "id": "item-725010ac7aa3",
+      "title": "Here（Richard McGuire）",
+      "url": "https://www.penguinrandomhouse.com/books/111690/here-by-richard-mcguire/9780375406508/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i6",
+          "kind": "site",
+          "title": "Here（Richard McGuire）",
+          "url": "https://www.penguinrandomhouse.com/books/111690/here-by-richard-mcguire/9780375406508/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・漫画】ある家の居間の一角を固定し、年代つきの小さなコマを重ねて、何百万年分の時間を一枚の中に描く。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：家のカメラを固定したまま、0日目・7日目・30日目の窓を重ねていく。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.penguinrandomhouse.com/books/111690/here-by-richard-mcguire/9780375406508/",
+              "title": "Here（Richard McGuire）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "漫画",
+            "時間の重ね合わせ",
+            "定点"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（漫画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "時間の重ね合わせ",
+        "定点"
+      ],
+      "technologies": []
     },
     {
       "id": "item-a887e0cb5dfd",
@@ -2302,6 +2845,285 @@
       "technologies": []
     },
     {
+      "id": "item-63b62c6d2437",
+      "title": "OSCOPE",
+      "url": "https://oscope.metamaitreya.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i5",
+          "kind": "site",
+          "title": "OSCOPE",
+          "url": "https://oscope.metamaitreya.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-5215451b0fa6",
+      "title": "Outer Wilds",
+      "url": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i4",
+          "kind": "site",
+          "title": "Outer Wilds",
+          "url": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・ゲーム】同じ22分間を何度も繰り返し、知識だけが次の周回に持ち越される。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：選び直しの場面で、前の周回の自分の線を薄く残して違いを比べる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+              "title": "Outer Wilds",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "ゲーム",
+            "ループ",
+            "比較"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（ゲーム）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "ループ",
+        "比較"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-53c1de775fc8",
+      "title": "Papers, Please",
+      "url": "https://papersplea.se/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "Papers, Please",
+          "url": "https://papersplea.se/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・ゲーム】1日の終わりに収入・家賃・食費・暖房費・薬代と、家族の状態（空腹・寒さ・病気）が帳簿のように並ぶ。払えない日が続くと家族の状態が悪化する。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：備蓄が減っていく日々を帳簿形式で見せ、足りない項目が続くと体調の項目が悪くなる様子で災害関連死の原因を伝える。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://papersplea.se/",
+              "title": "Papers, Please",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "ゲーム",
+            "帳簿",
+            "時間経過"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（ゲーム）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "帳簿",
+        "時間経過"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-49af359a8587",
+      "title": "Particle Love（Edan Kwan）",
+      "url": "https://experiments.withgoogle.com/particle-love",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "Particle Love（Edan Kwan）",
+          "url": "https://experiments.withgoogle.com/particle-love",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "Edan KwanがシェーダーでできることをWebGLで学ぶ過程で作った、粒子デモのシリーズ。",
+          "highlights": [
+            {
+              "detail": "SDFを使った粒子の物理（Leap Motionで操作）や、リアルタイムの3Dメタボール描画など、複数のデモがある。",
+              "basis": "source_description",
+              "source_url": "https://experiments.withgoogle.com/particle-love",
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "マウスと粒子の関係性が分かってよかった。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "WebGL",
+              "status": "confirmed",
+              "role": "描画",
+              "reason": "Experiments with Googleの作品ページの説明による。",
+              "evidence_urls": [
+                "https://experiments.withgoogle.com/particle-love"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "SDF（符号付き距離関数）",
+              "status": "confirmed",
+              "role": "粒子の衝突などの物理",
+              "reason": "作品ページの説明にSDF particle physicsとある。",
+              "evidence_urls": [
+                "https://experiments.withgoogle.com/particle-love"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "Leap Motion",
+              "status": "confirmed",
+              "role": "手の動きで粒子を操作する入力装置",
+              "reason": "作品ページの説明にある。",
+              "evidence_urls": [
+                "https://experiments.withgoogle.com/particle-love"
+              ],
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://experiments.withgoogle.com/particle-love",
+              "title": "Particle Love - Experiments with Google",
+              "access": "read",
+              "supports": "作品の説明"
+            },
+            {
+              "url": "http://edankwan.com/experiments/particle-love/",
+              "title": "Particle Love（作者サイト）",
+              "access": "not_accessed",
+              "supports": "デモ本体"
+            }
+          ],
+          "ai_notes": [
+            "最初の紹介で「マウスに引き寄せられる粒子」と説明したが、正しくは複数デモのシリーズ。"
+          ],
+          "tags": [
+            "粒子",
+            "マウス操作"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "AIはデモ本体を動かしておらず、紹介ページの説明のみ確認した。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-03276ca3-8bd4-4f91-95d7-ef5804c290ec",
+          "archive": "data/submissions/entry-d3fc311aea7790f9b8a0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "粒子",
+        "マウス操作"
+      ],
+      "technologies": [
+        "WebGL",
+        "SDF（符号付き距離関数）",
+        "Leap Motion"
+      ]
+    },
+    {
       "id": "item-06af6819b14e",
       "title": "Particle Plotter",
       "url": "https://openprocessing.org/@u65884/751983",
@@ -2366,6 +3188,53 @@
           "submission_id": "s-66e99271-b158-4395-843f-e81c96233f76",
           "archive": "data/submissions/entry-f024653b5ed3729d1882.json",
           "source_state": "main"
+        }
+      ],
+      "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-4c4409b345bf",
+      "title": "Patatap",
+      "url": "https://patatap.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i4",
+          "kind": "site",
+          "title": "Patatap",
+          "url": "https://patatap.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "関心のある映像・動きの参考URLとして選定。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": null,
+              "status": "unknown",
+              "role": null,
+              "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [],
+          "ai_notes": [],
+          "tags": [],
+          "completeness": "needs_comment",
+          "limitations": [
+            "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+          ],
+          "contributor": {
+            "id": "p-448490763a08",
+            "nickname": "Ikkei.0812"
+          },
+          "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+          "archive": "data/submissions/entry-bd340626e357a5243552.json",
+          "source_state": "branch"
         }
       ],
       "tags": [],
@@ -2483,6 +3352,187 @@
       ]
     },
     {
+      "id": "item-a8349ee904c2",
+      "title": "PIERRE HERMÉ NOËL 2025",
+      "url": "https://www.s2factory.co.jp/blog/noel2025/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i9",
+          "kind": "site",
+          "title": "PIERRE HERMÉ NOËL 2025",
+          "url": "https://www.s2factory.co.jp/blog/noel2025/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "スクロールが「深海へ潜る」という意味を持つ。スクロール＝時間・深度・階層という応用のヒント。",
+          "highlights": [
+            {
+              "detail": "スクロールが「深海へ潜る」という意味を持つ。スクロール＝時間・深度・階層という応用のヒント。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://www.s2factory.co.jp/blog/noel2025/",
+              "title": "PIERRE HERMÉ NOËL 2025",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Scrollytelling",
+            "Immersive"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Scrollytelling",
+        "Immersive"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-f305ea1c54b5",
+      "title": "POLA MENOMAE",
+      "url": "https://www.pola.co.jp/special/o/wecaremore/menomae/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i8",
+          "kind": "site",
+          "title": "POLA MENOMAE",
+          "url": "https://www.pola.co.jp/special/o/wecaremore/menomae/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "世界観とインタラクションを組み合わせ、読むだけではなく体験として内容を伝える。",
+          "highlights": [
+            {
+              "detail": "世界観とインタラクションを組み合わせ、読むだけではなく体験として内容を伝える。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://www.pola.co.jp/special/o/wecaremore/menomae/",
+              "title": "POLA MENOMAE",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Story",
+            "Interaction"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Story",
+        "Interaction"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-58b850352dcd",
+      "title": "Powers of Ten（イームズ夫妻）",
+      "url": "https://www.eamesoffice.com/the-work/powers-of-ten/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i14",
+          "kind": "site",
+          "title": "Powers of Ten（イームズ夫妻）",
+          "url": "https://www.eamesoffice.com/the-work/powers-of-ten/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・映像】10倍ずつカメラを引いていき、人から宇宙まで行く。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：家→市→県→全国と10倍ごとの区切りを表示しながら引く。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.eamesoffice.com/the-work/powers-of-ten/",
+              "title": "Powers of Ten（イームズ夫妻）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "映像",
+            "ズーム",
+            "スケール"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（映像）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "映像",
+        "ズーム",
+        "スケール"
+      ],
+      "technologies": []
+    },
+    {
       "id": "item-bd19e61e417c",
       "title": "Radio Garden",
       "url": null,
@@ -2589,6 +3639,143 @@
       ],
       "tags": [],
       "technologies": []
+    },
+    {
+      "id": "item-3efa44f0027a",
+      "title": "Return of the Obra Dinn",
+      "url": "https://obradinn.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "Return of the Obra Dinn",
+          "url": "https://obradinn.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・ゲーム】白黒2色のドット（ディザリング）で描いた3D。懐中時計を使うと、乗組員が死んだ瞬間の場面が止まった立体として現れ、その中を歩き回れる。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：直接死の場面だけを2色ドットの静止した立体にして、他の場面と質感を分ける。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://obradinn.com/",
+              "title": "Return of the Obra Dinn",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "ゲーム",
+            "ディザリング",
+            "静止",
+            "空間探索"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（ゲーム）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "ディザリング",
+        "静止",
+        "空間探索"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-60c2c4796c3b",
+      "title": "RINGO ICE BAR",
+      "url": "https://ringo-applepie.com/lp/icebar/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i7",
+          "kind": "site",
+          "title": "RINGO ICE BAR",
+          "url": "https://ringo-applepie.com/lp/icebar/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "氷の透明感・冷たさ・質感を画面表現に翻訳。カーソル反応が触りたくなる感覚を生む。",
+          "highlights": [
+            {
+              "detail": "氷の透明感・冷たさ・質感を画面表現に翻訳。カーソル反応が触りたくなる感覚を生む。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [],
+          "technologies": [
+            {
+              "name": "WebGL",
+              "status": "unknown",
+              "role": null,
+              "reason": "資料のタグにWebGLの記載があるが実装の裏付けは未確認。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://ringo-applepie.com/lp/icebar/",
+              "title": "RINGO ICE BAR",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Cursor",
+            "Material",
+            "WebGL"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Cursor",
+        "Material",
+        "WebGL"
+      ],
+      "technologies": [
+        "WebGL"
+      ]
     },
     {
       "id": "item-ef0bd5593c75",
@@ -2954,18 +4141,246 @@
           "submission_id": "s-3996e55a-d2dd-4145-a04f-68dee215d6b7",
           "archive": "data/submissions/entry-ab61da86d676e1c21258.json",
           "source_state": "main"
+        },
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "Shopify Editions | Spring '26",
+          "url": "https://www.shopify.com/editions/spring2026",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "Shopifyの新機能発表サイト。画面全体に固定された1枚のWebGLキャンバスに、点群でできた森、円周上を回る文字「Everywhere」、セクションごとに切り替わる3Dの背景を描いている。",
+          "highlights": [
+            {
+              "detail": "森は3Dモデルではなく点群データ（.bin）を点として描いている。各粒子は頂点シェーダー内でsin波のゆらぎ、curl noiseの流れ、SDF（距離関数）による押しのけを受けて動く。",
+              "basis": "direct_observation",
+              "source_url": "https://www.shopify.com/editions/spring2026",
+              "checked_at": "2026-10-08"
+            },
+            {
+              "detail": "マウスを動かすと粒子が流される。裏で2D流体シミュレーションが動いていて、マウスの軌跡を速度として注入し、各粒子は自分の画面位置の流速を読んでずれる。遠くの粒ほど動きが小さい。スクロール速度でも流体に力が加わる。",
+              "basis": "direct_observation",
+              "source_url": "https://www.shopify.com/editions/spring2026",
+              "checked_at": "2026-10-08"
+            },
+            {
+              "detail": "文字「Everywhere」は1文字ずつ円周（半径45vmin）に並べ、リングを18°傾けてY軸で回す。登場時は4.5秒で大きく回り、その後は150秒で1周。スクロール1pxで0.12°追加回転、マウスの横位置で最大18°傾く。文字のリングの形をした見えない障害物が粒子を押しのける。",
+              "basis": "direct_observation",
+              "source_url": "https://www.shopify.com/editions/spring2026",
+              "checked_at": "2026-10-08"
+            },
+            {
+              "detail": "スクロールすると背景のシーンが切り替わる。セクションごとのシーンを別々に描き、スクロール量に合わせて境界線を動かして合成する。スクロールが速いほど境界線が弓なりにしなる。",
+              "basis": "direct_observation",
+              "source_url": "https://www.shopify.com/editions/spring2026",
+              "checked_at": "2026-10-08"
+            },
+            {
+              "detail": "前のフレームを薄めて重ねる残像で光の尾を作り、流体が動いている所ほど色収差（RGBのずれ）を強めている。",
+              "basis": "direct_observation",
+              "source_url": "https://www.shopify.com/editions/spring2026",
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "特に見たいのは粒子の動き、回る文字、スクロールすると徐々に変化する背景。",
+              "origin": "dialogue"
+            },
+            {
+              "text": "（投稿にあたって）粒子の動き。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "three.js",
+              "status": "confirmed",
+              "role": "3D描画の基盤",
+              "reason": "読み込まれているJSにthree.coreのバンドルがあり、点群・文字・合成の各シェーダーがthree.jsのマテリアルとして書かれていることをコードで確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "React Three Fiber",
+              "status": "confirmed",
+              "role": "three.jsをReactで扱うためのライブラリ",
+              "reason": "react-three-fiberのバンドルが読み込まれ、背景コンポーネントがそのCanvasを使っていることをコードで確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "React",
+              "status": "confirmed",
+              "role": "サイト全体のUIフレームワーク",
+              "reason": "react / react-domのバンドルを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "Theatre.js",
+              "status": "confirmed",
+              "role": "セクションごとのカメラ・色・エフェクトの値をタイムラインで管理し、スクロール位置で再生位置を動かす",
+              "reason": "useTheatreObjectなどのモジュールと、セクションごとのTheatre.js形式の状態ファイル（hero-prod.jsonなど、sheetsByIdを持つ）を確認した。シーケンスの再生位置を書き換えるコードも確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "Lenis",
+              "status": "confirmed",
+              "role": "慣性付きのスムーズスクロール。スクロール量が流体シミュレーションにも渡される",
+              "reason": "lenisManagerモジュールと、Lenisのscrollイベントからスクロール速度を計算するコードを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "WebGL",
+              "status": "confirmed",
+              "role": "描画API",
+              "reason": "ページ上のcanvasがWebGL2コンテキストで動いていることを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "2D流体シミュレーション（WebGL-Fluid-Simulationベース）",
+              "status": "confirmed",
+              "role": "マウスとスクロールの動きを速度場にして粒子と文字を流す",
+              "reason": "シェーダーのコメントにPavel DobryakovのWebGL-Fluid-Simulation（MIT）由来と明記されており、curl・divergence・pressure・advectionの各パスを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026",
+                "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "SDF（符号付き距離関数）による粒子の押しのけ",
+              "status": "confirmed",
+              "role": "トーラスなどの見えない形状の周りから粒子を押し出す",
+              "reason": "頂点シェーダー内のapplySdfShapeCollision関数と、ヒーローのリングにtorus形状のSDFを設定するコードを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "curl noise",
+              "status": "confirmed",
+              "role": "粒子を渦のように漂わせる流れ",
+              "reason": "頂点シェーダーのapplyFlow関数でcurlNoiseを使っていることを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "Slug（GPUでのフォント曲線描画）",
+              "status": "inferred",
+              "role": "回る文字の描画。フォントのベジェ曲線をテクスチャに入れ、シェーダーで塗りを計算する",
+              "reason": "シェーダー内の変数名（slugAlpha、SLUG_MODELSPACE_UV）と、曲線・バンドのテクスチャから被覆率を計算する処理がSlug方式と一致する。名前と処理からの判断で、作者の説明は確認していない。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "KTX2",
+              "status": "confirmed",
+              "role": "連番テクスチャの圧縮形式",
+              "reason": ".ktx2ファイルとktx2-loaderの読み込みを確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "detect-gpu",
+              "status": "confirmed",
+              "role": "GPU性能を判定して画質を切り替える",
+              "reason": "@pmndrs/detect-gpuのベンチマークデータを読み込む通信を確認した。",
+              "evidence_urls": [
+                "https://www.shopify.com/editions/spring2026"
+              ],
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "データの1件を1粒子にし、値を粒の位置・色・大きさに割り当てる。マウス操作で粒子を流体のように動かすと、データに触れる感覚が出せる。"
+            },
+            {
+              "author": "ai",
+              "idea": "項目名や数値を円周に並べ、時間とスクロール量で回す。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.shopify.com/editions/spring2026",
+              "title": "Shopify Editions | Spring '26",
+              "access": "read",
+              "supports": "ブラウザで開き、読み込まれたJSとシェーダーのコードを読んで見どころと技術を確認した"
+            }
+          ],
+          "ai_notes": [
+            "技術の確認は、公開されているJSバンドルを読んだ結果による。ソースマップは公開されておらず、元のソースコードは見ていない。"
+          ],
+          "tags": [
+            "粒子",
+            "スクロール",
+            "文字",
+            "3D",
+            "流体"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "2026-10-08時点のサイトを確認した。モバイル版の挙動は確認していない。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-03276ca3-8bd4-4f91-95d7-ef5804c290ec",
+          "archive": "data/submissions/entry-d3fc311aea7790f9b8a0.json",
+          "source_state": "branch"
         }
       ],
       "tags": [
         "three.js",
         "粒子",
         "スクロール",
-        "場面転換"
+        "場面転換",
+        "文字",
+        "3D",
+        "流体"
       ],
       "technologies": [
         "three.js",
         "GLSLシェーダー（GPUでの粒子計算）",
-        "GSAP（ScrollTrigger）"
+        "GSAP（ScrollTrigger）",
+        "React Three Fiber",
+        "React",
+        "Theatre.js",
+        "Lenis",
+        "WebGL",
+        "2D流体シミュレーション（WebGL-Fluid-Simulationベース）",
+        "SDF（符号付き距離関数）による粒子の押しのけ",
+        "curl noise",
+        "Slug（GPUでのフォント曲線描画）",
+        "KTX2",
+        "detect-gpu"
       ]
     },
     {
@@ -3020,6 +4435,69 @@
         }
       ],
       "tags": [],
+      "technologies": []
+    },
+    {
+      "id": "item-636c76ec13e3",
+      "title": "Sleep No More（Punchdrunk）",
+      "url": "https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i20",
+          "kind": "site",
+          "title": "Sleep No More（Punchdrunk）",
+          "url": "https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・演劇】観客が仮面をつけて建物の中を歩き回り、誰を追うかで見える物語が変わる。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：自由探索の場面を、データ一覧ではなく歩き回れる空間にする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)",
+              "title": "Sleep No More（Punchdrunk）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "演劇",
+            "没入",
+            "空間探索"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（演劇）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "演劇",
+        "没入",
+        "空間探索"
+      ],
       "technologies": []
     },
     {
@@ -3467,6 +4945,162 @@
       ]
     },
     {
+      "id": "item-852f7b23960f",
+      "title": "The Spirit（Edan Kwan）",
+      "url": "https://experiments.withgoogle.com/the-spirit",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "The Spirit（Edan Kwan）",
+          "url": "https://experiments.withgoogle.com/the-spirit",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "煙のような質感の粒子が流れ続けるWebGL作品（2016年）。",
+          "highlights": [
+            {
+              "detail": "noise derivatives（ノイズの微分）とcurl noiseで、煙のような流れを作っている。",
+              "basis": "source_description",
+              "source_url": "https://experiments.withgoogle.com/the-spirit",
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "マウスと粒子の関係性が分かってよかった。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "WebGL",
+              "status": "confirmed",
+              "role": "描画",
+              "reason": "Experiments with Googleの作品ページに Built with: WebGL とある。",
+              "evidence_urls": [
+                "https://experiments.withgoogle.com/the-spirit"
+              ],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "curl noise",
+              "status": "confirmed",
+              "role": "粒子を煙のように流す",
+              "reason": "作品ページの説明に明記されている。",
+              "evidence_urls": [
+                "https://experiments.withgoogle.com/the-spirit"
+              ],
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://experiments.withgoogle.com/the-spirit",
+              "title": "The Spirit - Experiments with Google",
+              "access": "read",
+              "supports": "作品の説明と使用技術"
+            },
+            {
+              "url": "https://github.com/edankwan/The-Spirit",
+              "title": "edankwan/The-Spirit（GitHub）",
+              "access": "not_accessed",
+              "supports": "公開されているソースコード"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "粒子",
+            "マウス操作"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "AIは作品本体を動かしておらず、紹介ページの説明のみ確認した。マウス操作についてはコメントによる。"
+          ],
+          "contributor": {
+            "id": "p-bf4792fa2d55",
+            "nickname": "yuta-design"
+          },
+          "submission_id": "s-03276ca3-8bd4-4f91-95d7-ef5804c290ec",
+          "archive": "data/submissions/entry-d3fc311aea7790f9b8a0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "粒子",
+        "マウス操作"
+      ],
+      "technologies": [
+        "WebGL",
+        "curl noise"
+      ]
+    },
+    {
+      "id": "item-0297b08e6e60",
+      "title": "The Weather Channel 複合現実中継（2018年）",
+      "url": "https://www.pewtrusts.org/en/research-and-analysis/articles/2018/12/03/the-weather-channel-uses-animation-to-show-dangers-of-storm-surge",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i23",
+          "kind": "site",
+          "title": "The Weather Channel 複合現実中継（2018年）",
+          "url": "https://www.pewtrusts.org/en/research-and-analysis/articles/2018/12/03/the-weather-channel-uses-animation-to-show-dangers-of-storm-surge",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・テレビ】スタジオに立つキャスターの周りで、CGの高潮の水位がその高さまで上がっていく。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：津波の高さや水の量を、3Dの家の中の高さという目盛りで見せる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.pewtrusts.org/en/research-and-analysis/articles/2018/12/03/the-weather-channel-uses-animation-to-show-dangers-of-storm-surge",
+              "title": "The Weather Channel 複合現実中継（2018年）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "テレビ",
+            "複合現実",
+            "スケール"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（テレビ）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "テレビ",
+        "複合現実",
+        "スケール"
+      ],
+      "technologies": []
+    },
+    {
       "id": "item-cd2ccb0c1808",
       "title": "three.js",
       "url": "https://threejs.org/",
@@ -3822,17 +5456,17 @@
       "kind": "site",
       "contributions": [
         {
-          "id": "i1",
+          "id": "i4",
           "kind": "site",
           "title": "Toronto 2021 Dot Density Map",
           "url": "https://schoolofcities.github.io/dot-density/",
           "source_material_ids": [
             "m1"
           ],
-          "description": "トロントの国勢調査データを都市上の点として可視化し、人口や属性の空間分布を直感的に理解するための可視化。",
+          "description": "人口データを大量の点・色・高さに変換し、都市そのものをデータ風景にする。",
           "highlights": [
             {
-              "detail": "「1点 = 10人」という表現で数値を都市の模様へ変換し、3D表示では人口密度を高さとして捉えることでデータを風景のように見せている。",
+              "detail": "人口データを大量の点・色・高さに変換し、都市そのものをデータ風景にする。",
               "basis": "student_report",
               "source_url": null,
               "checked_at": null
@@ -3848,59 +5482,111 @@
             {
               "name": "deck.gl",
               "status": "confirmed",
-              "role": "人口密度を3Dの点群レイヤーとして描画する。",
-              "reason": "deck.gl公式ShowcaseにToronto Dot Density Mapが掲載され、3Dのpoint cloud layerで人口密度を可視化すると説明されている。",
+              "role": "3D点群による人口密度の可視化",
+              "reason": "前回の提出資料でdeck.gl公式Showcaseを根拠として確認した情報。今回の再検証は未実施。",
               "evidence_urls": [
                 "https://deck.gl/showcase"
               ],
-              "checked_at": "2026-10-01"
+              "checked_at": null
             }
           ],
-          "applications": [
-            {
-              "author": "student",
-              "idea": "数値を点・密度・高さ・色などの視覚属性に変換し、大量データを風景として探索できる表現に応用する。"
-            }
-          ],
+          "applications": [],
           "sources": [
             {
-              "url": "https://deck.gl/showcase",
-              "title": "deck.gl Showcase",
-              "access": "read",
-              "supports": "Toronto Dot Density Mapがdeck.glを利用し、人口密度を3D点群として表現していること。"
+              "url": "https://schoolofcities.github.io/dot-density/",
+              "title": "Toronto 2021 Dot Density Map",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
             }
           ],
           "ai_notes": [],
           "tags": [
-            "dot-density",
-            "map",
-            "3D",
-            "population",
-            "data-landscape"
+            "Large Data",
+            "Landscape"
           ],
           "completeness": "ready",
           "limitations": [
-            "提出資料に記載された全実装技術までは確認していない。"
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
           ],
           "contributor": {
             "id": "p-29b96358289a",
             "nickname": "りょ"
           },
-          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
-          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "main"
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
         }
       ],
       "tags": [
-        "dot-density",
-        "map",
-        "3D",
-        "population",
-        "data-landscape"
+        "Large Data",
+        "Landscape"
       ],
       "technologies": [
         "deck.gl"
       ]
+    },
+    {
+      "id": "item-171829b67cfa",
+      "title": "U.S. Gun Deaths（Periscopic）",
+      "url": "https://guns.periscopic.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i18",
+          "kind": "site",
+          "title": "U.S. Gun Deaths（Periscopic）",
+          "url": "https://guns.periscopic.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・Web】亡くなった一人ひとりを弧の線で描き、途中で切れた線の先に生きられたはずの年数を薄く延ばす。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：死を数ではなく途切れた線で見せ、観客自身の線と表現をそろえる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://guns.periscopic.com/",
+              "title": "U.S. Gun Deaths（Periscopic）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "Web",
+            "線",
+            "人生"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "AIは作品ページを確認していない。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "Web",
+        "線",
+        "人生"
+      ],
+      "technologies": []
     },
     {
       "id": "item-a8ae2b362ad2",
@@ -3909,17 +5595,17 @@
       "kind": "site",
       "contributions": [
         {
-          "id": "i2",
+          "id": "i5",
           "kind": "site",
           "title": "United Carriers",
           "url": "https://unitedcarriers.com/",
           "source_material_ids": [
             "m1"
           ],
-          "description": "物流企業のサービスや世界規模の輸送を、3D表現とスクロールを組み合わせたWeb体験として伝えるサイト。",
+          "description": "スクロールと物流の進行を一致させ、企業の事業を「旅」として体験させる。",
           "highlights": [
             {
-              "detail": "3Dの地球や輸送表現とスクロールアニメーションを組み合わせ、ページを進める操作自体を貨物の旅に近づけている。",
+              "detail": "スクロールと物流の進行を一致させ、企業の事業を「旅」として体験させる。",
               "basis": "student_report",
               "source_url": null,
               "checked_at": null
@@ -3927,78 +5613,121 @@
           ],
           "student_comments": [
             {
-              "text": "操作をコンテンツの意味と一致させており、3Dが飾りではなく「世界を結ぶ物流」を伝える装置になっているところが面白い。",
+              "text": "操作をコンテンツの意味と一致させ、3Dを物流の意味を伝える装置として使う点が面白い。",
               "origin": "provided_material"
             }
           ],
           "technologies": [
             {
-              "name": "3D/WebGL",
+              "name": "3D / WebGL",
               "status": "confirmed",
-              "role": "物流の旅を立体的・没入的に表現する。",
-              "reason": "United Carriers自身の記事がサイトの特徴を「3D/WebGL freight journey」と説明している。",
+              "role": "立体的な物流体験",
+              "reason": "前回提出で公式解説を根拠として確認した情報。今回の再検証は未実施。",
               "evidence_urls": [
                 "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral"
               ],
-              "checked_at": "2026-10-01"
-            },
-            {
-              "name": "Three.js / GSAP / Webflow / Barba.js",
-              "status": "inferred",
-              "role": "3D描画、スクロールアニメーション、サイト構築や画面遷移に関係する可能性がある。",
-              "reason": "提出資料には使用技術として記載されているが、今回確認した公式記事だけでは各ライブラリの実装利用を個別に確定できない。",
-              "evidence_urls": [],
-              "checked_at": "2026-10-01"
+              "checked_at": null
             }
           ],
-          "applications": [
-            {
-              "author": "student",
-              "idea": "スクロールやカメラ移動そのものに意味を持たせ、データ探索の進行をストーリーとして体験させる。"
-            }
-          ],
+          "applications": [],
           "sources": [
             {
-              "url": "https://unitedcarriers.com/insights/how-an-australian-freight-forwarders-website-unexpectedly-went-viral",
-              "title": "How an Australian Freight Forwarder’s Website Unexpectedly Went Viral",
-              "access": "read",
-              "supports": "サイトが3D/WebGLによる物流体験を特徴としていること。"
+              "url": "https://unitedcarriers.com/",
+              "title": "United Carriers",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
             }
           ],
-          "ai_notes": [
-            "提出資料にある個別ライブラリ名は、追加の実装証拠が得られるまで推定として扱った。"
-          ],
+          "ai_notes": [],
           "tags": [
+            "Scroll",
             "3D",
-            "WebGL",
-            "scroll",
-            "storytelling",
-            "logistics"
+            "Journey"
           ],
           "completeness": "ready",
           "limitations": [
-            "Three.js、GSAP、Webflow、Barba.jsの個別利用は今回の確認範囲では確定していない。"
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
           ],
           "contributor": {
             "id": "p-29b96358289a",
             "nickname": "りょ"
           },
-          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
-          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Scroll",
+        "3D",
+        "Journey"
+      ],
+      "technologies": [
+        "3D / WebGL"
+      ]
+    },
+    {
+      "id": "item-8783609c1a04",
+      "title": "W.E.B.デュボイスのデータポートレート",
+      "url": "https://www.wbur.org/artery/2019/02/21/web-du-bois-infographics-humanity-african-american",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i16",
+          "kind": "site",
+          "title": "W.E.B.デュボイスのデータポートレート",
+          "url": "https://www.wbur.org/artery/2019/02/21/web-du-bois-infographics-humanity-african-american",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・図版】1900年パリ万博で展示された手描きの統計図。紙に収まらない棒グラフを渦巻き状に曲げて描いたものがある。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：画面に収まらない大きな数字の棒を渦巻きにする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.wbur.org/artery/2019/02/21/web-du-bois-infographics-humanity-african-american",
+              "title": "W.E.B.デュボイスのデータポートレート",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "図版",
+            "渦巻き",
+            "手描き"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（図版）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
           "source_state": "main"
         }
       ],
       "tags": [
-        "3D",
-        "WebGL",
-        "scroll",
-        "storytelling",
-        "logistics"
+        "AIの提案",
+        "図版",
+        "渦巻き",
+        "手描き"
       ],
-      "technologies": [
-        "3D/WebGL",
-        "Three.js / GSAP / Webflow / Barba.js"
-      ]
+      "technologies": []
     },
     {
       "id": "item-064b58267e28",
@@ -4129,23 +5858,647 @@
       "technologies": []
     },
     {
-      "id": "item-29b9bcd2f0df",
-      "title": "インタラクティブ可視化ライブラリ候補",
-      "url": null,
-      "kind": "technology",
+      "id": "item-8f626a6c45f4",
+      "title": "アイソタイプ（オットー・ノイラート、ゲルト・アルンツ）",
+      "url": "https://en.wikipedia.org/wiki/Isotype_(picture_language)",
+      "kind": "site",
       "contributions": [
         {
-          "id": "i4",
-          "kind": "technology",
-          "title": "インタラクティブ可視化ライブラリ候補",
-          "url": null,
+          "id": "i15",
+          "kind": "site",
+          "title": "アイソタイプ（オットー・ノイラート、ゲルト・アルンツ）",
+          "url": "https://en.wikipedia.org/wiki/Isotype_(picture_language)",
           "source_material_ids": [
             "m1"
           ],
-          "description": "大量データを探索可能なWeb表現にするために比較したライブラリ群。",
+          "description": "【AIの提案・図版】数量をアイコンの大きさではなく、同じアイコンを並べた数で表す絵文字統計。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：人形ブロックを積む表現の理論的な土台にする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Isotype_(picture_language)",
+              "title": "アイソタイプ（オットー・ノイラート、ゲルト・アルンツ）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "図版",
+            "ピクトグラム",
+            "数え上げ"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（図版）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "図版",
+        "ピクトグラム",
+        "数え上げ"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-a19850bb219a",
+      "title": "カーソル・インタラクション集",
+      "url": "https://higashiyuki.com/interaction/cursor/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i10",
+          "kind": "site",
+          "title": "カーソル・インタラクション集",
+          "url": "https://higashiyuki.com/interaction/cursor/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "カーソル追従、軌跡、吸着、クリック反応など、インタラクションを「部品」として考える参考になった。",
           "highlights": [
             {
-              "detail": "D3.js、Three.js、deck.gl、Plotly.js、Cytoscape.js、Observable Plotを候補として比較した。",
+              "detail": "カーソル追従、軌跡、吸着、クリック反応など、インタラクションを「部品」として考える参考になった。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://higashiyuki.com/interaction/cursor/",
+              "title": "カーソル・インタラクション集",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Cursor",
+            "Micro Interaction"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Cursor",
+        "Micro Interaction"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-469a86725acf",
+      "title": "この世界の片隅に（こうの史代）",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AB",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i8",
+          "kind": "site",
+          "title": "この世界の片隅に（こうの史代）",
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AB",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・漫画】主人公が右手を失ったあと、背景が作者の左手で描かれ、絵そのものが崩れる。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：断水後は色数を減らす、線を途切れさせるなど、描き方の変化でデータの変化を伝える。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AB",
+              "title": "この世界の片隅に（こうの史代）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "漫画",
+            "描線",
+            "欠損"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（漫画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "描線",
+        "欠損"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-3ddd64dfa4e3",
+      "title": "コヤニスカッツィ",
+      "url": "https://www.koyaanisqatsi.org/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i13",
+          "kind": "site",
+          "title": "コヤニスカッツィ",
+          "url": "https://www.koyaanisqatsi.org/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・映画】ナレーションなしの微速度撮影で都市の時間を圧縮し、音楽だけで見せる。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：日数カウンターが加速する場面の演出の参考にする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.koyaanisqatsi.org/",
+              "title": "コヤニスカッツィ",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "映画",
+            "微速度",
+            "音楽"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（映画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "映画",
+        "微速度",
+        "音楽"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-907e23e695ea",
+      "title": "サントリー 金麦「帰れば、ビール。」交通広告ポスター（一押し）",
+      "url": "https://x.com/copy_writter/status/2107583694743756925",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "サントリー 金麦「帰れば、ビール。」交通広告ポスター（一押し）",
+          "url": "https://x.com/copy_writter/status/2107583694743756925",
+          "source_material_ids": [
+            "m1",
+            "m2"
+          ],
+          "description": "サントリー「金麦」の大判ポスター。濃紺の背景に、ビールを飲む人物の写真が円形に切り抜かれて置かれ、その周りを金色の麦の穂のモチーフが囲む。麦の穂は滑らかな塗りではなく、粗い網点（ハーフトーンのドット）の集まりで描かれている。縦書きのコピーは「帰れば、ビール。」。",
+          "highlights": [
+            {
+              "detail": "金色の麦の穂が、拡大すると一つひとつ見えるほど粗いドットの集まりで描かれている。滑らかなベタ塗りではなく、あえて目の粗い印刷のように見せている。",
+              "basis": "direct_observation",
+              "source_url": null,
+              "checked_at": "2026-10-08"
+            },
+            {
+              "detail": "網点で描いた麦の穂の曲線が、写真部分を円形に縁取るフレームになっている。写真（滑らか）とグラフィック（粗いドット）の質感の差がはっきり分かれている。",
+              "basis": "direct_observation",
+              "source_url": null,
+              "checked_at": "2026-10-08"
+            },
+            {
+              "detail": "濃紺と金の配色、麦の穂のモチーフは、ポスター左下に置かれた商品の缶のデザインと共通している。",
+              "basis": "direct_observation",
+              "source_url": null,
+              "checked_at": "2026-10-08"
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "あえて解像度を下げて、ビールの缶っぽさを出しているところがよい。今回集めた表現の中で、これが一押し。",
+              "origin": "dialogue"
+            }
+          ],
+          "technologies": [
+            {
+              "name": "ハーフトーン（網点）表現",
+              "status": "inferred",
+              "role": "麦の穂のモチーフを粗いドットで描き、缶の印刷のような質感を出す",
+              "reason": "生徒が撮影した写真の拡大でドットの集まりが確認できる。ただし、印刷工程の網点なのか、デザインとして描いたドット柄なのかは、制作者の説明がないため確定できない。",
+              "evidence_urls": [],
+              "checked_at": "2026-10-08"
+            },
+            {
+              "name": "GLSLシェーダー",
+              "status": "reproduction_candidate",
+              "role": "Web上で同様のハーフトーン表現を再現する手段の候補",
+              "reason": "このポスターで使われた技術ではない。Webで再現する場合の候補として挙げた。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "three.js",
+              "status": "reproduction_candidate",
+              "role": "3D表示にポストプロセスでドット表現をかける手段の候補",
+              "reason": "このポスターで使われた技術ではない。Webで再現する場合の候補として挙げた。",
+              "evidence_urls": [],
+              "checked_at": null
+            }
+          ],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "データの確かさを解像度（網点の粗さ）で表す。実際の記録は細かく滑らかに、条件付きの推計は粗い網点で、未確定の予測はさらに粗く崩れたドットで描く。"
+            },
+            {
+              "author": "ai",
+              "idea": "題材そのものの質感をグラフィックに移す。たとえば災害の題材なら、防災マップや配布物の印刷の質感を網点で借りてくる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://x.com/copy_writter/status/2107583694743756925",
+              "title": "Xの投稿（生徒が紹介した元投稿）",
+              "access": "not_accessed",
+              "supports": "生徒がこの表現を知ったきっかけの投稿。Xが自動取得を拒否したため、AIは本文を確認していない。"
+            }
+          ],
+          "ai_notes": [
+            "観察は、生徒が撮影したポスター全体と拡大の写真2枚に基づく。写真自体は第三者の広告のため投稿に含めていない。"
+          ],
+          "tags": [
+            "網点",
+            "解像度",
+            "質感",
+            "ポスター",
+            "広告"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "Webサイトではなく交通広告のポスター。",
+            "実物と元のXの投稿はAIが直接確認していない。",
+            "制作者・デザイナーによる公式な説明は未確認。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "網点",
+        "解像度",
+        "質感",
+        "ポスター",
+        "広告"
+      ],
+      "technologies": [
+        "ハーフトーン（網点）表現",
+        "GLSLシェーダー",
+        "three.js"
+      ]
+    },
+    {
+      "id": "item-dc75e4090377",
+      "title": "シン・ゴジラ",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i12",
+          "kind": "site",
+          "title": "シン・ゴジラ",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・映画】役職や名前のテロップが明朝体で大量に流れ、情報量そのもので緊迫感を作る。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：発生直後に被害報告や数字を文字の洪水として流す。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9",
+              "title": "シン・ゴジラ",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "映画",
+            "テロップ",
+            "タイポグラフィ"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（映画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "映画",
+        "テロップ",
+        "タイポグラフィ"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-4dabe71aad78",
+      "title": "スパイダーマン：スパイダーバース",
+      "url": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i11",
+          "kind": "site",
+          "title": "スパイダーマン：スパイダーバース",
+          "url": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・アニメ映画】主人公は最初コマ数を減らしてカクカク動き、成長につれて滑らかに動く。網点も使う。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：確かさを動きのなめらかさで分ける。実績は滑らかに、推計はカクカクに動かす。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse",
+              "title": "スパイダーマン：スパイダーバース",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "アニメ",
+            "コマ数",
+            "網点"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（アニメ映画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "アニメ",
+        "コマ数",
+        "網点"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-df8dc8ea4a77",
+      "title": "ドッグヴィル",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%83%E3%82%B0%E3%83%B4%E3%82%A3%E3%83%AB",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i10",
+          "kind": "site",
+          "title": "ドッグヴィル",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%83%E3%82%B0%E3%83%B4%E3%82%A3%E3%83%AB",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・映画】町全体を床にチョークで描いた線だけで表し、壁がないので全員の生活が同時に見える。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：3Dの家を壁なしの線で描き、家の中と外を同時に見せる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%83%E3%82%B0%E3%83%B4%E3%82%A3%E3%83%AB",
+              "title": "ドッグヴィル",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "映画",
+            "線画",
+            "舞台装置"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（映画）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "映画",
+        "線画",
+        "舞台装置"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-64725d582691",
+      "title": "ベトナム戦争戦没者慰霊碑（マヤ・リン）",
+      "url": "https://www.nps.gov/vive/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i22",
+          "kind": "site",
+          "title": "ベトナム戦争戦没者慰霊碑（マヤ・リン）",
+          "url": "https://www.nps.gov/vive/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・空間】戦死者の名前が亡くなった順に刻まれ、壁は中心に向かって深くなる。磨かれた黒い石に読む人の姿が映り込む。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：関連死の時期の分布を壁の高さで表し、観客自身を映り込ませる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.nps.gov/vive/",
+              "title": "ベトナム戦争戦没者慰霊碑（マヤ・リン）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "空間",
+            "時系列",
+            "映り込み"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（空間）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "空間",
+        "時系列",
+        "映り込み"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-150093a998cf",
+      "title": "まちの計量舎",
+      "url": "https://keiryosha.com/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i2",
+          "kind": "site",
+          "title": "まちの計量舎",
+          "url": "https://keiryosha.com/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "都市データを多様な可視化方法で読み解く、日本語のアイデア宝庫。",
+          "highlights": [
+            {
+              "detail": " 都市・交通・人口・行動などの実データを、地図、時系列、類似度、ミニチャートなど多様な方法で可視化。データごとに最適な見せ方を考えている。",
               "basis": "student_report",
               "source_url": null,
               "checked_at": null
@@ -4153,7 +6506,70 @@
           ],
           "student_comments": [
             {
-              "text": "普通の棒グラフやダッシュボードだけでなく、大量のデータそのものを「世界」として感じられ、ズーム・ドラッグ・クリック・スクロールで探索できるWeb表現を目指したい。",
+              "text": " 「何を比較したいか」に応じて、表現方法そのものを変える。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://keiryosha.com/",
+              "title": "まちの計量舎",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Urban Data",
+            "Interactive"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Urban Data",
+        "Interactive"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-49ad942a7bd3",
+      "title": "可視化・インタラクション技術候補",
+      "url": null,
+      "kind": "technology",
+      "contributions": [
+        {
+          "id": "i11",
+          "kind": "technology",
+          "title": "可視化・インタラクション技術候補",
+          "url": null,
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "データの特徴に合わせた視覚変換と操作体験を実現するための技術候補。",
+          "highlights": [
+            {
+              "detail": "3Dありきではなく、数量・地域差・時間・関係・階層などを適切な視覚表現に変換する方針。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": "「どのライブラリを使うか」より先に、このデータの特徴を位置・大きさ・色・高さ・動き・時間・距離・スクロールのどれに翻訳すると理解しやすいかを考える。",
               "origin": "provided_material"
             }
           ],
@@ -4161,50 +6577,48 @@
             {
               "name": "D3.js",
               "status": "reproduction_candidate",
-              "role": "データ変換や2Dの独自可視化を担当する候補。",
-              "reason": "提出資料で候補として比較されている。",
+              "role": "提出資料で挙げられた表現実装の候補。",
+              "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
               "evidence_urls": [],
               "checked_at": null
             },
             {
               "name": "Three.js",
               "status": "reproduction_candidate",
-              "role": "3D空間や没入的な探索体験を担当する候補。",
-              "reason": "提出資料で候補として比較されている。",
+              "role": "提出資料で挙げられた表現実装の候補。",
+              "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
               "evidence_urls": [],
               "checked_at": null
             },
             {
               "name": "deck.gl",
               "status": "reproduction_candidate",
-              "role": "GPUを利用した大量データ描画を担当する候補。",
-              "reason": "提出資料で候補として比較されている。",
-              "evidence_urls": [
-                "https://deck.gl/"
-              ],
-              "checked_at": "2026-10-01"
-            },
-            {
-              "name": "Plotly.js",
-              "status": "reproduction_candidate",
-              "role": "分析向けインタラクティブグラフの候補。",
-              "reason": "提出資料で候補として比較されている。",
+              "role": "提出資料で挙げられた表現実装の候補。",
+              "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
               "evidence_urls": [],
               "checked_at": null
             },
             {
-              "name": "Cytoscape.js",
+              "name": "GSAP / ScrollTrigger",
               "status": "reproduction_candidate",
-              "role": "関係性・ネットワーク可視化の候補。",
-              "reason": "提出資料で候補として比較されている。",
+              "role": "提出資料で挙げられた表現実装の候補。",
+              "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
               "evidence_urls": [],
               "checked_at": null
             },
             {
-              "name": "Observable Plot",
+              "name": "SVG / Canvas",
               "status": "reproduction_candidate",
-              "role": "比較的少ないコードで統計可視化を作る候補。",
-              "reason": "提出資料で候補として比較されている。",
+              "role": "提出資料で挙げられた表現実装の候補。",
+              "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
+              "evidence_urls": [],
+              "checked_at": null
+            },
+            {
+              "name": "Plotly / Observable Plot",
+              "status": "reproduction_candidate",
+              "role": "提出資料で挙げられた表現実装の候補。",
+              "reason": "候補としての調査であり、各参考サイトでの使用を断定しない。",
               "evidence_urls": [],
               "checked_at": null
             }
@@ -4212,57 +6626,296 @@
           "applications": [
             {
               "author": "student",
-              "idea": "deck.gl + D3.js + Three.jsを役割分担させ、大量描画・データ変換・3D体験を組み合わせる。"
+              "idea": "全体像を見せ、ホバー・クリック・ズーム・スクロールで詳細を探索し、比較や関係の理解につなげる。"
             }
           ],
-          "sources": [
-            {
-              "url": "https://deck.gl/",
-              "title": "deck.gl",
-              "access": "read",
-              "supports": "deck.glがGPUを利用した大規模データの視覚的探索を目的とするフレームワークであること。"
-            }
-          ],
-          "ai_notes": [
-            "各ライブラリは、参考サイトが実際に利用しているという主張ではなく、同様の表現を実現する候補として整理した。"
-          ],
+          "sources": [],
+          "ai_notes": [],
           "tags": [
-            "D3.js",
-            "Three.js",
-            "deck.gl",
-            "Plotly.js",
-            "Cytoscape.js",
-            "Observable Plot"
+            "visualization",
+            "interaction",
+            "2D",
+            "3D",
+            "scrollytelling"
           ],
           "completeness": "ready",
           "limitations": [
-            "全候補ライブラリの性能上限や適用条件の詳細比較は今後の調査課題。"
+            "ライブラリごとの性能や実装適合性は今後の調査課題。"
           ],
           "contributor": {
             "id": "p-29b96358289a",
             "nickname": "りょ"
           },
-          "submission_id": "s-92e2866a-0519-409e-a83e-259b7733d01b",
-          "archive": "data/submissions/entry-6dbd83dd0a06b01cfb42.json",
-          "source_state": "main"
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
         }
       ],
       "tags": [
-        "D3.js",
-        "Three.js",
-        "deck.gl",
-        "Plotly.js",
-        "Cytoscape.js",
-        "Observable Plot"
+        "visualization",
+        "interaction",
+        "2D",
+        "3D",
+        "scrollytelling"
       ],
       "technologies": [
         "D3.js",
         "Three.js",
         "deck.gl",
-        "Plotly.js",
-        "Cytoscape.js",
-        "Observable Plot"
+        "GSAP / ScrollTrigger",
+        "SVG / Canvas",
+        "Plotly / Observable Plot"
       ]
+    },
+    {
+      "id": "item-b994964f3bdf",
+      "title": "回り舞台（歌舞伎）",
+      "url": "https://ja.wikipedia.org/wiki/%E5%9B%9E%E3%82%8A%E8%88%9E%E5%8F%B0",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i21",
+          "kind": "site",
+          "title": "回り舞台（歌舞伎）",
+          "url": "https://ja.wikipedia.org/wiki/%E5%9B%9E%E3%82%8A%E8%88%9E%E5%8F%B0",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・演劇】舞台を回転させて暗転なしで場面を切り替える。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：3Dの家を回して次の場面を見せる。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://ja.wikipedia.org/wiki/%E5%9B%9E%E3%82%8A%E8%88%9E%E5%8F%B0",
+              "title": "回り舞台（歌舞伎）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "演劇",
+            "場面転換",
+            "回転"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（演劇）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "演劇",
+        "場面転換",
+        "回転"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-3e7465070ded",
+      "title": "時間地図（杉浦康平）",
+      "url": "https://artscape.jp/report/review/10104140_1735.html",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i17",
+          "kind": "site",
+          "title": "時間地図（杉浦康平）",
+          "url": "https://artscape.jp/report/review/10104140_1735.html",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "【AIの提案・図版】距離ではなく移動にかかる時間で地図をゆがめたダイアグラム。",
+          "highlights": [],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [
+            {
+              "author": "ai",
+              "idea": "南海トラフ（災害関連死）の題材での使い方：断水や停電の復旧日数で地図をゆがめ、復旧が遅い地域ほど大きく遠くする。"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://artscape.jp/report/review/10104140_1735.html",
+              "title": "時間地図（杉浦康平）",
+              "access": "not_accessed",
+              "supports": "作品の参照先"
+            }
+          ],
+          "ai_notes": [
+            "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+          ],
+          "tags": [
+            "AIの提案",
+            "図版",
+            "地図",
+            "変形"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "Webサイトではない作品（図版）も含む。",
+            "生徒は一押しとしてはこの作品を選んでいない。"
+          ],
+          "contributor": {
+            "id": "p-0946edf7500c",
+            "nickname": "ユウガ"
+          },
+          "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+          "archive": "data/submissions/entry-66b45925987df2279716.json",
+          "source_state": "main"
+        }
+      ],
+      "tags": [
+        "AIの提案",
+        "図版",
+        "地図",
+        "変形"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-69bcc0b84ef9",
+      "title": "人口動態マップ",
+      "url": "https://osakenpiro.github.io/japan-wallet-map/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i3",
+          "kind": "site",
+          "title": "人口動態マップ",
+          "url": "https://osakenpiro.github.io/japan-wallet-map/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "人口の移り変わりを時系列で追い、東京への人口集中の背景を視覚的に見る。",
+          "highlights": [
+            {
+              "detail": "人口の移り変わりを時系列で追い、東京への人口集中の背景を視覚的に見る。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [],
+          "technologies": [],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://osakenpiro.github.io/japan-wallet-map/",
+              "title": "人口動態マップ",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Population",
+            "Time"
+          ],
+          "completeness": "needs_comment",
+          "limitations": [
+            "個別の感想・理由が資料中に明記されていないため、追加確認が必要。",
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Population",
+        "Time"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "item-d515979325f8",
+      "title": "日本のお野菜収穫量",
+      "url": "https://infographic.jp/nippon-yasai/",
+      "kind": "site",
+      "contributions": [
+        {
+          "id": "i1",
+          "kind": "site",
+          "title": "日本のお野菜収穫量",
+          "url": "https://infographic.jp/nippon-yasai/",
+          "source_material_ids": [
+            "m1"
+          ],
+          "description": "都道府県ごとの収穫量を円の大きさ・色・位置で表現。",
+          "highlights": [
+            {
+              "detail": " 都道府県ごとの収穫量を、表ではなく 円の大きさ・色・位置 で表現。野菜や年代を切り替えると地域差が一瞬で分かる。",
+              "basis": "student_report",
+              "source_url": null,
+              "checked_at": null
+            }
+          ],
+          "student_comments": [
+            {
+              "text": " 数量を「大きさ」に翻訳し、地理と組み合わせるだけでも理解速度が大きく変わる。",
+              "origin": "provided_material"
+            }
+          ],
+          "technologies": [],
+          "applications": [],
+          "sources": [
+            {
+              "url": "https://infographic.jp/nippon-yasai/",
+              "title": "日本のお野菜収穫量",
+              "access": "not_accessed",
+              "supports": "提出資料に記載された参考サイト。今回はHTML内の記述のみを整理。"
+            }
+          ],
+          "ai_notes": [],
+          "tags": [
+            "Data Viz",
+            "Size",
+            "Japan"
+          ],
+          "completeness": "ready",
+          "limitations": [
+            "この更新作業では参考サイトの実際の動作を再検証していない。"
+          ],
+          "contributor": {
+            "id": "p-29b96358289a",
+            "nickname": "りょ"
+          },
+          "submission_id": "s-61cdc25c-4e1c-4df4-b602-c4aa6f37541e",
+          "archive": "data/submissions/entry-bcee47a7bdd24e1727c0.json",
+          "source_state": "branch"
+        }
+      ],
+      "tags": [
+        "Data Viz",
+        "Size",
+        "Japan"
+      ],
+      "technologies": []
     }
   ]
 }

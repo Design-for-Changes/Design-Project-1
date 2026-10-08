@@ -1,0 +1,1025 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-4a6b849d-48da-4312-9f59-7232bc91ae1c",
+  "contributor": {
+    "id": "p-0946edf7500c",
+    "nickname": "ユウガ"
+  },
+  "created_at": "2026-10-08T04:48:48Z",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "dialogue",
+      "public_url": null
+    },
+    {
+      "id": "m2",
+      "label": "提供資料 2",
+      "format": "photo",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "サントリー 金麦「帰れば、ビール。」交通広告ポスター（一押し）",
+      "url": "https://x.com/copy_writter/status/2107583694743756925",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "サントリー「金麦」の大判ポスター。濃紺の背景に、ビールを飲む人物の写真が円形に切り抜かれて置かれ、その周りを金色の麦の穂のモチーフが囲む。麦の穂は滑らかな塗りではなく、粗い網点（ハーフトーンのドット）の集まりで描かれている。縦書きのコピーは「帰れば、ビール。」。",
+      "highlights": [
+        {
+          "detail": "金色の麦の穂が、拡大すると一つひとつ見えるほど粗いドットの集まりで描かれている。滑らかなベタ塗りではなく、あえて目の粗い印刷のように見せている。",
+          "basis": "direct_observation",
+          "source_url": null,
+          "checked_at": "2026-10-08"
+        },
+        {
+          "detail": "網点で描いた麦の穂の曲線が、写真部分を円形に縁取るフレームになっている。写真（滑らか）とグラフィック（粗いドット）の質感の差がはっきり分かれている。",
+          "basis": "direct_observation",
+          "source_url": null,
+          "checked_at": "2026-10-08"
+        },
+        {
+          "detail": "濃紺と金の配色、麦の穂のモチーフは、ポスター左下に置かれた商品の缶のデザインと共通している。",
+          "basis": "direct_observation",
+          "source_url": null,
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "あえて解像度を下げて、ビールの缶っぽさを出しているところがよい。今回集めた表現の中で、これが一押し。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "ハーフトーン（網点）表現",
+          "status": "inferred",
+          "role": "麦の穂のモチーフを粗いドットで描き、缶の印刷のような質感を出す",
+          "reason": "生徒が撮影した写真の拡大でドットの集まりが確認できる。ただし、印刷工程の網点なのか、デザインとして描いたドット柄なのかは、制作者の説明がないため確定できない。",
+          "evidence_urls": [],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "GLSLシェーダー",
+          "status": "reproduction_candidate",
+          "role": "Web上で同様のハーフトーン表現を再現する手段の候補",
+          "reason": "このポスターで使われた技術ではない。Webで再現する場合の候補として挙げた。",
+          "evidence_urls": [],
+          "checked_at": null
+        },
+        {
+          "name": "three.js",
+          "status": "reproduction_candidate",
+          "role": "3D表示にポストプロセスでドット表現をかける手段の候補",
+          "reason": "このポスターで使われた技術ではない。Webで再現する場合の候補として挙げた。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "データの確かさを解像度（網点の粗さ）で表す。実際の記録は細かく滑らかに、条件付きの推計は粗い網点で、未確定の予測はさらに粗く崩れたドットで描く。"
+        },
+        {
+          "author": "ai",
+          "idea": "題材そのものの質感をグラフィックに移す。たとえば災害の題材なら、防災マップや配布物の印刷の質感を網点で借りてくる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/copy_writter/status/2107583694743756925",
+          "title": "Xの投稿（生徒が紹介した元投稿）",
+          "access": "not_accessed",
+          "supports": "生徒がこの表現を知ったきっかけの投稿。Xが自動取得を拒否したため、AIは本文を確認していない。"
+        }
+      ],
+      "ai_notes": [
+        "観察は、生徒が撮影したポスター全体と拡大の写真2枚に基づく。写真自体は第三者の広告のため投稿に含めていない。"
+      ],
+      "tags": [
+        "網点",
+        "解像度",
+        "質感",
+        "ポスター",
+        "広告"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "Webサイトではなく交通広告のポスター。",
+        "実物と元のXの投稿はAIが直接確認していない。",
+        "制作者・デザイナーによる公式な説明は未確認。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Return of the Obra Dinn",
+      "url": "https://obradinn.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・ゲーム】白黒2色のドット（ディザリング）で描いた3D。懐中時計を使うと、乗組員が死んだ瞬間の場面が止まった立体として現れ、その中を歩き回れる。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：直接死の場面だけを2色ドットの静止した立体にして、他の場面と質感を分ける。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://obradinn.com/",
+          "title": "Return of the Obra Dinn",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "ディザリング",
+        "静止",
+        "空間探索"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（ゲーム）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Papers, Please",
+      "url": "https://papersplea.se/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・ゲーム】1日の終わりに収入・家賃・食費・暖房費・薬代と、家族の状態（空腹・寒さ・病気）が帳簿のように並ぶ。払えない日が続くと家族の状態が悪化する。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：備蓄が減っていく日々を帳簿形式で見せ、足りない項目が続くと体調の項目が悪くなる様子で災害関連死の原因を伝える。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://papersplea.se/",
+          "title": "Papers, Please",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "帳簿",
+        "時間経過"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（ゲーム）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Outer Wilds",
+      "url": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・ゲーム】同じ22分間を何度も繰り返し、知識だけが次の周回に持ち越される。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：選び直しの場面で、前の周回の自分の線を薄く残して違いを比べる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+          "title": "Outer Wilds",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "ループ",
+        "比較"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（ゲーム）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "Before Your Eyes",
+      "url": "https://store.steampowered.com/app/1082430/Before_Your_Eyes/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・ゲーム】Webカメラでまばたきを検出し、まばたきするたびに物語の時間が先へ飛ぶ。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：日数カウンターを観客が止められない時間として進める。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://store.steampowered.com/app/1082430/Before_Your_Eyes/",
+          "title": "Before Your Eyes",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "ゲーム",
+        "まばたき",
+        "時間"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（ゲーム）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "Here（Richard McGuire）",
+      "url": "https://www.penguinrandomhouse.com/books/111690/here-by-richard-mcguire/9780375406508/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・漫画】ある家の居間の一角を固定し、年代つきの小さなコマを重ねて、何百万年分の時間を一枚の中に描く。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：家のカメラを固定したまま、0日目・7日目・30日目の窓を重ねていく。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.penguinrandomhouse.com/books/111690/here-by-richard-mcguire/9780375406508/",
+          "title": "Here（Richard McGuire）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "時間の重ね合わせ",
+        "定点"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（漫画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "Building Stories（Chris Ware）",
+      "url": "https://en.wikipedia.org/wiki/Building_Stories",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・漫画】箱に入った14種類の印刷物からなる漫画。建物の断面図と時間の流れを図解のように描く。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：家を断面図で見せ、部屋ごとに時間の経過を並べる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Building_Stories",
+          "title": "Building Stories（Chris Ware）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "断面図",
+        "図解"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（漫画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i8",
+      "kind": "site",
+      "title": "この世界の片隅に（こうの史代）",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AB",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・漫画】主人公が右手を失ったあと、背景が作者の左手で描かれ、絵そのものが崩れる。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：断水後は色数を減らす、線を途切れさせるなど、描き方の変化でデータの変化を伝える。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AE%E7%89%87%E9%9A%85%E3%81%AB",
+          "title": "この世界の片隅に（こうの史代）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "描線",
+        "欠損"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（漫画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i9",
+      "kind": "site",
+      "title": "BLAME!（弐瓶勉）",
+      "url": "https://ja.wikipedia.org/wiki/BLAME!",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・漫画】巨大な構造物の中に豆粒ほどの人物を一人だけ置いて規模を伝える。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：大きな死者数の山の足元に人影を一体だけ置き、大きさを体感させる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/BLAME!",
+          "title": "BLAME!（弐瓶勉）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "漫画",
+        "スケール"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（漫画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i10",
+      "kind": "site",
+      "title": "ドッグヴィル",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%83%E3%82%B0%E3%83%B4%E3%82%A3%E3%83%AB",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・映画】町全体を床にチョークで描いた線だけで表し、壁がないので全員の生活が同時に見える。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：3Dの家を壁なしの線で描き、家の中と外を同時に見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%83%E3%82%B0%E3%83%B4%E3%82%A3%E3%83%AB",
+          "title": "ドッグヴィル",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "映画",
+        "線画",
+        "舞台装置"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（映画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i11",
+      "kind": "site",
+      "title": "スパイダーマン：スパイダーバース",
+      "url": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・アニメ映画】主人公は最初コマ数を減らしてカクカク動き、成長につれて滑らかに動く。網点も使う。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：確かさを動きのなめらかさで分ける。実績は滑らかに、推計はカクカクに動かす。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse",
+          "title": "スパイダーマン：スパイダーバース",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "アニメ",
+        "コマ数",
+        "網点"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（アニメ映画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i12",
+      "kind": "site",
+      "title": "シン・ゴジラ",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・映画】役職や名前のテロップが明朝体で大量に流れ、情報量そのもので緊迫感を作る。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：発生直後に被害報告や数字を文字の洪水として流す。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%B4%E3%82%B8%E3%83%A9",
+          "title": "シン・ゴジラ",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "映画",
+        "テロップ",
+        "タイポグラフィ"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（映画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i13",
+      "kind": "site",
+      "title": "コヤニスカッツィ",
+      "url": "https://www.koyaanisqatsi.org/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・映画】ナレーションなしの微速度撮影で都市の時間を圧縮し、音楽だけで見せる。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：日数カウンターが加速する場面の演出の参考にする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.koyaanisqatsi.org/",
+          "title": "コヤニスカッツィ",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "映画",
+        "微速度",
+        "音楽"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（映画）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i14",
+      "kind": "site",
+      "title": "Powers of Ten（イームズ夫妻）",
+      "url": "https://www.eamesoffice.com/the-work/powers-of-ten/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・映像】10倍ずつカメラを引いていき、人から宇宙まで行く。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：家→市→県→全国と10倍ごとの区切りを表示しながら引く。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.eamesoffice.com/the-work/powers-of-ten/",
+          "title": "Powers of Ten（イームズ夫妻）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "映像",
+        "ズーム",
+        "スケール"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（映像）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i15",
+      "kind": "site",
+      "title": "アイソタイプ（オットー・ノイラート、ゲルト・アルンツ）",
+      "url": "https://en.wikipedia.org/wiki/Isotype_(picture_language)",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・図版】数量をアイコンの大きさではなく、同じアイコンを並べた数で表す絵文字統計。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：人形ブロックを積む表現の理論的な土台にする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Isotype_(picture_language)",
+          "title": "アイソタイプ（オットー・ノイラート、ゲルト・アルンツ）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "図版",
+        "ピクトグラム",
+        "数え上げ"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（図版）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i16",
+      "kind": "site",
+      "title": "W.E.B.デュボイスのデータポートレート",
+      "url": "https://www.wbur.org/artery/2019/02/21/web-du-bois-infographics-humanity-african-american",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・図版】1900年パリ万博で展示された手描きの統計図。紙に収まらない棒グラフを渦巻き状に曲げて描いたものがある。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：画面に収まらない大きな数字の棒を渦巻きにする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wbur.org/artery/2019/02/21/web-du-bois-infographics-humanity-african-american",
+          "title": "W.E.B.デュボイスのデータポートレート",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "図版",
+        "渦巻き",
+        "手描き"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（図版）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i17",
+      "kind": "site",
+      "title": "時間地図（杉浦康平）",
+      "url": "https://artscape.jp/report/review/10104140_1735.html",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・図版】距離ではなく移動にかかる時間で地図をゆがめたダイアグラム。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：断水や停電の復旧日数で地図をゆがめ、復旧が遅い地域ほど大きく遠くする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://artscape.jp/report/review/10104140_1735.html",
+          "title": "時間地図（杉浦康平）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "図版",
+        "地図",
+        "変形"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（図版）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i18",
+      "kind": "site",
+      "title": "U.S. Gun Deaths（Periscopic）",
+      "url": "https://guns.periscopic.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・Web】亡くなった一人ひとりを弧の線で描き、途中で切れた線の先に生きられたはずの年数を薄く延ばす。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：死を数ではなく途切れた線で見せ、観客自身の線と表現をそろえる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://guns.periscopic.com/",
+          "title": "U.S. Gun Deaths（Periscopic）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "Web",
+        "線",
+        "人生"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "AIは作品ページを確認していない。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i19",
+      "kind": "site",
+      "title": "100%トーキョー（リミニ・プロトコル）",
+      "url": "https://www.festival-tokyo.jp/13/en/program/13/100percent_tokyo",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・演劇】都市の人口統計どおりに選んだ市民100人を舞台に上げ、一人＝1%として質問に答えて動いてもらう。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：県民を100人の人影に置き換え、該当する人が前に出る形で割合を見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.festival-tokyo.jp/13/en/program/13/100percent_tokyo",
+          "title": "100%トーキョー（リミニ・プロトコル）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "演劇",
+        "統計",
+        "人"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（演劇）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i20",
+      "kind": "site",
+      "title": "Sleep No More（Punchdrunk）",
+      "url": "https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・演劇】観客が仮面をつけて建物の中を歩き回り、誰を追うかで見える物語が変わる。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：自由探索の場面を、データ一覧ではなく歩き回れる空間にする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)",
+          "title": "Sleep No More（Punchdrunk）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "演劇",
+        "没入",
+        "空間探索"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（演劇）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i21",
+      "kind": "site",
+      "title": "回り舞台（歌舞伎）",
+      "url": "https://ja.wikipedia.org/wiki/%E5%9B%9E%E3%82%8A%E8%88%9E%E5%8F%B0",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・演劇】舞台を回転させて暗転なしで場面を切り替える。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：3Dの家を回して次の場面を見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%9B%9E%E3%82%8A%E8%88%9E%E5%8F%B0",
+          "title": "回り舞台（歌舞伎）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "演劇",
+        "場面転換",
+        "回転"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（演劇）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i22",
+      "kind": "site",
+      "title": "ベトナム戦争戦没者慰霊碑（マヤ・リン）",
+      "url": "https://www.nps.gov/vive/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・空間】戦死者の名前が亡くなった順に刻まれ、壁は中心に向かって深くなる。磨かれた黒い石に読む人の姿が映り込む。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：関連死の時期の分布を壁の高さで表し、観客自身を映り込ませる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nps.gov/vive/",
+          "title": "ベトナム戦争戦没者慰霊碑（マヤ・リン）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "空間",
+        "時系列",
+        "映り込み"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（空間）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    },
+    {
+      "id": "i23",
+      "kind": "site",
+      "title": "The Weather Channel 複合現実中継（2018年）",
+      "url": "https://www.pewtrusts.org/en/research-and-analysis/articles/2018/12/03/the-weather-channel-uses-animation-to-show-dangers-of-storm-surge",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "【AIの提案・テレビ】スタジオに立つキャスターの周りで、CGの高潮の水位がその高さまで上がっていく。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "南海トラフ（災害関連死）の題材での使い方：津波の高さや水の量を、3Dの家の中の高さという目盛りで見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pewtrusts.org/en/research-and-analysis/articles/2018/12/03/the-weather-channel-uses-animation-to-show-dangers-of-storm-surge",
+          "title": "The Weather Channel 複合現実中継（2018年）",
+          "access": "not_accessed",
+          "supports": "作品の参照先"
+        }
+      ],
+      "ai_notes": [
+        "AIが提案した参考作品。生徒本人のコメントはまだない。説明はAIの一般知識に基づき、作品ページの内容は確認していない。"
+      ],
+      "tags": [
+        "AIの提案",
+        "テレビ",
+        "複合現実",
+        "スケール"
+      ],
+      "completeness": "needs_comment",
+      "limitations": [
+        "Webサイトではない作品（テレビ）も含む。",
+        "生徒は一押しとしてはこの作品を選んでいない。"
+      ]
+    }
+  ]
+}

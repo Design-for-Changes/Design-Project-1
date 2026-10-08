@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-4d19a0df-1b58-428f-90e8-6ee2f1e16846",
+  "contributor": {
+    "id": "p-448490763a08",
+    "nickname": "Ikkei.0812"
+  },
+  "created_at": null,
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "dialogue",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "gemina3d",
+      "url": "https://gemina3d.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [
+        {
+          "detail": "音符が立体で流れるところ",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "音符が立体で流れるところ",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Butterchurn",
+      "url": "https://butterchurnviz.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "BUNKER//TECHNO",
+      "url": "https://bunkertechno.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Patatap",
+      "url": "https://patatap.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "OSCOPE",
+      "url": "https://oscope.metamaitreya.com/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "audioMotion",
+      "url": "https://audiomotion.dev/demo/",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "Anyma × Sphere",
+      "url": "https://alessiodevecchi.com/seeds/sphere",
+      "source_material_ids": [
+        "m1"
+      ],
+      "description": "関心のある映像・動きの参考URLとして選定。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "今回はURLの共有のみ。実装技術の検証情報は添付していない。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "URL中心の提出。個別の動作や技術の検証情報は含まない。"
+      ]
+    }
+  ]
+}
