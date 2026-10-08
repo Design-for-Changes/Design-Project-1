@@ -1,0 +1,317 @@
+{
+  "title": "Interactive Data Visualization Research",
+  "version": "v3.0",
+  "language": "ja",
+  "summary": "大量データや複雑な情報を、ただグラフにするのではなく、 見た瞬間に特徴が伝わり、触ることで理解が深まるWeb表現 へ変えるための調査ノート。データ可視化の本命事例と、世界観・スクロール・カーソル反応などの体験表現を分けて整理する。",
+  "tags": [
+    "Large Data",
+    "Interactive",
+    "Data → Visual Meaning",
+    "Scrollytelling",
+    "Open Data",
+    "2D / 3D / Motion"
+  ],
+  "sections": [
+    {
+      "id": "goal",
+      "title": "01. 目標 🎯",
+      "description": "大量データや複雑な情報を、 分かりやすいだけでなく、面白くて触りたくなる形 にしたい。現在は「3Dにすること」自体より、 データの意味に合う視覚表現とインタラクションを考えること を重視している。",
+      "key_idea": "データを見る → 特徴を感じる → 触って比較する → 関係や変化を理解する"
+    },
+    {
+      "id": "favorites",
+      "title": "02. 今の本命参考資料 ⭐",
+      "description": "今いちばん参考にしたいのは、 「日本のお野菜収穫量」 と 「まちの計量舎」 。どちらも、実データを「見れば分かる」形へ翻訳していて、派手さよりも 情報と表現の対応がうまい 。",
+      "items": [
+        {
+          "name": "日本のお野菜収穫量",
+          "url": "https://infographic.jp/nippon-yasai/",
+          "description": " 都道府県ごとの収穫量を、表ではなく 円の大きさ・色・位置 で表現。野菜や年代を切り替えると地域差が一瞬で分かる。",
+          "flow": [
+            "収穫量",
+            "円の大きさ",
+            "地域差を直感的に理解"
+          ],
+          "learning": " 数量を「大きさ」に翻訳し、地理と組み合わせるだけでも理解速度が大きく変わる。"
+        },
+        {
+          "name": "まちの計量舎",
+          "url": "https://keiryosha.com/",
+          "description": " 都市・交通・人口・行動などの実データを、地図、時系列、類似度、ミニチャートなど多様な方法で可視化。データごとに最適な見せ方を考えている。",
+          "flow": [
+            "都市データ",
+            "場所 / 時間 / 類似度",
+            "街の特徴が見える"
+          ],
+          "learning": " 「何を比較したいか」に応じて、表現方法そのものを変える。"
+        }
+      ]
+    },
+    {
+      "id": "all-sites",
+      "title": "03. 今まで「面白い」と思ったサイト一覧 🗂️",
+      "description": "ここには、これまでの会話で特に面白いと感じたサイトをまとめる。 データ可視化の参考 と 体験・インタラクションの参考 を両方残しておく。",
+      "items": [
+        {
+          "name": "日本のお野菜収穫量",
+          "url": "https://infographic.jp/nippon-yasai/",
+          "description": "都道府県ごとの収穫量を円の大きさ・色・位置で表現。",
+          "tags": [
+            "Data Viz",
+            "Size",
+            "Japan"
+          ]
+        },
+        {
+          "name": "まちの計量舎",
+          "url": "https://keiryosha.com/",
+          "description": "都市データを多様な可視化方法で読み解く、日本語のアイデア宝庫。",
+          "tags": [
+            "Urban Data",
+            "Interactive"
+          ]
+        },
+        {
+          "name": "人口動態マップ",
+          "url": "https://osakenpiro.github.io/japan-wallet-map/",
+          "description": "人口の移り変わりを時系列で追い、東京への人口集中の背景を視覚的に見る。",
+          "tags": [
+            "Population",
+            "Time"
+          ]
+        },
+        {
+          "name": "Toronto 2021 Dot Density Map",
+          "url": "https://schoolofcities.github.io/dot-density/",
+          "description": "人口データを大量の点・色・高さに変換し、都市そのものをデータ風景にする。",
+          "tags": [
+            "Large Data",
+            "Landscape"
+          ]
+        },
+        {
+          "name": "United Carriers",
+          "url": "https://unitedcarriers.com/",
+          "description": "スクロールと物流の進行を一致させ、企業の事業を「旅」として体験させる。",
+          "tags": [
+            "Scroll",
+            "3D",
+            "Journey"
+          ]
+        },
+        {
+          "name": "AI Tools Primer: The 3D Island",
+          "url": "https://threejsresources.com/showcase/ai-tools-primer-the-3d-island",
+          "description": "カテゴリや情報を建物・島として空間化。 情報アーキテクチャをそのまま世界にする 発想。",
+          "tags": [
+            "Information Space",
+            "3D"
+          ]
+        },
+        {
+          "name": "RINGO ICE BAR",
+          "url": "https://ringo-applepie.com/lp/icebar/",
+          "description": "氷の透明感・冷たさ・質感を画面表現に翻訳。カーソル反応が触りたくなる感覚を生む。",
+          "tags": [
+            "Cursor",
+            "Material",
+            "WebGL"
+          ]
+        },
+        {
+          "name": "POLA MENOMAE",
+          "url": "https://www.pola.co.jp/special/o/wecaremore/menomae/",
+          "description": "世界観とインタラクションを組み合わせ、読むだけではなく体験として内容を伝える。",
+          "tags": [
+            "Story",
+            "Interaction"
+          ]
+        },
+        {
+          "name": "PIERRE HERMÉ NOËL 2025",
+          "url": "https://www.s2factory.co.jp/blog/noel2025/",
+          "description": "スクロールが「深海へ潜る」という意味を持つ。スクロール＝時間・深度・階層という応用のヒント。",
+          "tags": [
+            "Scrollytelling",
+            "Immersive"
+          ]
+        },
+        {
+          "name": "カーソル・インタラクション集",
+          "url": "https://higashiyuki.com/interaction/cursor/",
+          "description": "カーソル追従、軌跡、吸着、クリック反応など、インタラクションを「部品」として考える参考になった。",
+          "tags": [
+            "Cursor",
+            "Micro Interaction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "title": "04. 可視化アイデア辞典 🧠",
+      "items": [
+        {
+          "source_data": "数量",
+          "visual_translation": "大きさ",
+          "benefit": "多い / 少ない",
+          "example": "日本のお野菜収穫量"
+        },
+        {
+          "source_data": "地域差",
+          "visual_translation": "位置・色",
+          "benefit": "どこに特徴があるか",
+          "example": "日本のお野菜収穫量、まちの計量舎"
+        },
+        {
+          "source_data": "人口の歴史",
+          "visual_translation": "時間変化",
+          "benefit": "集中・移動・都市成長",
+          "example": "人口動態マップ"
+        },
+        {
+          "source_data": "人口密度",
+          "visual_translation": "点・高さ・地形",
+          "benefit": "集中している場所",
+          "example": "Toronto Dot Density"
+        },
+        {
+          "source_data": "情報カテゴリ",
+          "visual_translation": "建物・島・空間",
+          "benefit": "カテゴリ構造",
+          "example": "3D Island"
+        },
+        {
+          "source_data": "事業プロセス",
+          "visual_translation": "スクロールの進行",
+          "benefit": "時間・順序・旅",
+          "example": "United Carriers"
+        },
+        {
+          "source_data": "商品の質感",
+          "visual_translation": "マテリアル・反応",
+          "benefit": "冷たさ・透明感・触感",
+          "example": "RINGO ICE BAR"
+        },
+        {
+          "source_data": "階層・深度",
+          "visual_translation": "スクロール",
+          "benefit": "奥へ進む感覚",
+          "example": "NOËL 2025"
+        },
+        {
+          "source_data": "説明・ストーリー",
+          "visual_translation": "操作",
+          "benefit": "体験を通じた理解",
+          "example": "POLA MENOMAE"
+        },
+        {
+          "source_data": "細かな操作感",
+          "visual_translation": "カーソル反応",
+          "benefit": "「触りたい」をつくる",
+          "example": "カーソル・インタラクション集"
+        }
+      ],
+      "key_idea": "今の重要な考え方 「どのライブラリを使うか」より先に、 このデータの特徴を、位置・大きさ・色・高さ・動き・時間・距離・スクロールのどれに翻訳すると理解しやすいか を考える。"
+    },
+    {
+      "id": "libs",
+      "title": "05. 技術候補 🧰",
+      "items": [
+        {
+          "name": "D3.js",
+          "description": "独自の2D可視化、SVG、Canvas、ズーム、ネットワークなど。「データ → 見た目」の変換ルールを細かく作れる。",
+          "tags": [
+            "2D",
+            "Custom",
+            "Interaction"
+          ]
+        },
+        {
+          "name": "Three.js",
+          "description": "3D空間、粒子、カメラ、光、シェーダー。データを地形・物体・世界へ変えるときに強い。",
+          "tags": [
+            "3D",
+            "WebGL"
+          ]
+        },
+        {
+          "name": "deck.gl",
+          "description": "大量の点・線・地理データをGPUで高速描画。大規模データを扱う場合の有力候補。",
+          "tags": [
+            "GPU",
+            "Massive Data"
+          ]
+        },
+        {
+          "name": "GSAP / ScrollTrigger",
+          "description": "スクロールとアニメーションを結びつける。NOËLやUnited Carriersのように「操作 = 進行」にしたいときに有効。",
+          "tags": [
+            "Scroll",
+            "Motion"
+          ]
+        },
+        {
+          "name": "SVG / Canvas",
+          "description": "WebGLを使わなくても、豊かなインタラクティブ可視化が可能。軽量で説明的な表現に向く。",
+          "tags": [
+            "2D",
+            "Lightweight"
+          ]
+        },
+        {
+          "name": "Plotly / Observable Plot",
+          "description": "分析系の比較や検証用プロトタイプを素早く作る。アイデア検証の初期段階にも便利。",
+          "tags": [
+            "Prototype",
+            "Analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direction",
+      "title": "06. 現時点の方向性 🚀",
+      "description": "今の興味は、単なる「3Dサイト」よりも、 データの意味を保ったまま、理解しやすく面白い体験へ変換すること にある。",
+      "principles": [
+        {
+          "title": "① 全体像をまず見せる",
+          "description": "大量データを最初から細かく読ませず、模様・色・密度・形として全体を見せる。"
+        },
+        {
+          "title": "② 気になる場所を触る",
+          "description": "ホバー、クリック、ドラッグ、スクロールで詳細が現れる。操作を「探索」にする。"
+        },
+        {
+          "title": "③ データに合う比喩を使う",
+          "description": "量→大きさ、流れ→粒子、密度→高さ、時間→動き、関係→線、階層→深度など。"
+        },
+        {
+          "title": "④ 見たくなる世界観も大事",
+          "description": "NOËL、RINGO、POLAのように、理解だけでなく「触りたい」「見続けたい」をつくる。"
+        }
+      ],
+      "ideal_exploration_flow": [
+        "全体を眺める",
+        "気になる部分を発見",
+        "触る / ズーム / スクロール",
+        "比較・関係を見る",
+        "個別データを理解"
+      ]
+    },
+    {
+      "id": "todo",
+      "title": "07. 次に調べること 🔎",
+      "items": [
+        "日本語で公開されている「実データ × 面白い可視化」の事例をさらに集める",
+        "参考サイトを「量・時間・流れ・関係・類似度・階層・操作」など表現タイプ別に整理する",
+        "自分が扱いたい大規模データ候補を決め、そのデータに合う視覚変換を考える",
+        "日本のお野菜収穫量とまちの計量舎を、本命参考としてより細かく分析する",
+        "人口動態マップのような「時系列で意味が見える」表現を増やして探す",
+        "NOËL・RINGO・POLAのインタラクションを、データ可視化にどう組み合わせられるか考える"
+      ],
+      "note": "※ 技術名ありきではなく、「何を分かりやすくしたいか → どんな視覚変換が有効か → そのためにどの技術を使うか」の順で考える。"
+    }
+  ],
+  "updated_note": "Updated 2026-10-06 · v3.0 · このHTMLは今後のチャット内容に合わせて更新する調査ノート。"
+}
