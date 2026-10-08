@@ -1,0 +1,1010 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-6651a0ec-e41d-48f7-a693-af61383b77c1",
+  "contributor": {
+    "id": "p-a96899ca81e5",
+    "nickname": "kotori"
+  },
+  "created_at": "2026-10-07T14:07:18+09:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "提供資料 1",
+      "format": "notion",
+      "public_url": null
+    },
+    {
+      "id": "m2",
+      "label": "提供資料 2",
+      "format": "dialogue",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "mesh3d",
+      "url": "https://mesh3d.gallery/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "WebGL / three.js作品を探すギャラリー。",
+      "highlights": [
+        {
+          "detail": "WebGL / three.js作品を探すギャラリー。",
+          "basis": "source_description",
+          "source_url": "https://mesh3d.gallery/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://mesh3d.gallery/",
+          "title": "mesh3d",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Active Theory",
+      "url": "https://activetheory.net/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "暗い空間、粒子、光、歪みなどVJ的なWeb表現の参考候補。",
+      "highlights": [
+        {
+          "detail": "暗い空間、粒子、光、歪みなどVJ的なWeb表現の参考候補。",
+          "basis": "source_description",
+          "source_url": "https://activetheory.net/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://activetheory.net/",
+          "title": "Active Theory",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Lusion",
+      "url": "https://lusion.co/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "3D、液体、ガラスのような質感表現の参考候補。",
+      "highlights": [
+        {
+          "detail": "3D、液体、ガラスのような質感表現の参考候補。",
+          "basis": "source_description",
+          "source_url": "https://lusion.co/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://lusion.co/",
+          "title": "Lusion",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Resn",
+      "url": "https://resn.co.nz/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "実験的で奇妙・不気味なインタラクションの参考候補。",
+      "highlights": [
+        {
+          "detail": "実験的で奇妙・不気味なインタラクションの参考候補。",
+          "basis": "source_description",
+          "source_url": "https://resn.co.nz/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://resn.co.nz/",
+          "title": "Resn",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "14islands",
+      "url": "https://14islands.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "3D、タイポグラフィ、スクロール表現の参考候補。",
+      "highlights": [
+        {
+          "detail": "3D、タイポグラフィ、スクロール表現の参考候補。",
+          "basis": "source_description",
+          "source_url": "https://14islands.com/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://14islands.com/",
+          "title": "14islands",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "Bonhomme",
+      "url": "https://bonhomme.lol/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "3D、カーソル、タイポグラフィの参考候補。",
+      "highlights": [
+        {
+          "detail": "3D、カーソル、タイポグラフィの参考候補。",
+          "basis": "source_description",
+          "source_url": "https://bonhomme.lol/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://bonhomme.lol/",
+          "title": "Bonhomme",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "Studio Freight",
+      "url": "https://studiofreight.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "スクロールやモーションの参考候補。",
+      "highlights": [
+        {
+          "detail": "スクロールやモーションの参考候補。",
+          "basis": "source_description",
+          "source_url": "https://studiofreight.com/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://studiofreight.com/",
+          "title": "Studio Freight",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i8",
+      "kind": "site",
+      "title": "Awwwards Interactive Fog",
+      "url": "https://www.awwwards.com/inspiration/about-us-die-komplizinnen",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "霧のような空間表現の参考候補。",
+      "highlights": [
+        {
+          "detail": "霧のような空間表現の参考候補。",
+          "basis": "source_description",
+          "source_url": "https://www.awwwards.com/inspiration/about-us-die-komplizinnen",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.awwwards.com/inspiration/about-us-die-komplizinnen",
+          "title": "Awwwards Interactive Fog",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i9",
+      "kind": "site",
+      "title": "Awwwards Interactive Globe",
+      "url": "https://www.awwwards.com/inspiration/interactive-globe-onramper",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "3D球体とインタラクションの参考候補。",
+      "highlights": [
+        {
+          "detail": "3D球体とインタラクションの参考候補。",
+          "basis": "source_description",
+          "source_url": "https://www.awwwards.com/inspiration/interactive-globe-onramper",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.awwwards.com/inspiration/interactive-globe-onramper",
+          "title": "Awwwards Interactive Globe",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i10",
+      "kind": "site",
+      "title": "Three.js Examples",
+      "url": "https://threejs.org/examples/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "three.js公式の実装例集。",
+      "highlights": [
+        {
+          "detail": "three.js公式の実装例集。",
+          "basis": "source_description",
+          "source_url": "https://threejs.org/examples/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": null,
+          "reason": "公式ページの名称・位置づけから確認。",
+          "evidence_urls": [
+            "https://threejs.org/examples/"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://threejs.org/examples/",
+          "title": "Three.js Examples",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i11",
+      "kind": "site",
+      "title": "Three.js Clipping Intersection",
+      "url": "https://threejs.org/examples/#webgl_clipping_intersection",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "3Dオブジェクトを切断し内部を見せる表現。",
+      "highlights": [
+        {
+          "detail": "3Dオブジェクトを切断し内部を見せる表現。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "球体の皮をめくるごとに服から繊維・粒子へ切り替える表現に応用したい。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": null,
+          "reason": "公式ページの名称・位置づけから確認。",
+          "evidence_urls": [
+            "https://threejs.org/examples/#webgl_clipping_intersection"
+          ],
+          "checked_at": null
+        },
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://threejs.org/examples/#webgl_clipping_intersection",
+          "title": "Three.js Clipping Intersection",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i12",
+      "kind": "site",
+      "title": "Chrome Experiments",
+      "url": "https://experiments.withgoogle.com/collection/chrome?tag=WebGL",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "WebGLを含む実験的なWeb作品のコレクション。",
+      "highlights": [
+        {
+          "detail": "WebGLを含む実験的なWeb作品のコレクション。",
+          "basis": "source_description",
+          "source_url": "https://experiments.withgoogle.com/collection/chrome?tag=WebGL",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://experiments.withgoogle.com/collection/chrome?tag=WebGL",
+          "title": "Chrome Experiments",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i13",
+      "kind": "site",
+      "title": "Google WebXR Experiments",
+      "url": "https://experiments.withgoogle.com/collection/webxr",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "WebXRを使った空間インタラクションの実験作品群。",
+      "highlights": [
+        {
+          "detail": "WebXRを使った空間インタラクションの実験作品群。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "2m半径の円でパーソナルスペースを見せる考え方を、野球の守備範囲などにも応用できそうだと考えた。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "WebXR",
+          "status": "confirmed",
+          "role": null,
+          "reason": "公式ページの名称・位置づけから確認。",
+          "evidence_urls": [
+            "https://experiments.withgoogle.com/collection/webxr"
+          ],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://experiments.withgoogle.com/collection/webxr",
+          "title": "Google WebXR Experiments",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i14",
+      "kind": "site",
+      "title": "Scale of the Universe",
+      "url": "https://scaleofuniverse.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "宇宙スケールからミクロまで連続的に移動する体験。",
+      "highlights": [
+        {
+          "detail": "宇宙スケールからミクロまで連続的に移動する体験。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "宇宙から地表、さらにミクロへ潜っていくようなスケール変化の発想につながった。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://scaleofuniverse.com/",
+          "title": "Scale of the Universe",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i15",
+      "kind": "site",
+      "title": "NASA Eyes",
+      "url": "https://science.nasa.gov/eyes/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "宇宙・地球の情報を3D空間で探索する参考例。",
+      "highlights": [
+        {
+          "detail": "宇宙・地球の情報を3D空間で探索する参考例。",
+          "basis": "source_description",
+          "source_url": "https://science.nasa.gov/eyes/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/eyes/",
+          "title": "NASA Eyes",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i16",
+      "kind": "site",
+      "title": "earth.nullschool.net",
+      "url": "https://earth.nullschool.net/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "風・海流・気象を地球上の流れとして見せるデータ可視化。",
+      "highlights": [
+        {
+          "detail": "風・海流・気象を地球上の流れとして見せるデータ可視化。",
+          "basis": "source_description",
+          "source_url": "https://earth.nullschool.net/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://earth.nullschool.net/",
+          "title": "earth.nullschool.net",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i17",
+      "kind": "site",
+      "title": "Mol*",
+      "url": "https://molstar.org/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "分子構造を3Dで探索するビジュアライゼーション。",
+      "highlights": [
+        {
+          "detail": "分子構造を3Dで探索するビジュアライゼーション。",
+          "basis": "source_description",
+          "source_url": "https://molstar.org/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://molstar.org/",
+          "title": "Mol*",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i18",
+      "kind": "site",
+      "title": "BioDigital Human",
+      "url": "https://www.biodigital.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "人体をレイヤーや内部構造として3D探索する参考例。",
+      "highlights": [
+        {
+          "detail": "人体をレイヤーや内部構造として3D探索する参考例。",
+          "basis": "source_description",
+          "source_url": "https://www.biodigital.com/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://www.biodigital.com/",
+          "title": "BioDigital Human",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i19",
+      "kind": "site",
+      "title": "100,000 Stars",
+      "url": "https://stars.chromeexperiments.com/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "多数の星を3D空間として探索する作品。",
+      "highlights": [
+        {
+          "detail": "多数の星を3D空間として探索する作品。",
+          "basis": "source_description",
+          "source_url": "https://stars.chromeexperiments.com/",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [
+        {
+          "name": "WebGL",
+          "status": "unknown",
+          "role": null,
+          "reason": "調査資料では候補として記載されているが、当該サイトの実装根拠は未確認。",
+          "evidence_urls": [],
+          "checked_at": null
+        }
+      ],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://stars.chromeexperiments.com/",
+          "title": "100,000 Stars",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [
+        "技術採用の根拠がないものは confirmed にしていない。"
+      ],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i20",
+      "kind": "site",
+      "title": "Blob Opera",
+      "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "操作と音・映像が連動するインタラクティブ作品。",
+      "highlights": [
+        {
+          "detail": "操作と音・映像が連動するインタラクティブ作品。",
+          "basis": "student_report",
+          "source_url": null,
+          "checked_at": null
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "指の動きに合わせて音をつくり、音の高さ・大きさ・長さを映像に変える考え方が面白いと感じた。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+          "title": "Blob Opera",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "ready",
+      "limitations": [
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i21",
+      "kind": "site",
+      "title": "Splash Canvas",
+      "url": "https://artsandculture.google.com/experiment/splash-canvas/vQFCtQB7FDnYkA",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "流体的・有機的な反応の参考候補。",
+      "highlights": [
+        {
+          "detail": "流体的・有機的な反応の参考候補。",
+          "basis": "source_description",
+          "source_url": "https://artsandculture.google.com/experiment/splash-canvas/vQFCtQB7FDnYkA",
+          "checked_at": null
+        }
+      ],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [],
+      "sources": [
+        {
+          "url": "https://artsandculture.google.com/experiment/splash-canvas/vQFCtQB7FDnYkA",
+          "title": "Splash Canvas",
+          "access": "not_accessed",
+          "supports": "調査資料に記録された参考URL"
+        }
+      ],
+      "ai_notes": [],
+      "tags": [],
+      "completeness": "needs_comment",
+      "limitations": [
+        "本人の具体的な感想・理由が十分に記録されていない。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i22",
+      "kind": "technology",
+      "title": "three.js",
+      "url": "https://threejs.org/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "JavaScriptライブラリ。Web上の3D表現の技術候補。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "データ値を3D形状、粒子、光、動き、音などへ割り当て、グラフではなく体験として見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://threejs.org/",
+          "title": "three.js",
+          "access": "not_accessed",
+          "supports": "公式・参考情報候補"
+        }
+      ],
+      "ai_notes": [
+        "個別の参考サイトがこの技術を採用しているという意味ではない。"
+      ],
+      "tags": [
+        "JavaScriptライブラリ"
+      ],
+      "completeness": "needs_review",
+      "limitations": [
+        "公式ドキュメント本文の技術検証は未実施。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    },
+    {
+      "id": "i23",
+      "kind": "technology",
+      "title": "WebGL",
+      "url": "https://www.khronos.org/webgl/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "Web API / 標準。ブラウザ上のGPU描画技術候補。",
+      "highlights": [],
+      "student_comments": [],
+      "technologies": [],
+      "applications": [
+        {
+          "author": "student",
+          "idea": "データ値を3D形状、粒子、光、動き、音などへ割り当て、グラフではなく体験として見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.khronos.org/webgl/",
+          "title": "WebGL",
+          "access": "not_accessed",
+          "supports": "公式・参考情報候補"
+        }
+      ],
+      "ai_notes": [
+        "個別の参考サイトがこの技術を採用しているという意味ではない。"
+      ],
+      "tags": [
+        "Web API / 標準"
+      ],
+      "completeness": "needs_review",
+      "limitations": [
+        "公式ドキュメント本文の技術検証は未実施。",
+        "元JSONは途中欠落しており、この項目は完全に読み取れた部分のみ収集した。後続の未完項目は保留。"
+      ]
+    }
+  ]
+}
