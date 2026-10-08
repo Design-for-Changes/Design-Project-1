@@ -1,0 +1,689 @@
+{
+  "schema_version": "1.0",
+  "submission_id": "s-3ea49b7b-89bb-404c-afeb-daa8f8ded6e3",
+  "contributor": {
+    "id": "c-4b8e3338-babc-4cab-8c6f-258b6e7fa799",
+    "nickname": "深澤"
+  },
+  "created_at": "2026-10-08T04:44:53.275692+00:00",
+  "supersedes": [],
+  "source_materials": [
+    {
+      "id": "m1",
+      "label": "参考作品8件をまとめた制作ノート",
+      "format": "html",
+      "public_url": null
+    },
+    {
+      "id": "m2",
+      "label": "参考作品を選んだ本人の発言",
+      "format": "dialogue",
+      "public_url": null
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "kind": "site",
+      "title": "Buildings Wave",
+      "url": "https://tympanus.net/Tutorials/BuildingsWave/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "建物が波のように順番に現れる3Dアニメーション。並び・高さ・霧で奥行きを見せる。",
+      "highlights": [
+        {
+          "detail": "建物が波のように順番に現れる3Dアニメーション。並び・高さ・霧で奥行きを見せる。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2019/01/30/buildings-wave-animation-with-three-js/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "建物が波のように順番に現れる動きと、奥行きのある見せ方が面白い。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "3Dの街を描く",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2019/01/30/buildings-wave-animation-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "GSAP",
+          "status": "confirmed",
+          "role": "TweenMaxで建物の動きをつける",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2019/01/30/buildings-wave-animation-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "OBJLoader",
+          "status": "confirmed",
+          "role": "建物のOBJモデルを読み込む",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2019/01/30/buildings-wave-animation-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "地域ごとの数値を建物の高さに対応させ、選択した時点に沿って波状に表示する。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Tutorials/BuildingsWave/",
+          "title": "Buildings Wave デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2019/01/30/buildings-wave-animation-with-three-js/",
+          "title": "Buildings Wave 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "建築",
+        "波",
+        "奥行き"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i2",
+      "kind": "site",
+      "title": "Texture Projection",
+      "url": "https://tympanus.net/Tutorials/TextureProjection/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "画像をプロジェクターで映すように3Dの形へ投影する表現。",
+      "highlights": [
+        {
+          "detail": "画像をプロジェクターで映すように3Dの形へ投影する表現。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2020/01/07/playing-with-texture-projection-in-three-js/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "画像が立体に映ることで、平面とは違う見え方になるのが面白い。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "3Dの形を描く",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2020/01/07/playing-with-texture-projection-in-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "シェーダー",
+          "status": "confirmed",
+          "role": "投影する画像の位置や見た目を計算する",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2020/01/07/playing-with-texture-projection-in-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "地域の分布画像を3D地形に投影し、位置と値の関係を見せる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Tutorials/TextureProjection/",
+          "title": "Texture Projection デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2020/01/07/playing-with-texture-projection-in-three-js/",
+          "title": "Texture Projection 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "画像",
+        "投影",
+        "立体"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i3",
+      "kind": "site",
+      "title": "Text Trail Effect",
+      "url": "https://tympanus.net/Tutorials/text-trail-effect/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "文字の動きに残像がつく、タイポグラフィのインタラクション。",
+      "highlights": [
+        {
+          "detail": "文字の動きに残像がつく、タイポグラフィのインタラクション。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "文字の残像が重なって、動きそのものがグラフィックになるのがかっこいい。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "文字と描画処理を扱う",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "WebGL",
+          "status": "confirmed",
+          "role": "ブラウザのGPU描画を行う",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "フレームバッファ",
+          "status": "confirmed",
+          "role": "画面を画像として保存し残像の処理に使う",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "時系列の変化を文字の移動量に対応させる。残像は補助演出として扱い、数値は別表示する。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Tutorials/text-trail-effect/",
+          "title": "Text Trail Effect デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/",
+          "title": "Text Trail Effect 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "文字",
+        "残像"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i4",
+      "kind": "site",
+      "title": "Mouse Instancing",
+      "url": "https://tympanus.net/Tutorials/MouseInstancing/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "マウスとの距離で多数の形の高さなどが変わる。大量の形がまとまって反応する表現。",
+      "highlights": [
+        {
+          "detail": "マウスとの距離で多数の形の高さなどが変わる。大量の形がまとまって反応する表現。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2023/12/13/creating-an-interactive-mouse-effect-with-instancing-in-three-js/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "マウスを動かすとたくさんの形が反応するので、触って楽しめるところがいい。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "多数の形を描く",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2023/12/13/creating-an-interactive-mouse-effect-with-instancing-in-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "インスタンシング",
+          "status": "confirmed",
+          "role": "同じ形を効率よく大量に描く",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2023/12/13/creating-an-interactive-mouse-effect-with-instancing-in-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "1つの形を1件のデータとし、値を高さ・色に対応させ、マウス付近のデータを強調する。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Tutorials/MouseInstancing/",
+          "title": "Mouse Instancing デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2023/12/13/creating-an-interactive-mouse-effect-with-instancing-in-three-js/",
+          "title": "Mouse Instancing 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "大量描画",
+        "マウス反応"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i5",
+      "kind": "site",
+      "title": "Interactive Image Grid",
+      "url": "https://tympanus.net/Tutorials/InteractiveImageGrid/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "画像を格子状に並べ、操作に反応するアニメーションをつけたギャラリー。",
+      "highlights": [
+        {
+          "detail": "画像を格子状に並べ、操作に反応するアニメーションをつけたギャラリー。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2025/03/18/building-an-interactive-image-grid-with-three-js/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "画像を並べるだけでなく、動きで見せ方を変えているところが面白い。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "画像カードを配置して描く",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2025/03/18/building-an-interactive-image-grid-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "シェーダー",
+          "status": "confirmed",
+          "role": "画像カードの見た目を加工する",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2025/03/18/building-an-interactive-image-grid-with-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "画像を1件の資料として並べ、年代や分類で配置を変え、選択時に詳細を出す。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Tutorials/InteractiveImageGrid/",
+          "title": "Interactive Image Grid デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2025/03/18/building-an-interactive-image-grid-with-three-js/",
+          "title": "Interactive Image Grid 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "画像",
+        "グリッド"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i6",
+      "kind": "site",
+      "title": "ASCII Logo",
+      "url": "https://tympanus.net/Tutorials/ASCIILogo/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "3Dロゴを文字・記号の集まりとして表示する。ドラッグ操作と明暗の切り替えがある。",
+      "highlights": [
+        {
+          "detail": "3Dロゴを文字・記号の集まりとして表示する。ドラッグ操作と明暗の切り替えがある。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "文字や記号の集まりで立体を表現しているところが面白い。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "3Dロゴを描く",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "シェーダー",
+          "status": "confirmed",
+          "role": "形に合わせて文字を選びASCII表現にする",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "データで変化する3D形状を文字で表現する。値を正確に比較できる表示も用意する。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Tutorials/ASCIILogo/",
+          "title": "ASCII Logo デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+          "title": "ASCII Logo 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "文字",
+        "ドラッグ",
+        "立体"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i7",
+      "kind": "site",
+      "title": "Custom-Shaped Cursor Trail",
+      "url": "https://tympanus.net/Demos/CustomShapedCursorTrail/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "マウスの軌跡を記録し、好みのブラシ形で跡や画面への効果を作る。",
+      "highlights": [
+        {
+          "detail": "マウスの軌跡を記録し、好みのブラシ形で跡や画面への効果を作る。",
+          "basis": "source_description",
+          "source_url": "https://tympanus.net/codrops/2026/09/24/custom-shaped-cursor-trail/",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "マウスの跡がグラフィックとして残り、自分の操作で画面が変わるところがいい。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "three.js",
+          "status": "confirmed",
+          "role": "カーソル軌跡の表現を組み立てる",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2026/09/24/custom-shaped-cursor-trail/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "WebGPU",
+          "status": "confirmed",
+          "role": "描画と計算の基盤",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2026/09/24/custom-shaped-cursor-trail/"
+          ],
+          "checked_at": "2026-10-08"
+        },
+        {
+          "name": "TSL",
+          "status": "confirmed",
+          "role": "シェーダー処理を組み立てる",
+          "reason": "この作品の作者によるCodrops解説記事が、使用または実装方法を説明している。現行デモのコード全体は未検証。",
+          "evidence_urls": [
+            "https://tympanus.net/codrops/2026/09/24/custom-shaped-cursor-trail/"
+          ],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "操作した経路をブラシ形で見せる。速度や滞在時間を跡の太さ・濃さに対応させる。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tympanus.net/Demos/CustomShapedCursorTrail/",
+          "title": "Custom-Shaped Cursor Trail デモ",
+          "access": "read",
+          "supports": "前の会話でページのテキスト・タイトルを確認。動作の直接検証はしていない。"
+        },
+        {
+          "url": "https://tympanus.net/codrops/2026/09/24/custom-shaped-cursor-trail/",
+          "title": "Custom-Shaped Cursor Trail 作者の解説",
+          "access": "read",
+          "supports": "表現の概要と技術の根拠"
+        }
+      ],
+      "ai_notes": [
+        "説明と技術の整理、データ表現への応用はAIが補足した。学生が制作・実装した作品ではない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "カーソル",
+        "軌跡"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIはデモの操作を直接検証していない。説明は作者の記事に基づく。",
+        "現行デモと記事の実装が完全に一致するか、コード全体では確認していない。"
+      ]
+    },
+    {
+      "id": "i8",
+      "kind": "site",
+      "title": "21 Hours on the Moon",
+      "url": "https://www.21hrs.space/overview/",
+      "source_material_ids": [
+        "m1",
+        "m2"
+      ],
+      "description": "アポロ11号でアームストロングとオルドリンが月面で過ごした21時間を探索するWeb体験。",
+      "highlights": [
+        {
+          "detail": "NASAのアーカイブをもとに、タイムラインと3Dの月面を通じて出来事・録音・画像を探索する。",
+          "basis": "source_description",
+          "source_url": "https://www.setsnail.digital/projects/21hours-on-the-moon",
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "student_comments": [
+        {
+          "text": "月面を探索しながら当時の記録に触れられる、没入感のある見せ方がかっこいい。",
+          "origin": "dialogue"
+        }
+      ],
+      "technologies": [
+        {
+          "name": null,
+          "status": "unknown",
+          "role": null,
+          "reason": "制作スタジオの説明からタイムラインと3D月面の利用は確認できるが、使用ライブラリ・実装構成は未確認。",
+          "evidence_urls": [],
+          "checked_at": "2026-10-08"
+        }
+      ],
+      "applications": [
+        {
+          "author": "ai",
+          "idea": "出来事の日時をタイムラインに、場所を3D空間に対応させ、関連する録音・画像へ移動できるようにする。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.21hrs.space/overview/",
+          "title": "21 Hours on the Moon",
+          "access": "read",
+          "supports": "ページタイトル。テキスト抽出では操作の詳細を確認できない。"
+        },
+        {
+          "url": "https://www.setsnail.digital/projects/21hours-on-the-moon",
+          "title": "Set Snail Digital 制作事例",
+          "access": "read",
+          "supports": "タイムライン、3D月面、録音・画像の探索という体験の概要"
+        }
+      ],
+      "ai_notes": [
+        "データ表現への応用はAIの提案。3D表現だけを根拠にthree.jsなどの採用は断定していない。",
+        "コメントはAIが短い候補文を作成し、本人が2026年10月8日の会話で内容を承認した。"
+      ],
+      "tags": [
+        "月面",
+        "時間",
+        "音",
+        "空間探索"
+      ],
+      "completeness": "ready",
+      "limitations": [
+        "AIは操作を直接検証していない。",
+        "使用ライブラリと実装構成は未確認。"
+      ]
+    }
+  ]
+}
